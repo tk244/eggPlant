@@ -1,17 +1,17 @@
 ﻿{
-    CaptureDate = "2017-05-08 09:29:42 +0000";
+    CaptureDate = "2017-05-12 09:33:37 +0000";
     CaptureHost = PC0000010;
     CaptureScreenSize =     (
         1024,
         768
     );
     HasAlpha = 1;
-    HotSpotX = 12;
+    HotSpotX = 27;
     HotSpotY = 10;
     LastKnownLocationX = 0;
     LastKnownLocationY = 0;
-    OriginalLocationX = 28;
-    OriginalLocationY = 533;
+    OriginalLocationX = 95;
+    OriginalLocationY = 537;
     Precise = 0;
     Pulsing = 0;
     Scale = 1;

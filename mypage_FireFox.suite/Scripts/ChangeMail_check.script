@@ -14,8 +14,12 @@ repeat with each line of File Filepath
 	TypeText backspace
 	TypeText mailaddress
 	
+	Click "ChangeMail_NewMail"
+	
 	Log "■空メール送信"
 	Tap "ChangeMail_BlankMail"
+	
+	wait 3
 	
 	Log  "■ループ：" & no
 	

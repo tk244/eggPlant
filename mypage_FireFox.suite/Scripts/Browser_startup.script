@@ -1,3 +1,5 @@
 ﻿Log "■Chrome起動"
-DoubleClick "Chrome"
+DoubleClick "FireFox"
 Wait 3
+
+WaitFor 30,"Chrome_Disp"

@@ -46,16 +46,16 @@ UserInfoDelete
 Session_error
 
 #14 会員登録（カード情報登録）(新規発行)
-RegistNew_Issue_cardInfoNew
+//RegistNew_Issue_cardInfoNew
 
 #15 会員登録（カード情報登録）(カード番号入力)
-RegistNew_Issue_cardInfoEdit
+//RegistNew_Issue_cardInfoEdit
 
 #16カード発行(新規発行)
-Top_Issue_cardInfoNew
+//Top_Issue_cardInfoNew
 
 #17カード発行(カード番号入力)
-Top_Issue_cardInfoEdit
+//Top_Issue_cardInfoEdit
 
 #18 マイページトップ
 Top_cardinfo

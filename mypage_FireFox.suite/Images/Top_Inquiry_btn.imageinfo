@@ -1,1 +1,19 @@
-﻿{CaptureDate = "2017-03-23 18:57:18 +0900"; CaptureHost = "Demo Windows PC"; CaptureScreenSize = (1024, 768); HasAlpha = 1; HotSpotX = 80; HotSpotY = 10; LastKnownLocationX = 0; LastKnownLocationY = 0; OriginalLocationX = 599; OriginalLocationY = 125; Precise = 0; Pulsing = 0; Scale = 1; SearchAlgorithm = TextSmoothSquare; }
+﻿{
+    CaptureDate = "2017-05-12 08:47:51 +0000";
+    CaptureHost = PC0000010;
+    CaptureScreenSize =     (
+        1024,
+        768
+    );
+    HasAlpha = 1;
+    HotSpotX = 87;
+    HotSpotY = 10;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 572;
+    OriginalLocationY = 133;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

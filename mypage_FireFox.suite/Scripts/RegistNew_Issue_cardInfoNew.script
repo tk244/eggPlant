@@ -39,6 +39,7 @@ Click (Image:"outlook", WaitFor:120)
 
 If ImageFound(3,"outlookMain") then 
 	//検出	
+	wait 1
 	Log "受信トレイ"
 	Click "outlookMain"
 End if
@@ -55,11 +56,11 @@ Log "【パスワード・生年月日入力】"
 
 //会員登録（パスワード・生年月日入力）画面遷移チェック
 If ImageFound(10,"RegistNew_passwordInsert_word") then 
-	//検出
-	Log "会員登録（パスワード・生年月日入力）画面遷移チェック：OK"
+//検出
+Log "会員登録（パスワード・生年月日入力）画面遷移チェック：OK"
 Else
-	//未検出
-	LogError "会員登録（パスワード・生年月日入力）画面遷移チェック：NG"
+//未検出
+LogError "会員登録（パスワード・生年月日入力）画面遷移チェック：NG"
 End if
 
 
@@ -227,6 +228,7 @@ Click (Image:"outlook", WaitFor:120)
 
 If ImageFound(3,"outlookMain") then 
 	//検出	
+	wait 1
 	Log "受信トレイ"
 	Click "outlookMain"
 End if

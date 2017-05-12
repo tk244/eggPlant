@@ -60,7 +60,7 @@ Else
 			//未検出
 			LogError "解除表示チェック：NG"
 		End if
-		Else
+	Else
 		//未検出
 		LogError "NG"
 	End if

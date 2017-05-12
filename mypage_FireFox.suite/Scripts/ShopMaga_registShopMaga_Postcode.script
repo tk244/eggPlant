@@ -89,7 +89,7 @@ If ImageFound(3,"ShopMaga_TypeSelect_erea_1_1") then
 	//検出
 	Click "ShopMaga_TypeSelect_erea_1_1"	
 Else
-	//未検出	
+//未検出	
 	TypeText pageDown	
 	Click "ShopMaga_TypeSelect_erea_1_1"	
 End if
@@ -117,7 +117,7 @@ If ImageFound(3,"ShopMaga_TypeSelec_Release_msg") then
 	//検出
 	Log "解除チェック：OK"
 Else
-//未検出
+	//未検出
 	LogError "解除チェック：NG"
 End if
 

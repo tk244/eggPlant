@@ -1,12 +1,28 @@
 ﻿<?xml version="1.0"?>
 <statistics>
- <script name="Login_check3-1">
+ <script name="ChangeMail_check">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-05-12 17:58:22 +0900</FirstRun>
+  <LastRun>2017-05-12 17:58:22 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Browser_startup">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-05-12 14:56:15 +0900</FirstRun>
+  <LastRun>2017-05-12 15:38:49 +0900</LastRun>
+  <TotalTimeOnSuccess>8.543222</TotalTimeOnSuccess>
+ </script>
+ <script name="Browser_Open">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
   <NumberOfFails>1</NumberOfFails>
-  <FirstRun>2017-04-24 16:39:10 +0900</FirstRun>
-  <LastRun>2017-04-24 16:46:45 +0900</LastRun>
-  <TotalTimeOnSuccess>108.676000</TotalTimeOnSuccess>
+  <FirstRun>2017-04-25 11:22:52 +0900</FirstRun>
+  <LastRun>2017-05-12 17:09:17 +0900</LastRun>
+  <TotalTimeOnSuccess>25.232934</TotalTimeOnSuccess>
  </script>
  <script name="Login_default">
   <LastStatus>Success</LastStatus>
@@ -16,13 +32,21 @@
   <LastRun>2017-04-24 16:40:43 +0900</LastRun>
   <TotalTimeOnSuccess>80.346000</TotalTimeOnSuccess>
  </script>
- <script name="Browser_Open">
+ <script name="RegistNew">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>2</NumberOfRuns>
-  <NumberOfFails>1</NumberOfFails>
-  <FirstRun>2017-04-25 11:22:52 +0900</FirstRun>
-  <LastRun>2017-04-25 11:23:37 +0900</LastRun>
-  <TotalTimeOnSuccess>7.546000</TotalTimeOnSuccess>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-05-12 16:03:51 +0900</FirstRun>
+  <LastRun>2017-05-12 16:03:51 +0900</LastRun>
+  <TotalTimeOnSuccess>333.603196</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_success_chg">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-05-12 14:39:31 +0900</FirstRun>
+  <LastRun>2017-05-12 14:39:31 +0900</LastRun>
+  <TotalTimeOnSuccess>13.744137</TotalTimeOnSuccess>
  </script>
  <script name="Login_check2">
   <LastStatus>Failure</LastStatus>
@@ -31,6 +55,54 @@
   <FirstRun>2017-04-24 16:06:59 +0900</FirstRun>
   <LastRun>2017-04-25 11:25:22 +0900</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoDelete">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-05-12 17:03:30 +0900</FirstRun>
+  <LastRun>2017-05-12 17:03:30 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Session_error_1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-05-12 14:43:22 +0900</FirstRun>
+  <LastRun>2017-05-12 14:43:22 +0900</LastRun>
+  <TotalTimeOnSuccess>2.131698</TotalTimeOnSuccess>
+ </script>
+ <script name="Session_error_2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2017-05-12 14:48:42 +0900</FirstRun>
+  <LastRun>2017-05-12 17:18:27 +0900</LastRun>
+  <TotalTimeOnSuccess>104.968637</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_check3-1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-24 16:39:10 +0900</FirstRun>
+  <LastRun>2017-04-24 16:46:45 +0900</LastRun>
+  <TotalTimeOnSuccess>108.676000</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_success_old">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-05-12 17:26:05 +0900</FirstRun>
+  <LastRun>2017-05-12 17:26:05 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_success">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-05-12 16:30:32 +0900</FirstRun>
+  <LastRun>2017-05-12 16:30:32 +0900</LastRun>
+  <TotalTimeOnSuccess>11.544031</TotalTimeOnSuccess>
  </script>
  <script name="Login_check">
   <LastStatus>Success</LastStatus>
@@ -42,10 +114,10 @@
  </script>
  <script name="Logout">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfRuns>4</NumberOfRuns>
   <NumberOfFails>0</NumberOfFails>
   <FirstRun>2017-04-24 15:27:20 +0900</FirstRun>
-  <LastRun>2017-04-24 15:27:20 +0900</LastRun>
-  <TotalTimeOnSuccess>1.313000</TotalTimeOnSuccess>
+  <LastRun>2017-05-12 17:18:22 +0900</LastRun>
+  <TotalTimeOnSuccess>5.966364</TotalTimeOnSuccess>
  </script>
 </statistics>

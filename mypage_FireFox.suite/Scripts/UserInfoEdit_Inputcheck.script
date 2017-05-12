@@ -103,7 +103,7 @@ repeat with each line of File Filepath
 		If ImageFound(3,"UserInfoEdit_FitstName_em_Err") then 
 			//検出
 			Log "[姓]全角チェック：OK"
-Else
+		Else
 			//未検出
 			LogError "[姓]全角チェック：NG"
 		End if		
@@ -135,13 +135,22 @@ Else
 	end if
 	
 	Log "■郵便番号：入力チェック"
-	If ImageFound(3,"UserInfoEdit_PostCode_Err") then 
+	//スクロール対応
+	If ImageFound(3,"UserInfoEdit_PostCode_Err") then
 		//検出
 		Log "[郵便番号]チェック：OK"
 	Else
-		//未検出
+		//未検出	
+		TypeText pageDown	
+		If ImageFound(3,"UserInfoEdit_PostCode_Err") then 
+			//検出
+			Log "[郵便番号]チェック：OK"
+		Else
+			//未検出
 		LogError "[郵便番号]チェック：NG"
-	End if	
-	
+	End if
+	TypeText pageUp
+End if
+
 end repeat
 

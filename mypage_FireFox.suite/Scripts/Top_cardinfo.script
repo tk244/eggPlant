@@ -3,15 +3,18 @@ Log "トップ(カード情報)"
 Log "Top_cardinfo"
 Log "================================="
 
-Login_default
+//Login_default
 
 put ResourcePath("Top_cardinfo.txt") into Filepath
 repeat with each line of File Filepath
-	put item 1 of it into card_no
-	put item 2 of it into pin_no
-	put item 3 of it into Currentdate	
-	put item 4 of it into expirationdate
-	put item 5 of it into ConfirmDay
+	put item 1 of it into card_no1
+	put item 2 of it into card_no2
+	put item 3 of it into card_no3
+	put item 4 of it into card_no4
+	put item 5 of it into pin_no
+	put item 6 of it into Currentdate	
+	put item 7 of it into expirationdate
+	put item 8 of it into ConfirmDay
 end repeat
 
 Log "【ロゴ】"
@@ -36,8 +39,8 @@ If ImageFound(3,"Top_Reacquisition") then
 	//検出
 	Log "再取得チェック：OK"
 Else
-	//未検出
-	LogError "再取得チェック：NG"
+//未検出
+LogError "再取得チェック：NG"
 End if
 
 Log "■カード番号"
@@ -49,12 +52,36 @@ Else
 	LogError "カード番号(タイトル)チェック：NG"
 End if
 
-If ImageFound (Text:card_no, WaitFor:1) then
+If ImageFound (Text:card_no1, WaitFor:1) then
 	//検出
-	Log "カード番号(数値)チェック：OK"
+	Log "カード番号(数値)チェック1：OK"
 Else
 	//未検出
-	LogError "カード番号(数値)チェック：NG"
+	LogError "カード番号(数値)チェック1：NG"
+End if
+
+If ImageFound (Text:card_no2, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック2：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック2：NG"
+End if
+
+If ImageFound (Text:card_no3, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック3：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック3：NG"
+End if
+
+If ImageFound (Text:card_no4, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック4：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック4：NG"
 End if
 
 Log "■ＰＩＮ番号"
@@ -108,14 +135,37 @@ Else
 	LogError "カード番号(タイトル)チェック：NG"
 End if
 
-If ImageFound (Text:card_no, WaitFor:1) then
+If ImageFound (Text:card_no1, WaitFor:1) then
 	//検出
-	Log "カード番号(数値)チェック：OK"
+	Log "カード番号(数値)チェック1：OK"
 Else
 	//未検出
-	LogError "カード番号(数値)チェック：NG"
+	LogError "カード番号(数値)チェック1：NG"
 End if
 
+If ImageFound (Text:card_no2, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック2：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック2：NG"
+End if
+
+If ImageFound (Text:card_no3, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック3：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック3：NG"
+End if
+
+If ImageFound (Text:card_no4, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック4：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック4：NG"
+End if
 
 Log "■残高"
 If ImageFound (1,"Top_cardInfoEdit_balance_title") then
@@ -260,7 +310,7 @@ End if
 If ImageFound (1,"Top_cardInfoEdit_ConfirmRank_value") then
 	//検出
 	Log "確定見込みランク(値)チェック：OK"
-	Else
+Else
 	//未検出
 	LogError "確定見込みランク(値)チェック：NG"
 End if

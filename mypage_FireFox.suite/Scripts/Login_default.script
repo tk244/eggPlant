@@ -27,7 +27,7 @@ If ImageFound(3,"Login_error") then
 	TypeText backspace
 	TypeText pass
 	
-	Else
+Else
 	//未検出
 	Log "■メールアドレス"
 	Click "Login_Mailaddress"

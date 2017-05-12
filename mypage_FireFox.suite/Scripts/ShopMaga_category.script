@@ -72,7 +72,7 @@ wait 2
 If ImageFound(3,"ShopMaga_TypeSelect_erea_Limit_msg") then 
 	//検出
 	Log "登録上限(3件)チェック：OK"
-Else
+	Else
 	//未検出
 	LogError "登録上限(3件)チェック：NG"
 End if

@@ -134,7 +134,6 @@ repeat with each line of File Filepath
 		
 	end if
 	
-    Log "■郵便番号：入力チェック"
 	//スクロール対応
 	If ImageFound(3,"UserInfoEdit_PostCode_Err") then
 		//検出

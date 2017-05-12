@@ -123,7 +123,7 @@ Click "RegistNew_CardNumberInsert_Next_btn"
 Log "【追加属性入力】"
 
 //会員登録（追加属性入力）画面遷移チェック
-If ImageFound(10,"RegistNew_word") then 
+If ImageFound(10,"RegistNew_CardNumberInsert_word") then 
 	//検出
 	Log "会員登録（追加属性入力）画面チェック：OK"
 Else
@@ -295,7 +295,7 @@ Else
 End if
 
 Log "■登録ボタン"
-Click  (Image:"RegistNew_InfoInsert_Regist_btn", WaitFor:10)
+Click  (Image:"RegistNew_InfoInsert_modify_Screen_check", WaitFor:10)
 
 //会員登録（完了）画面遷移チェック
 If ImageFound(10,"RegistNew_End_word") then 

@@ -166,7 +166,7 @@ Else
 End if
 
 //入力値チェック
-If ImageFound(10, "UserInfoEdit_Screen_modify_check") then 
+If ImageFound(10,"UserInfoEdit_Screen_modify_check") then 
 	//検出
 	Log "入力値チェック：OK"
 Else

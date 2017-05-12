@@ -38,8 +38,7 @@ Log "■outlook起動"
 Click (Image:"outlook", WaitFor:120)
 
 If ImageFound(3,"outlookMain") then 
-	//検出
-	wait 1
+	//検出	
 	Log "受信トレイ"
 	Click "outlookMain"
 End if
@@ -309,7 +308,6 @@ Click (Image:"outlook", WaitFor:120)
 
 If ImageFound(3,"outlookMain") then 
 	//検出	
-	wait 1
 	Log "受信トレイ"
 	Click "outlookMain"
 End if

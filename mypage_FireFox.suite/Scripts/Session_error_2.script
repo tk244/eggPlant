@@ -92,19 +92,6 @@ Else
 	LogError "メールアドレス・パスワード記憶チェック：NG"
 End if
 
-
-Log "■メールアドレス・パスワード記憶OFF"
-If  not  ImageFound(1,"Login_save_ON") then 	
-	click "Login_save_OFF"
-end if
-
-Log "■ログインボタン"
-Click "Login_btn"
-
-wait 3
-
-Logout
-
 Log "================================="
 Log "【完了】"
 Log "================================="

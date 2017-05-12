@@ -260,7 +260,7 @@ End if
 If ImageFound (1,"Top_cardInfoEdit_ConfirmRank_value") then
 	//検出
 	Log "確定見込みランク(値)チェック：OK"
-Else
+	Else
 	//未検出
 	LogError "確定見込みランク(値)チェック：NG"
 End if

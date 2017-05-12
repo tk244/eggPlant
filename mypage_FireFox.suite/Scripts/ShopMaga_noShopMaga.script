@@ -20,11 +20,11 @@ End if
 
 //会員共通メール登録画面遷移チェック
 If ImageFound(10,"noShopMaga_2_word") then 
-	//検出
-	Log "会員共通メール登録画面遷移チェック2：OK"
+//検出
+Log "会員共通メール登録画面遷移チェック2：OK"
 Else
-	//未検出
-	LogError "会員共通メール登録画面遷移チェック2：NG"
+//未検出
+LogError "会員共通メール登録画面遷移チェック2：NG"
 End if
 
 //解除？
@@ -60,7 +60,7 @@ Else
 			//未検出
 			LogError "解除表示チェック：NG"
 		End if
-		Else
+	Else
 		//未検出
 		LogError "NG"
 	End if

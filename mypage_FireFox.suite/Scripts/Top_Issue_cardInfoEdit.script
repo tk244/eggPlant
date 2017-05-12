@@ -33,7 +33,7 @@ Click "cardInfoEdit_next_btn"
 If ImageFound(10,"Top_cardInfoEdit_card_word") then 	
 	//検出
 	Log "会員登録（カード番号入力）画面遷移チェック：OK"
-	Else
+Else
 	//未検出
 	LogError "会員登録（カード番号入力）画面遷移チェック：NG"
 End if

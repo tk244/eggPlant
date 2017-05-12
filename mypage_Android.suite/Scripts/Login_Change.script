@@ -1,0 +1,61 @@
+﻿Log "================================="
+Log "ログイン画面(メールアドレス・パスワード入力変更)"
+Log "Login_Change"
+Log "================================="
+
+put ResourcePath("Login_failure.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into pass
+end repeat
+
+Log "================="
+Log "正常"
+Log "================="
+
+If ImageFound(3,"Login_error") then 
+	//検出		
+	Log "■メールアドレス"
+	Tap "Login_msg"
+	Common_Input_Keybord_Vanish
+	Tap (Image:"Login_Mailaddress_Err", WaitFor:2)
+	Common_Input_Keybord
+	DoubleTap "Login_Mailaddress_Err"
+	Common_AllSelect
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Tap "Login_msg"
+	Common_Input_Keybord_Vanish
+	Tap (Image:"Login_Password_Err", WaitFor:2)
+	Common_Input_Keybord
+	DoubleTap "Login_Password_Err"
+	Common_AllSelect
+	TypeText backspace
+	TypeText pass
+	
+Else
+	//未検出
+	Log "■メールアドレス"
+	Tap "Login_msg"
+	Common_Input_Keybord_Vanish
+	Tap (Image:"Login_Mailaddress", WaitFor:2)
+	Common_Input_Keybord
+	DoubleTap "Login_Mailaddress"
+	Common_AllSelect
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Tap "Login_msg"
+	Common_Input_Keybord_Vanish
+	Tap (Image:"Login_Password", WaitFor:2)
+	Common_Input_Keybord
+	DoubleTap "Login_Password"
+	Common_AllSelect
+	TypeText backspace
+	TypeText pass
+End if
+
+Tap "Login_Line"

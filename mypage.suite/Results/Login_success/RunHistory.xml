@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Login_success">
+ <run>
+  <RunDate>2017-05-08 16:44:51.840 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>11.535807</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170508_164451.840/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

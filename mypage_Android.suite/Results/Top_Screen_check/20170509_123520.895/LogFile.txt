@@ -1,0 +1,94 @@
+﻿2017-05-09 12:35:20.897 +0900	START		Running Top_Screen_check.script
+2017-05-09 12:35:20.988 +0900	Log		=================================	1	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:20.990 +0900	Log		トップページ	2	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:20.993 +0900	Log		Top_Screen_check	3	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:20.995 +0900	Log		=================================	4	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:20.996 +0900	Log		--------------------------------------	6	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:20.998 +0900	Log		■画面遷移チェック	7	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:21.001 +0900	Log		--------------------------------------	8	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:23.008 +0900	Log		■パスワード変更	12	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:23.922 +0900	tap	menu_btn	at (52, 217)	13	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:25.518 +0900	tap	Menu_passwordEdit_Link	at (248, 465)	14	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:28.071 +0900	imagefound	ScreenTransition_passwordEdit	found at (359, 637)	15	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:28.072 +0900	Log		画面遷移チェック：OK	17	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:28.074 +0900	Log		■戻る	23	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:28.077 +0900	pressbackbutton			24	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:30.082 +0900	Log		■メールアドレス変更	27	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:30.250 +0900	tap	menu_btn	at (52, 217)	28	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:31.265 +0900	tap	Menu_changeMail_Link	at (277, 571)	29	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:33.695 +0900	imagefound	ScreenTransition_changeMail	found at (356, 760)	30	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:33.697 +0900	Log		画面遷移チェック：OK	32	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:33.699 +0900	Log		■戻る	38	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:33.702 +0900	pressbackbutton			39	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:35.708 +0900	Log		■会員情報確認/変更	42	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:36.634 +0900	tap	menu_btn	at (52, 217)	43	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:37.677 +0900	tap	Menu_UserInfoEdit_Link	at (277, 676)	44	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:39.182 +0900	imagefound	ScreenTransition_UserInfoEdit	found at (358, 342)	45	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:39.184 +0900	Log		画面遷移チェック：OK	47	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:39.185 +0900	Log		■戻る	53	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:39.188 +0900	pressbackbutton			54	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:41.190 +0900	Log		■My Hotto Mottoからのお知らせ	58	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:42.074 +0900	tap	menu_btn	at (52, 217)	59	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:43.091 +0900	tap	Menu_noShopMaga_Link	at (341, 798)	60	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:44.358 +0900	imagefound	ScreenTransition_noShopMaga	found at (359, 451)	61	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:44.358 +0900	Log		画面遷移チェック：OK	63	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:44.360 +0900	Log		■戻る	69	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:44.363 +0900	pressbackbutton			70	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:46.365 +0900	Log		■お気に入り店舗からのお知らせ	73	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:47.314 +0900	tap	menu_btn	at (52, 217)	74	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:48.350 +0900	tap	Menu_registShopMaga_Link	at (334, 898)	75	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:49.781 +0900	imagefound	ScreenTransition_registShopMaga	found at (340, 455)	76	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:49.782 +0900	Log		画面遷移チェック：OK	78	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:49.784 +0900	Log		■戻る	84	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:49.786 +0900	pressbackbutton			85	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:51.791 +0900	Log		■マイページトップ	88	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:52.666 +0900	tap	menu_btn	at (52, 217)	89	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:53.663 +0900	tap	Menu_Top_Link	at (259, 359)	90	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:55.023 +0900	imagefound	ScreenTransition_Top	found at (358, 773)	91	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:55.026 +0900	Log		画面遷移チェック：OK	93	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:55.028 +0900	Log		■ご利用規約	99	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:55.275 +0900	tap	menu_btn	at (52, 217)	100	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:56.979 +0900	tap	Menu_ApplicationRule_Link	at (194, 1064)	101	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:58.637 +0900	imagefound	ScreenTransition_Rule	found at (364, 314)	102	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:58.637 +0900	Log		画面遷移チェック：OK	104	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:58.639 +0900	Log		■戻る	110	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:35:58.642 +0900	pressbackbutton			111	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:00.647 +0900	Log		■プライバシーポリシー	114	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:00.922 +0900	tap	menu_btn	at (52, 217)	115	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:02.573 +0900	tap	Menu_Privacy_Link	at (538, 1067)	116	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:04.778 +0900	imagefound	ScreenTransition_Policy	found at (363, 314)	117	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:04.779 +0900	Log		画面遷移チェック：OK	119	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:04.781 +0900	Log		■戻る	125	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:04.784 +0900	pressbackbutton			126	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:06.786 +0900	Log		■お問い合わせ	129	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:07.686 +0900	tap	menu_btn	at (52, 217)	130	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:08.681 +0900	tap	Menu_contact_Link	at (208, 1172)	131	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:10.016 +0900	imagefound	ScreenTransition_Contact	found at (358, 463)	132	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:10.017 +0900	Log		画面遷移チェック：OK	134	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:10.018 +0900	Log		■戻る	140	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:10.021 +0900	pressbackbutton			141	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:12.024 +0900	Log		■よくある質問	144	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:12.763 +0900	tap	menu_btn	at (52, 217)	145	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:14.365 +0900	tap	Menu_Faq_Link	at (541, 1172)	146	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:17.279 +0900	imagefound	ScreenTransition_Faq	found at (367, 210)	147	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:17.280 +0900	Log		画面遷移チェック：OK	149	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:17.282 +0900	Log		■戻る	155	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:17.285 +0900	pressbackbutton			156	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:19.287 +0900	Log		■ログアウト	159	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:20.172 +0900	tap	menu_btn	at (52, 217)	160	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:21.278 +0900	imagefound	Menu_Logout_Link	Unable to Find Image Menu_Logout_Link within 1.00 seconds	161	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:21.457 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	163	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:22.455 +0900	tap	Menu_Logout_Link	at (177, 1215)	165	on_top_screen_check	Top_Screen_check.script
+2017-05-09 12:36:22.464 +0900	Log		=================================	1	on_login_success	Login_success.script
+2017-05-09 12:36:22.466 +0900	Log		ログイン画面(正常)	2	on_login_success	Login_success.script
+2017-05-09 12:36:22.468 +0900	Log		Login_success	3	on_login_success	Login_success.script
+2017-05-09 12:36:22.470 +0900	Log		=================================	4	on_login_success	Login_success.script
+2017-05-09 12:36:22.473 +0900	Log		=================	13	on_login_success	Login_success.script
+2017-05-09 12:36:22.474 +0900	Log		正常	14	on_login_success	Login_success.script
+2017-05-09 12:36:22.476 +0900	Log		=================	15	on_login_success	Login_success.script
+2017-05-09 12:36:25.918 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	17	on_login_success	Login_success.script
+2017-05-09 12:36:25.919 +0900	Log		■メールアドレス	39	on_login_success	Login_success.script
+2017-05-09 12:36:26.623 +0900	tap	Login_msg	at (364, 483)	40	on_login_success	Login_success.script
+2017-05-09 12:36:26.625 +0900	setoption		mouseClickDelay = 2.5	41	on_login_success	Login_success.script
+2017-05-09 12:37:56.264 +0900	EndTestCase		(Duration:"155.365016", Errors:"1", Exceptions:"0", StartTime:"2017-05-09 12:35:20 +0900", Successes:"0", TestCase:"Top_Screen_check.script", Warnings:"0")
+2017-05-09 12:37:56.264 +0900	ABORTED		Execution Time 0:02:35 Top_Screen_check.script

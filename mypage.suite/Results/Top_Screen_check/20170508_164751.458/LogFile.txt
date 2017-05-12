@@ -1,0 +1,26 @@
+﻿2017-05-08 16:47:51.459 +0900	START		Running Top_Screen_check.script
+2017-05-08 16:47:51.545 +0900	Log		=================================	1	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.546 +0900	Log		トップページ	2	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.548 +0900	Log		Top_Screen_check	3	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.550 +0900	Log		=================================	4	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.552 +0900	Log		--------------------------------------	6	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.553 +0900	Log		■画面遷移チェック	7	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.555 +0900	Log		--------------------------------------	8	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.557 +0900	Log		■パスワード変更	10	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:51.834 +0900	click	menu_btn	at (32, 110)	11	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:54.153 +0900	click	Menu_passwordEdit_Link	at (140, 224)	13	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:55.203 +0900	imagefound	ScreenTransition_passwordEdit	found at (511, 182)	14	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:55.203 +0900	Log		画面遷移チェック：OK	16	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:55.205 +0900	Log		■戻る	22	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:55.437 +0900	click	Back	at (27, 68)	23	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:55.438 +0900	Log		■メールアドレス変更	25	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:56.660 +0900	click	menu_btn	at (32, 110)	26	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:59.031 +0900	click	Menu_changeMail_Link	at (149, 272)	28	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:59.366 +0900	imagefound	ScreenTransition_changeMail	found at (513, 182)	29	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:59.366 +0900	Log		画面遷移チェック：OK	31	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:47:59.368 +0900	Log		■戻る	37	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:48:00.122 +0900	click	Back	at (27, 68)	38	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:48:00.124 +0900	Log		■会員情報確認/変更	40	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:48:00.916 +0900	click	menu_btn	at (32, 110)	41	on_top_screen_check	Top_Screen_check.script
+2017-05-08 16:48:34.050 +0900	EndTestCase		(Duration:"42.589191", Errors:"1", Exceptions:"0", StartTime:"2017-05-08 16:47:51 +0900", Successes:"0", TestCase:"Top_Screen_check.script", Warnings:"0")
+2017-05-08 16:48:34.052 +0900	ABORTED		Execution Time 0:00:42 Top_Screen_check.script

@@ -1,0 +1,57 @@
+﻿Log "================================="
+Log "セッションエラー(ホームボタン追加)"
+Log "Session_error2"
+Log "================================="
+
+Login_default
+
+Log "■ブラウザメニュー"
+Tap "Browser_manu"
+
+Log "■ホーム画面に追加"
+Tap  (Image:"Browser_manu_homeadd", WaitFor:10)
+
+Log "■追加ボタン"
+Tap  (Image:"Browser_manu_homeadd_add", WaitFor:10)
+
+Log "■ブラウザ履歴削除"
+Browser_history_delete
+
+Log "■ホームボタン"
+PressHomeButton
+
+Log "■マイページアイコン起動"
+Tap  (Image:"MyPageAppli_btn", WaitFor:10)
+
+Log "■HTTPSエラー"
+HTTPS
+
+(*
+Log "■セッションエラー発生"
+
+//セッションエラー画面遷移チェック
+If ImageFound(10,"Session_error_msg") then 
+	//検出
+	Log "セッションエラー画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "セッションエラー画面遷移チェック：NG"
+End if
+
+Log "■ログイン画面へ"
+Tap "Session_error_Login"
+*)
+
+//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 	
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

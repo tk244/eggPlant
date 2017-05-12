@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="passwordEdit_check.script" package="mypage_Android.suite" timestamp="2017-05-11 11:48:30.945 +0900"
+ tests="1" successes="1" errors="0" time="150.266144">
+  <properties>
+   <property name="RunDate" value="2017-05-11 11:48:30.945 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="passwordEdit_check.script" assertions="1" successes="1" errors="0" time="150.263555">
+  </testcase>
+ </testsuite>
+</testsuites>

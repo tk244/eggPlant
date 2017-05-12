@@ -1,0 +1,281 @@
+﻿2017-05-08 16:56:25.161 +0900	START		Running UserInfoEdit.script
+2017-05-08 16:56:25.236 +0900	Log		=================================	1	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:25.242 +0900	Log		会員情報確認/変更	2	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:25.247 +0900	Log		UserInfoEdit	3	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:25.252 +0900	Log		=================================	4	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:25.254 +0900	Log		■メニュー	6	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:25.433 +0900	click	menu_btn	at (32, 110)	7	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:25.435 +0900	Log		■会員情報確認/変更	9	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:26.295 +0900	click	Menu_UserInfoEdit_Link	at (147, 319)	10	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:27.325 +0900	imagefound	UserInfoEdit_word	found at (513, 408)	13	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:27.326 +0900	Log		登録情報確認・変更（入力）画面遷移チェック：OK	15	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:56:27.358 +0900	Log		=================================	1	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:27.359 +0900	Log		会員情報確認/変更(必須チェック)	2	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:27.361 +0900	Log		UserInfoEdit_Required	3	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:27.363 +0900	Log		=================================	4	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:27.365 +0900	Log		■メニュー	6	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:27.567 +0900	click	menu_btn	at (32, 110)	7	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:27.568 +0900	Log		■会員情報確認/変更	9	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:28.421 +0900	click	Menu_UserInfoEdit_Link	at (147, 319)	10	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:28.424 +0900	Log		■姓	12	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:29.721 +0900	click	UserInfoEdit_FristName	at (218, 278)	13	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:30.454 +0900	typetext		[controlKey]a	14	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:31.175 +0900	typetext		[backspace]	15	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:31.177 +0900	Log		■名	17	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:32.338 +0900	click	UserInfoEdit_LastName	at (221, 334)	18	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:33.071 +0900	typetext		[controlKey]a	19	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:33.791 +0900	typetext		[backspace]	20	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:33.793 +0900	Log		■セイ	22	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:34.964 +0900	click	UserInfoEdit_FristName_kana	at (218, 393)	23	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:35.696 +0900	typetext		[controlKey]a	24	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:36.417 +0900	typetext		[backspace]	25	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:36.418 +0900	Log		■メイ	26	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:37.598 +0900	click	UserInfoEdit_LastName_kana	at (215, 451)	27	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:38.330 +0900	typetext		[controlKey]a	28	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:39.051 +0900	typetext		[backspace]	29	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:39.052 +0900	Log		■確認ボタン	32	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:39.078 +0900	imagefound	UserInfoEdit_check_btn	found at (514, 637)	34	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:40.209 +0900	click	UserInfoEdit_check_btn	at (514, 637)	36	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.246 +0900	imagefound	UserInfoEdit_FristName_Err	found at (270, 362)	43	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.247 +0900	Log		[姓]必須チェック：OK	45	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.426 +0900	imagefound	UserInfoEdit_LastName_err	found at (270, 447)	51	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.427 +0900	Log		[名]必須チェック：OK	53	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.504 +0900	imagefound	UserInfoEdit_FristName_kana_err	found at (283, 531)	59	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.505 +0900	Log		[セイ]必須チェック：OK	61	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.593 +0900	imagefound	UserInfoEdit_LastName_kana_err	found at (281, 530)	67	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.594 +0900	Log		[メイ]必須チェック：OK	69	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-08 16:56:41.630 +0900	Log		=================================	1	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:41.634 +0900	Log		会員情報確認/変更(入力チェック)	2	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:41.637 +0900	Log		UserInfoEdit_Inputcheck	3	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:41.639 +0900	Log		=================================	4	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:41.641 +0900	Log		■メニュー	6	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:41.764 +0900	click	menu_btn	at (32, 110)	7	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:41.765 +0900	Log		■会員情報確認/変更	9	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:42.609 +0900	click	Menu_UserInfoEdit_Link	at (147, 319)	10	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:48.619 +0900	Log		■ループ：1	25	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:48.621 +0900	Log		■姓	27	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:48.940 +0900	click	UserInfoEdit_FristName	at (218, 278)	28	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:49.673 +0900	typetext		[controlKey]a	29	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:50.393 +0900	typetext		[backspace]	30	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:51.380 +0900	typetext		山田山田山田山田山田山田山田山田山田山田Ｙ	31	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:51.381 +0900	Log		■名	33	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:52.562 +0900	click	UserInfoEdit_LastName	at (221, 334)	34	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:53.294 +0900	typetext		[controlKey]a	35	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:54.010 +0900	typetext		[backspace]	36	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:55.006 +0900	typetext		太郎太郎太郎太郎太郎太郎太郎太郎太郎太郎Ｔ	37	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:55.007 +0900	Log		■セイ	39	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:56.178 +0900	click	UserInfoEdit_FristName_kana	at (218, 393)	40	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:56.910 +0900	typetext		[controlKey]a	41	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:57.631 +0900	typetext		[backspace]	42	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:58.622 +0900	typetext		ヤマダヤマダヤマダヤマダヤマダヤマダヤマダ	43	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:58.623 +0900	Log		■メイ	45	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:56:59.778 +0900	click	UserInfoEdit_LastName_kana	at (215, 451)	46	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:00.505 +0900	typetext		[controlKey]a	47	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:01.224 +0900	typetext		[backspace]	48	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:02.219 +0900	typetext		タロウタロウタロウタロウタロウタロウタロウ	49	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:02.221 +0900	Log		■郵便番号	51	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:03.405 +0900	click	UserInfoEdit_PostCode	at (219, 511)	52	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:04.133 +0900	typetext		[controlKey]a	53	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:04.854 +0900	typetext		[backspace]	54	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:05.665 +0900	typetext		12345678	55	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:05.666 +0900	Log		■確認ボタン	57	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:05.693 +0900	imagefound	UserInfoEdit_check_btn	found at (514, 637)	59	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:06.850 +0900	click	UserInfoEdit_check_btn	at (514, 637)	61	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.036 +0900	imagefound	UserInfoEdit_FitstName_len_Err	found at (332, 364)	69	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.037 +0900	Log		[姓]文字数チェック：OK	71	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.076 +0900	imagefound	UserInfoEdit_LastName_len_Err	found at (327, 448)	77	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.077 +0900	Log		[名]文字数チェック：OK	79	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.113 +0900	imagefound	UserInfoEdit_FristName_kana_len_Err	found at (339, 531)	85	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.114 +0900	Log		[セイ]文字数チェック：OK	87	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.144 +0900	imagefound	UserInfoEdit_LastName_kana_len_Err	found at (340, 613)	93	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.144 +0900	Log		[メイ]文字数チェック：OK	95	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.181 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (345, 694)	138	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:08.183 +0900	Log		[郵便番号]チェック：OK	140	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:11.194 +0900	Log		■ループ：2	25	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:11.196 +0900	Log		■姓	27	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:11.521 +0900	click	UserInfoEdit_FristName	at (209, 331)	28	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:12.252 +0900	typetext		[controlKey]a	29	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:12.972 +0900	typetext		[backspace]	30	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:13.764 +0900	typetext		Yamada	31	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:13.765 +0900	Log		■名	33	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:14.941 +0900	click	UserInfoEdit_LastName	at (213, 412)	34	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:15.672 +0900	typetext		[controlKey]a	35	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:16.392 +0900	typetext		[backspace]	36	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:17.155 +0900	typetext		Taro	37	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:17.156 +0900	Log		■セイ	39	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:18.335 +0900	click	UserInfoEdit_FristName_kana	at (209, 496)	40	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:19.068 +0900	typetext		[controlKey]a	41	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:19.788 +0900	typetext		[backspace]	42	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:20.578 +0900	typetext		yamada	43	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:20.579 +0900	Log		■メイ	45	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:21.754 +0900	click	UserInfoEdit_LastName_kana	at (206, 580)	46	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:22.486 +0900	typetext		[controlKey]a	47	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:23.204 +0900	typetext		[backspace]	48	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:23.960 +0900	typetext		taro	49	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:23.961 +0900	Log		■郵便番号	51	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:25.136 +0900	click	UserInfoEdit_PostCode	at (210, 664)	52	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:25.867 +0900	typetext		[controlKey]a	53	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:26.587 +0900	typetext		[backspace]	54	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:27.308 +0900	typetext		1	55	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:27.309 +0900	Log		■確認ボタン	57	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:28.401 +0900	imagefound	UserInfoEdit_check_btn	Unable to Find Image UserInfoEdit_check_btn within 1.00 seconds	59	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:28.416 +0900	typetext		[pageDown]	64	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:29.558 +0900	click	UserInfoEdit_check_btn	at (505, 651)	65	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.607 +0900	imagefound	UserInfoEdit_FitstName_em_Err	found at (298, 364)	103	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.609 +0900	Log		[姓]全角チェック：OK	105	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.743 +0900	imagefound	UserInfoEdit_LastName_em_Err	found at (299, 447)	111	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.744 +0900	Log		[名]全角チェック：OK	113	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.796 +0900	imagefound	UserInfoEdit_FristName_kana_em_Err	found at (343, 530)	119	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.797 +0900	Log		[セイ]全角チェック：OK	121	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.862 +0900	imagefound	UserInfoEdit_LastName_kana_em_Err	found at (342, 630)	127	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:30.864 +0900	Log		[メイ]全角チェック：OK	129	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:34.162 +0900	imagefound	UserInfoEdit_PostCode_Err	Unable to Find Image UserInfoEdit_PostCode_Err within 3.00 seconds	138	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:34.175 +0900	typetext		[pageDown]	143	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:34.907 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (345, 544)	144	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:34.908 +0900	Log		[郵便番号]チェック：OK	146	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:37.915 +0900	Log		■ループ：3	25	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:37.917 +0900	Log		■姓	27	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:38.033 +0900	click	UserInfoEdit_FristName	at (631, 209)	28	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:38.764 +0900	typetext		[controlKey]a	29	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:39.483 +0900	typetext		[backspace]	30	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:40.204 +0900	typetext		ｱ	31	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:40.205 +0900	Log		■名	33	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:55.257 +0900	click	UserInfoEdit_LastName	at (213, 230)	34	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:55.984 +0900	typetext		[controlKey]a	35	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:56.702 +0900	typetext		[backspace]	36	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:57.422 +0900	typetext		ｱ	37	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:57.423 +0900	Log		■セイ	39	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:58.572 +0900	click	UserInfoEdit_FristName_kana	at (209, 314)	40	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:57:59.297 +0900	typetext		[controlKey]a	41	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:00.016 +0900	typetext		[backspace]	42	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:00.734 +0900	typetext		ｱ	43	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:00.738 +0900	Log		■メイ	45	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:01.897 +0900	click	UserInfoEdit_LastName_kana	at (206, 414)	46	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:02.623 +0900	typetext		[controlKey]a	47	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:03.343 +0900	typetext		[backspace]	48	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:04.063 +0900	typetext		ｱ	49	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:04.065 +0900	Log		■郵便番号	51	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:05.245 +0900	click	UserInfoEdit_PostCode	at (210, 514)	52	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:05.975 +0900	typetext		[controlKey]a	53	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:06.695 +0900	typetext		[backspace]	54	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:07.492 +0900	typetext		１２５６７８９	55	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:07.493 +0900	Log		■確認ボタン	57	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:07.526 +0900	imagefound	UserInfoEdit_check_btn	found at (505, 651)	59	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.682 +0900	click	UserInfoEdit_check_btn	at (505, 651)	61	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.690 +0900	imagefound	UserInfoEdit_FitstName_em_Err	found at (298, 182)	103	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.691 +0900	Log		[姓]全角チェック：OK	105	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.703 +0900	imagefound	UserInfoEdit_LastName_em_Err	found at (299, 265)	111	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.704 +0900	Log		[名]全角チェック：OK	113	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.755 +0900	imagefound	UserInfoEdit_FristName_kana_em_Err	found at (343, 348)	119	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.756 +0900	Log		[セイ]全角チェック：OK	121	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.826 +0900	imagefound	UserInfoEdit_LastName_kana_em_Err	found at (342, 448)	127	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.826 +0900	Log		[メイ]全角チェック：OK	129	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.861 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (345, 544)	138	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:08.862 +0900	Log		[郵便番号]チェック：OK	140	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:11.870 +0900	Log		■ループ：4	25	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:11.873 +0900	Log		■姓	27	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:12.033 +0900	click	UserInfoEdit_FristName	at (209, 331)	28	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:12.760 +0900	typetext		[controlKey]a	29	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:13.476 +0900	typetext		[backspace]	30	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:14.223 +0900	typetext		山da	31	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:14.224 +0900	Log		■名	33	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:15.424 +0900	click	UserInfoEdit_LastName	at (213, 412)	34	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:16.155 +0900	typetext		[controlKey]a	35	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:16.873 +0900	typetext		[backspace]	36	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:17.617 +0900	typetext		田ro	37	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:17.618 +0900	Log		■セイ	39	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:18.784 +0900	click	UserInfoEdit_FristName_kana	at (209, 496)	40	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:19.510 +0900	typetext		[controlKey]a	41	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:20.228 +0900	typetext		[backspace]	42	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:20.989 +0900	typetext		ヤマda	43	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:20.990 +0900	Log		■メイ	45	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:22.167 +0900	click	UserInfoEdit_LastName_kana	at (206, 596)	46	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:22.896 +0900	typetext		[controlKey]a	47	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:23.615 +0900	typetext		[backspace]	48	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:24.363 +0900	typetext		タro	49	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:24.364 +0900	Log		■郵便番号	51	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:25.549 +0900	click	UserInfoEdit_PostCode	at (210, 696)	52	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:26.278 +0900	typetext		[controlKey]a	53	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:26.998 +0900	typetext		[backspace]	54	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:27.795 +0900	typetext		ＹＵＢＩＮＢＡ	55	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:27.796 +0900	Log		■確認ボタン	57	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:28.887 +0900	imagefound	UserInfoEdit_check_btn	Unable to Find Image UserInfoEdit_check_btn within 1.00 seconds	59	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:28.902 +0900	typetext		[pageDown]	64	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.017 +0900	click	UserInfoEdit_check_btn	at (505, 651)	65	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.025 +0900	imagefound	UserInfoEdit_FitstName_em_Err	found at (298, 182)	103	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.026 +0900	Log		[姓]全角チェック：OK	105	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.049 +0900	imagefound	UserInfoEdit_LastName_em_Err	found at (299, 265)	111	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.050 +0900	Log		[名]全角チェック：OK	113	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.095 +0900	imagefound	UserInfoEdit_FristName_kana_em_Err	found at (343, 348)	119	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.096 +0900	Log		[セイ]全角チェック：OK	121	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.139 +0900	imagefound	UserInfoEdit_LastName_kana_em_Err	found at (342, 448)	127	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.139 +0900	Log		[メイ]全角チェック：OK	129	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.195 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (345, 544)	138	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.196 +0900	Log		[郵便番号]チェック：OK	140	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 16:58:30.281 +0900	Log		=================================	1	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:30.284 +0900	Log		会員情報確認/変更(正常)	2	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:30.288 +0900	Log		UserInfoEdit_success	3	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:30.293 +0900	Log		=================================	4	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:30.297 +0900	Log		■メニュー	6	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:30.869 +0900	click	menu_btn	at (32, 110)	7	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:30.871 +0900	Log		■会員情報確認/変更	9	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:31.721 +0900	click	Menu_UserInfoEdit_Link	at (147, 319)	10	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:31.725 +0900	Log		■姓	22	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:33.022 +0900	click	UserInfoEdit_FristName	at (218, 278)	23	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:33.754 +0900	typetext		[controlKey]a	24	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:34.474 +0900	typetext		[backspace]	25	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:35.220 +0900	typetext		佐々木	26	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:35.221 +0900	Log		■名	28	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:36.399 +0900	click	UserInfoEdit_LastName	at (221, 334)	29	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:37.131 +0900	typetext		[controlKey]a	30	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:37.850 +0900	typetext		[backspace]	31	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:38.570 +0900	typetext		凜	32	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:38.571 +0900	Log		■セイ	34	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:39.750 +0900	click	UserInfoEdit_FristName_kana	at (218, 393)	35	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:40.483 +0900	typetext		[controlKey]a	36	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:41.203 +0900	typetext		[backspace]	37	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:41.951 +0900	typetext		ササキ	38	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:41.952 +0900	Log		■メイ	40	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:43.120 +0900	click	UserInfoEdit_LastName_kana	at (215, 451)	41	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:43.853 +0900	typetext		[controlKey]a	42	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:44.573 +0900	typetext		[backspace]	43	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:45.308 +0900	typetext		リン	44	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:45.309 +0900	Log		■郵便番号	46	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:46.466 +0900	click	UserInfoEdit_PostCode	at (219, 511)	47	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:47.198 +0900	typetext		[controlKey]a	48	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:47.919 +0900	typetext		[backspace]	49	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:48.719 +0900	typetext		1234567	50	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:48.720 +0900	Log		■性別(女性)	52	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:49.925 +0900	click	UserInfoEdit_female	at (599, 312)	53	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:49.926 +0900	Log		■都道府県(東京都)	55	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:51.083 +0900	click	UserInfoEdit_prefecture	at (550, 367)	56	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:52.251 +0900	click	UserInfoEdit_prefecture_Tokyo	at (544, 237)	57	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:52.255 +0900	Log		■メルマガ受信形式(HTML)	59	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:53.401 +0900	click	UserInfoEdit_maga_html	at (533, 424)	60	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:53.402 +0900	Log		■職業(会社員)	62	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:54.432 +0900	click	UserInfoEdit_job	at (543, 477)	63	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:55.585 +0900	click	UserInfoEdit_job_officeworker	at (543, 525)	64	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:55.587 +0900	Log		■世帯構成(単身)	66	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:56.743 +0900	click	UserInfoEdit_family	at (538, 538)	67	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:57.879 +0900	click	UserInfoEdit_family_aln	at (535, 584)	68	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:58.434 +0900	imagefound	UserInfoEdit_check_btn	found at (514, 637)	71	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:58:59.029 +0900	click	UserInfoEdit_check_btn	at (514, 637)	73	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:09.072 +0900	imagefound	UserInfoEdit_Screen_check	Unable to Find Image UserInfoEdit_Screen_check within 10.00 seconds	81	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:09.075 +0900	LogError		入力値チェック：NG	86	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:09.076 +0900	Log		■修正ボタン	90	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:12.180 +0900	imagefound	UserInfoEdit_modify_btn	Unable to Find Image UserInfoEdit_modify_btn within 3.00 seconds	91	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:12.195 +0900	typetext		[pageDown]	96	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:13.499 +0900	click	UserInfoEdit_modify_btn	at (346, 639)	97	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:13.503 +0900	Log		■姓	110	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:14.305 +0900	click	UserInfoEdit_FristName	at (218, 278)	111	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:15.034 +0900	typetext		[controlKey]a	112	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:15.750 +0900	typetext		[backspace]	113	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:16.499 +0900	typetext		以後崎	114	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:16.500 +0900	Log		■名	116	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:17.661 +0900	click	UserInfoEdit_LastName	at (221, 334)	117	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:18.392 +0900	typetext		[controlKey]a	118	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:19.112 +0900	typetext		[backspace]	119	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:19.842 +0900	typetext		良多	120	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:19.843 +0900	Log		■セイ	122	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-08 16:59:20.834 +0900	EndTestCase		(Duration:"175.671315", Errors:"2", Exceptions:"0", StartTime:"2017-05-08 16:56:25 +0900", Successes:"0", TestCase:"UserInfoEdit.script", Warnings:"0")
+2017-05-08 16:59:20.834 +0900	ABORTED		Execution Time 0:02:55 UserInfoEdit.script

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Top_cardinfo.script" package="mypage_Android.suite" timestamp="2017-05-11 15:45:03.189 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-11 15:45:03.189 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="Top_cardinfo.script" assertions="1" successes="0" errors="1" time="14.041703">
+  </testcase>
+ </testsuite>
+</testsuites>

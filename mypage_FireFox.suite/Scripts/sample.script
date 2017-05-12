@@ -1,0 +1,81 @@
+﻿Click "name"
+TypeText controlKey, "a" ,backspace
+TypeText "テスト"
+
+
+(*
+//文字の判別
+If ImageFound (Text:"2017.", WaitFor:1) then
+	log "OK"	
+Else
+	log "NG"	
+End if
+
+
+CaptureScreen (Name: "C:\Users\kikuchi\Desktop\work\point+plus\調査\eggPlant導入\mypage.suite\kikua.jpg")
+
+
+If 1=2 then
+	log "OK"	
+Else
+	log "NG"	
+End if
+
+
+//無限ループ
+repeat forever	
+	
+	If ImageFound(3,"ScreenTransition_SearchPassword") then 
+		//検出
+		Log "画面遷移チェック：OK"
+		exit repeat
+		
+	Else
+		//未検出
+		Log "画面遷移チェック：NG"
+		Log "パスワードをお忘れの方"
+		Click "Login_SearchPassword_Link"
+	End if
+	
+end repeat
+
+
+//無限ループ
+Put 0 into num
+repeat forever	
+	
+	Put num + 1 into num
+	Log num
+	
+	if num = 3 then
+		Log "OK"
+		exit repeat
+	end if
+	
+	wait 2
+end repeat
+
+
+Put 9 + 1 into num
+Put num - 1 into num
+Log num
+Put 3 * 2 into num
+Put 3 / 2 into num
+
+
+文字列を連結する場合は、
+&: スペースを入れないで連結
+&&: スペースを入れて連結
+を使用します。
+
+Put "値：" & 123 into str
+Log str
+
+Put "値：" && 123 into str
+Log str
+
+
+
+Click Browser
+
+*)

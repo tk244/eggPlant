@@ -1,0 +1,110 @@
+﻿2017-05-08 15:45:24.906 +0900	START		Running RegistNew_Inputcheck.script
+2017-05-08 15:45:24.978 +0900	Log		=================================	1	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:24.979 +0900	Log		会員情報登録(入力チェック)	2	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:24.981 +0900	Log		RegistNew_Inputcheck	3	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:24.982 +0900	Log		=================================	4	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:27.989 +0900	Log		■ループ：1	17	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:27.992 +0900	Log		■姓	19	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:28.340 +0900	click	UserInfoEdit_FristName	at (209, 331)	20	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:29.072 +0900	typetext		[controlKey]a	21	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:29.793 +0900	typetext		[backspace]	22	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:30.787 +0900	typetext		山田山田山田山田山田山田山田山田山田山田Ｙ	23	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:30.789 +0900	Log		■名	25	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:31.976 +0900	click	UserInfoEdit_LastName	at (213, 412)	26	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:32.707 +0900	typetext		[controlKey]a	27	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:33.428 +0900	typetext		[backspace]	28	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:34.421 +0900	typetext		太郎太郎太郎太郎太郎太郎太郎太郎太郎太郎Ｔ	29	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:34.422 +0900	Log		■セイ	31	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:35.603 +0900	click	UserInfoEdit_FristName_kana	at (209, 496)	32	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:36.333 +0900	typetext		[controlKey]a	33	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:37.048 +0900	typetext		[backspace]	34	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:38.036 +0900	typetext		ヤマダヤマダヤマダヤマダヤマダヤマダヤマダ	35	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:38.037 +0900	Log		■メイ	37	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:39.216 +0900	click	UserInfoEdit_LastName_kana	at (206, 596)	38	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:39.943 +0900	typetext		[controlKey]a	39	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:40.663 +0900	typetext		[backspace]	40	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:41.648 +0900	typetext		タロウタロウタロウタロウタロウタロウタロウ	41	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:41.649 +0900	Log		■郵便番号	43	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:42.838 +0900	click	UserInfoEdit_PostCode	at (210, 696)	44	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:43.570 +0900	typetext		[controlKey]a	45	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:44.291 +0900	typetext		[backspace]	46	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:45.108 +0900	typetext		12345678	47	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:45.110 +0900	Log		■確認ボタン	49	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:46.222 +0900	imagefound	UserInfoEdit_check_btn	Unable to Find Image UserInfoEdit_check_btn within 1.00 seconds	51	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:46.236 +0900	typetext		[pageDown]	56	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:47.352 +0900	click	UserInfoEdit_check_btn	at (505, 651)	57	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.356 +0900	imagefound	UserInfoEdit_FitstName_len_Err	found at (332, 364)	61	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.357 +0900	Log		[姓]文字数チェック：OK	63	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.545 +0900	imagefound	UserInfoEdit_LastName_len_Err	found at (327, 448)	69	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.545 +0900	Log		[名]文字数チェック：OK	71	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.583 +0900	imagefound	UserInfoEdit_FristName_kana_len_Err	found at (339, 531)	77	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.585 +0900	Log		[セイ]文字数チェック：OK	79	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.609 +0900	imagefound	UserInfoEdit_LastName_kana_len_Err	found at (340, 613)	85	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.610 +0900	Log		[メイ]文字数チェック：OK	87	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.611 +0900	Log		■郵便番号：入力チェック	129	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.652 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (345, 694)	130	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:48.654 +0900	Log		[郵便番号]チェック：OK	132	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:51.658 +0900	Log		■ループ：2	17	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:51.660 +0900	Log		■姓	19	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:52.012 +0900	click	UserInfoEdit_FristName	at (209, 331)	20	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:52.742 +0900	typetext		[controlKey]a	21	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:53.463 +0900	typetext		[backspace]	22	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:54.251 +0900	typetext		Yamada	23	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:54.252 +0900	Log		■名	25	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:55.415 +0900	click	UserInfoEdit_LastName	at (213, 412)	26	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:56.148 +0900	typetext		[controlKey]a	27	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:56.866 +0900	typetext		[backspace]	28	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:57.631 +0900	typetext		Taro	29	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:57.632 +0900	Log		■セイ	31	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:58.797 +0900	click	UserInfoEdit_FristName_kana	at (209, 496)	32	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:45:59.530 +0900	typetext		[controlKey]a	33	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:00.250 +0900	typetext		[backspace]	34	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:01.039 +0900	typetext		yamada	35	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:01.039 +0900	Log		■メイ	37	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:02.228 +0900	click	UserInfoEdit_LastName_kana	at (206, 580)	38	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:02.961 +0900	typetext		[controlKey]a	39	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:03.681 +0900	typetext		[backspace]	40	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:04.440 +0900	typetext		taro	41	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:04.441 +0900	Log		■郵便番号	43	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:05.624 +0900	click	UserInfoEdit_PostCode	at (210, 664)	44	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:06.356 +0900	typetext		[controlKey]a	45	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:07.077 +0900	typetext		[backspace]	46	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:07.797 +0900	typetext		1	47	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:07.798 +0900	Log		■確認ボタン	49	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:08.897 +0900	imagefound	UserInfoEdit_check_btn	Unable to Find Image UserInfoEdit_check_btn within 1.00 seconds	51	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:08.912 +0900	typetext		[pageDown]	56	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:10.024 +0900	click	UserInfoEdit_check_btn	at (505, 651)	57	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.036 +0900	imagefound	UserInfoEdit_FitstName_em_Err	found at (298, 364)	95	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.037 +0900	Log		[姓]全角チェック：OK	97	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.079 +0900	imagefound	UserInfoEdit_LastName_em_Err	found at (299, 447)	103	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.080 +0900	Log		[名]全角チェック：OK	105	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.169 +0900	imagefound	UserInfoEdit_FristName_kana_em_Err	found at (343, 530)	111	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.169 +0900	Log		[セイ]全角チェック：OK	113	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.244 +0900	imagefound	UserInfoEdit_LastName_kana_em_Err	found at (342, 630)	119	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.245 +0900	Log		[メイ]全角チェック：OK	121	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:11.246 +0900	Log		■郵便番号：入力チェック	129	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:14.618 +0900	imagefound	UserInfoEdit_PostCode_Err	Unable to Find Image UserInfoEdit_PostCode_Err within 3.00 seconds	130	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:14.620 +0900	LogError		[郵便番号]チェック：NG	135	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:17.622 +0900	Log		■ループ：3	17	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:17.624 +0900	Log		■姓	19	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:17.938 +0900	click	UserInfoEdit_FristName	at (209, 331)	20	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:18.669 +0900	typetext		[controlKey]a	21	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:19.389 +0900	typetext		[backspace]	22	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:20.108 +0900	typetext		ｱ	23	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:20.109 +0900	Log		■名	25	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:21.288 +0900	click	UserInfoEdit_LastName	at (213, 412)	26	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:22.017 +0900	typetext		[controlKey]a	27	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:22.737 +0900	typetext		[backspace]	28	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:23.457 +0900	typetext		ｱ	29	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:23.458 +0900	Log		■セイ	31	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:24.603 +0900	click	UserInfoEdit_FristName_kana	at (209, 496)	32	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:25.329 +0900	typetext		[controlKey]a	33	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:26.049 +0900	typetext		[backspace]	34	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:26.768 +0900	typetext		ｱ	35	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:26.769 +0900	Log		■メイ	37	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:27.932 +0900	click	UserInfoEdit_LastName_kana	at (206, 596)	38	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:28.661 +0900	typetext		[controlKey]a	39	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:29.381 +0900	typetext		[backspace]	40	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:30.095 +0900	typetext		ｱ	41	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-08 15:46:30.307 +0900	EndTestCase		(Duration:"65.400313", Errors:"2", Exceptions:"0", StartTime:"2017-05-08 15:45:24 +0900", Successes:"0", TestCase:"RegistNew_Inputcheck.script", Warnings:"0")
+2017-05-08 15:46:30.309 +0900	ABORTED		Execution Time 0:01:05 RegistNew_Inputcheck.script

@@ -1,0 +1,81 @@
+﻿Log "================================="
+Log "お気に入り店舗からのお知らせ(エリアから検索)"
+Log "ShopMaga_registShopMaga_erea"
+Log "================================="
+
+wait 2
+
+Log "■メニュー"
+Tap  (Image:"menu_btn", WaitFor:10)
+
+Log "【My Hotto Mottoからのお知らせ】"
+Tap "Menu_noShopMaga_Link"
+
+Log "【お気に入り店舗からのお知らせ】"
+Tap "ShopMaga_registShopMaga"
+
+wait 2
+
+//お気に入り店舗からのお知らせ画面遷移チェック
+If ImageFound(10,"ShopMaga_registShopMaga_word") then 
+	//検出
+	Log "お気に入り店舗からのお知らせ画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "お気に入り店舗からのお知らせ画面遷移チェック：NG"
+End if
+
+Log "■お気に入り店舗追加"
+Tap "ShopMaga_registShopMagaTypeSelect_btn"
+
+Log "【エリアから検索】"
+Tap "ShopMaga_TypeSelect_erea"
+Tap "ShopMaga_TypeSelect_erea_1"
+
+Log "■店舗登録"
+ShopMaga_category
+
+Log "■戻る(エリアから検索)"
+Tap "ShopMaga_back"
+wait 3
+Log "■戻る(お気に入り店舗の追加)"
+Tap "ShopMaga_back"
+wait 3
+Log "■戻る(メルマガ)"
+Tap "ShopMaga_back"
+wait 3
+
+Log "■お気に入り店舗からのお知らせ(解除)"
+Tap "ShopMaga_registShopMaga_1"
+wait 2
+If ImageFound(7,"ShopMaga_registShopMaga_Release_msg") then 
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+Tap "ShopMaga_registShopMaga_2"
+wait 2
+If ImageFound(7,"ShopMaga_registShopMaga_Release_msg") then 
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+Tap "ShopMaga_registShopMaga_3"
+If ImageFound(7,"ShopMaga_registShopMaga_Release_msg") then 
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

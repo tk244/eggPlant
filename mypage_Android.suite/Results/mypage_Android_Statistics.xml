@@ -1,0 +1,459 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="UserInfoEdit_2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-21 16:49:50 +0900</FirstRun>
+  <LastRun>2017-04-25 18:09:11 +0900</LastRun>
+  <TotalTimeOnSuccess>342.243000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_Issue_cardInfoEdit">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:34:59 +0900</FirstRun>
+  <LastRun>2017-04-25 18:34:59 +0900</LastRun>
+  <TotalTimeOnSuccess>521.712000</TotalTimeOnSuccess>
+ </script>
+ <script name="ChangeMail_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-17 11:09:21 +0900</FirstRun>
+  <LastRun>2017-04-17 11:46:47 +0900</LastRun>
+  <TotalTimeOnSuccess>43.139000</TotalTimeOnSuccess>
+ </script>
+ <script name="passwordEdit_1">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-25 18:19:12 +0900</FirstRun>
+  <LastRun>2017-05-11 11:44:38 +0900</LastRun>
+  <TotalTimeOnSuccess>219.827000</TotalTimeOnSuccess>
+ </script>
+ <script name="Top_Issue_cardInfoEdit">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:49:16 +0900</FirstRun>
+  <LastRun>2017-04-25 18:49:16 +0900</LastRun>
+  <TotalTimeOnSuccess>495.519000</TotalTimeOnSuccess>
+ </script>
+ <script name="passwordEdit_2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:23:00 +0900</FirstRun>
+  <LastRun>2017-05-11 11:53:39 +0900</LastRun>
+  <TotalTimeOnSuccess>190.856532</TotalTimeOnSuccess>
+ </script>
+ <script name="SearchPassword">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2017-04-11 11:09:30 +0900</FirstRun>
+  <LastRun>2017-04-21 15:57:24 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoEdit">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-11 12:29:55 +0900</FirstRun>
+  <LastRun>2017-04-12 01:25:51 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="ShopMaga">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-17 18:03:59 +0900</FirstRun>
+  <LastRun>2017-04-18 10:30:49 +0900</LastRun>
+  <TotalTimeOnSuccess>605.556000</TotalTimeOnSuccess>
+ </script>
+ <script name="ShopMaga_registShopMaga_address">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-17 16:16:09 +0900</FirstRun>
+  <LastRun>2017-04-25 18:16:56 +0900</LastRun>
+  <TotalTimeOnSuccess>240.122000</TotalTimeOnSuccess>
+ </script>
+ <script name="Browser_Open">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>22</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-06 16:10:28 +0900</FirstRun>
+  <LastRun>2017-04-19 18:56:47 +0900</LastRun>
+  <TotalTimeOnSuccess>305.809000</TotalTimeOnSuccess>
+ </script>
+ <script name="passwordEdit_success">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-11 19:08:56 +0900</FirstRun>
+  <LastRun>2017-04-11 19:08:56 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_default">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2017-04-10 16:46:23 +0900</FirstRun>
+  <LastRun>2017-05-11 14:35:58 +0900</LastRun>
+  <TotalTimeOnSuccess>21.000923</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_Inputcheck">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>18</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2017-04-10 16:01:24 +0900</FirstRun>
+  <LastRun>2017-04-19 18:43:34 +0900</LastRun>
+  <TotalTimeOnSuccess>3888.164000</TotalTimeOnSuccess>
+ </script>
+ <script name="ChangeMail_Password_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-17 12:02:48 +0900</FirstRun>
+  <LastRun>2017-04-17 12:02:48 +0900</LastRun>
+  <TotalTimeOnSuccess>68.201000</TotalTimeOnSuccess>
+ </script>
+ <script name="Common_Input_Keybord">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-20 12:50:01 +0900</FirstRun>
+  <LastRun>2017-04-20 12:50:01 +0900</LastRun>
+  <TotalTimeOnSuccess>2.909000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_Issue_cardInfoNew">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:30:32 +0900</FirstRun>
+  <LastRun>2017-04-25 18:30:32 +0900</LastRun>
+  <TotalTimeOnSuccess>197.666000</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoEdit_Inputcheck">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>11</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2017-04-11 14:01:57 +0900</FirstRun>
+  <LastRun>2017-04-20 13:17:17 +0900</LastRun>
+  <TotalTimeOnSuccess>2134.193000</TotalTimeOnSuccess>
+ </script>
+ <script name="passwordEdit_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-11 18:56:19 +0900</FirstRun>
+  <LastRun>2017-05-11 11:48:30 +0900</LastRun>
+  <TotalTimeOnSuccess>564.190144</TotalTimeOnSuccess>
+ </script>
+ <script name="ShopMaga_registShopMaga_Postcode">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:14:34 +0900</FirstRun>
+  <LastRun>2017-05-11 11:20:40 +0900</LastRun>
+  <TotalTimeOnSuccess>225.371292</TotalTimeOnSuccess>
+ </script>
+ <script name="passwordEdit">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2017-04-11 19:18:03 +0900</FirstRun>
+  <LastRun>2017-04-21 16:36:29 +0900</LastRun>
+  <TotalTimeOnSuccess>640.633000</TotalTimeOnSuccess>
+ </script>
+ <script name="SearchPassword_1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 17:43:08 +0900</FirstRun>
+  <LastRun>2017-04-25 17:43:08 +0900</LastRun>
+  <TotalTimeOnSuccess>260.107000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-06 14:17:57 +0900</FirstRun>
+  <LastRun>2017-04-17 16:22:28 +0900</LastRun>
+  <TotalTimeOnSuccess>843.451000</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_success_chg">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-18 12:14:08 +0900</FirstRun>
+  <LastRun>2017-04-19 12:05:41 +0900</LastRun>
+  <TotalTimeOnSuccess>51.182000</TotalTimeOnSuccess>
+ </script>
+ <script name="SearchPassword_2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 17:47:38 +0900</FirstRun>
+  <LastRun>2017-04-25 17:47:38 +0900</LastRun>
+  <TotalTimeOnSuccess>355.831000</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoDelete">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:24:49 +0900</FirstRun>
+  <LastRun>2017-05-11 12:04:51 +0900</LastRun>
+  <TotalTimeOnSuccess>31.305065</TotalTimeOnSuccess>
+ </script>
+ <script name="SearchPassword_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>16</NumberOfRuns>
+  <NumberOfFails>8</NumberOfFails>
+  <FirstRun>2017-04-10 18:50:23 +0900</FirstRun>
+  <LastRun>2017-05-09 11:51:04 +0900</LastRun>
+  <TotalTimeOnSuccess>622.576386</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_check2">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2017-04-24 18:06:31 +0900</FirstRun>
+  <LastRun>2017-04-24 18:13:51 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="ShopMaga_noShopMaga">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:12:46 +0900</FirstRun>
+  <LastRun>2017-05-11 10:51:43 +0900</LastRun>
+  <TotalTimeOnSuccess>19.027966</TotalTimeOnSuccess>
+ </script>
+ <script name="Session_error_1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:25:24 +0900</FirstRun>
+  <LastRun>2017-05-11 12:05:19 +0900</LastRun>
+  <TotalTimeOnSuccess>9.359612</TotalTimeOnSuccess>
+ </script>
+ <script name="Session_error_2">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-14 18:13:12 +0900</FirstRun>
+  <LastRun>2017-05-11 12:05:36 +0900</LastRun>
+  <TotalTimeOnSuccess>103.238000</TotalTimeOnSuccess>
+ </script>
+ <script name="Top_cardinfo">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2017-04-14 14:11:21 +0900</FirstRun>
+  <LastRun>2017-04-25 19:01:50 +0900</LastRun>
+  <TotalTimeOnSuccess>257.826000</TotalTimeOnSuccess>
+ </script>
+ <script name="SearchPassword_PassNew_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>15</NumberOfRuns>
+  <NumberOfFails>10</NumberOfFails>
+  <FirstRun>2017-04-10 19:12:00 +0900</FirstRun>
+  <LastRun>2017-04-17 17:07:39 +0900</LastRun>
+  <TotalTimeOnSuccess>865.368000</TotalTimeOnSuccess>
+ </script>
+ <script name="Top_Screen_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>14</NumberOfRuns>
+  <NumberOfFails>6</NumberOfFails>
+  <FirstRun>2017-04-11 12:16:12 +0900</FirstRun>
+  <LastRun>2017-04-25 17:57:08 +0900</LastRun>
+  <TotalTimeOnSuccess>890.476000</TotalTimeOnSuccess>
+ </script>
+ <script name="Top_Issue_cardInfoNew">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:43:55 +0900</FirstRun>
+  <LastRun>2017-04-25 18:43:55 +0900</LastRun>
+  <TotalTimeOnSuccess>244.919000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_passwordInsert_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>21</NumberOfRuns>
+  <NumberOfFails>6</NumberOfFails>
+  <FirstRun>2017-04-10 15:02:27 +0900</FirstRun>
+  <LastRun>2017-05-09 11:14:16 +0900</LastRun>
+  <TotalTimeOnSuccess>2628.400512</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-21 15:21:32 +0900</FirstRun>
+  <LastRun>2017-05-09 10:55:17 +0900</LastRun>
+  <TotalTimeOnSuccess>712.143870</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_failure">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-18 12:03:31 +0900</FirstRun>
+  <LastRun>2017-04-18 12:03:31 +0900</LastRun>
+  <TotalTimeOnSuccess>17.594000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_Required">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-10 15:27:02 +0900</FirstRun>
+  <LastRun>2017-04-17 16:40:38 +0900</LastRun>
+  <TotalTimeOnSuccess>18.110000</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_success_old">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-10 14:26:49 +0900</FirstRun>
+  <LastRun>2017-04-25 12:27:20 +0900</LastRun>
+  <TotalTimeOnSuccess>149.325000</TotalTimeOnSuccess>
+ </script>
+ <script name="Browser_Close">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-24 17:45:54 +0900</FirstRun>
+  <LastRun>2017-04-24 17:49:08 +0900</LastRun>
+  <TotalTimeOnSuccess>4.938000</TotalTimeOnSuccess>
+ </script>
+ <script name="ChangeMail">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-25 19:07:02 +0900</FirstRun>
+  <LastRun>2017-04-25 19:07:02 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_success">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2017-04-10 16:54:22 +0900</FirstRun>
+  <LastRun>2017-04-19 18:22:55 +0900</LastRun>
+  <TotalTimeOnSuccess>224.878000</TotalTimeOnSuccess>
+ </script>
+ <script name="CardnumberInsertcheck">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-13 20:22:54 +0900</FirstRun>
+  <LastRun>2017-04-14 10:56:20 +0900</LastRun>
+  <TotalTimeOnSuccess>174.827000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2017-04-20 14:10:11 +0900</FirstRun>
+  <LastRun>2017-04-25 17:21:42 +0900</LastRun>
+  <TotalTimeOnSuccess>48.563000</TotalTimeOnSuccess>
+ </script>
+ <script name="Main">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-12 19:59:41 +0900</FirstRun>
+  <LastRun>2017-04-12 19:59:41 +0900</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_Screen_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-10 16:48:07 +0900</FirstRun>
+  <LastRun>2017-05-09 12:21:47 +0900</LastRun>
+  <TotalTimeOnSuccess>38.096990</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoEdit_success">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-12 01:36:28 +0900</FirstRun>
+  <LastRun>2017-05-09 12:56:15 +0900</LastRun>
+  <TotalTimeOnSuccess>714.782673</TotalTimeOnSuccess>
+ </script>
+ <script name="RegistNew_3">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 17:32:18 +0900</FirstRun>
+  <LastRun>2017-04-25 17:32:18 +0900</LastRun>
+  <TotalTimeOnSuccess>606.112000</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_success">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>13</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2017-04-10 14:08:36 +0900</FirstRun>
+  <LastRun>2017-05-09 12:30:16 +0900</LastRun>
+  <TotalTimeOnSuccess>252.664918</TotalTimeOnSuccess>
+ </script>
+ <script name="ShopMaga_category">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-05-11 11:10:54 +0900</FirstRun>
+  <LastRun>2017-05-11 11:40:36 +0900</LastRun>
+  <TotalTimeOnSuccess>178.304414</TotalTimeOnSuccess>
+ </script>
+ <script name="Login_check">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-13 17:47:16 +0900</FirstRun>
+  <LastRun>2017-04-25 12:44:58 +0900</LastRun>
+  <TotalTimeOnSuccess>352.276000</TotalTimeOnSuccess>
+ </script>
+ <script name="Logout">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-13 17:33:41 +0900</FirstRun>
+  <LastRun>2017-04-25 17:42:43 +0900</LastRun>
+  <TotalTimeOnSuccess>28.625000</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoEdit_Required">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-04-11 12:49:35 +0900</FirstRun>
+  <LastRun>2017-04-19 19:59:33 +0900</LastRun>
+  <TotalTimeOnSuccess>59.535000</TotalTimeOnSuccess>
+ </script>
+ <script name="UserInfoEdit_1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-21 16:42:52 +0900</FirstRun>
+  <LastRun>2017-05-09 12:44:25 +0900</LastRun>
+  <TotalTimeOnSuccess>1111.573185</TotalTimeOnSuccess>
+ </script>
+ <script name="ShopMaga_registShopMaga_erea">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-04-25 18:13:12 +0900</FirstRun>
+  <LastRun>2017-05-11 11:17:38 +0900</LastRun>
+  <TotalTimeOnSuccess>142.638077</TotalTimeOnSuccess>
+ </script>
+ <script name="Login">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-04-17 17:17:13 +0900</FirstRun>
+  <LastRun>2017-04-25 17:54:30 +0900</LastRun>
+  <TotalTimeOnSuccess>160.795000</TotalTimeOnSuccess>
+ </script>
+</statistics>

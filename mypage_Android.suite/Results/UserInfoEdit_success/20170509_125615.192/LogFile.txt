@@ -1,0 +1,170 @@
+﻿2017-05-09 12:56:15.194 +0900	START		Running UserInfoEdit_success.script
+2017-05-09 12:56:15.280 +0900	Log		=================================	1	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:15.282 +0900	Log		会員情報確認/変更(正常)	2	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:15.284 +0900	Log		UserInfoEdit_success	3	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:15.286 +0900	Log		=================================	4	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:17.290 +0900	Log		■メニュー	8	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:18.164 +0900	tap	menu_btn	at (52, 217)	9	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:18.166 +0900	Log		■会員情報確認/変更	11	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:19.806 +0900	tap	Menu_UserInfoEdit_Link	at (277, 676)	12	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:19.809 +0900	Log		■姓	24	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:21.876 +0900	tap	UserInfoEdit_title	at (363, 232)	25	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:21.878 +0900	setoption		mouseClickDelay = 2.5	26	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:26.014 +0900	tap	UserInfoEdit_FristName	at (107, 557)	27	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:26.016 +0900	setoption		mouseClickDelay = 0.02	28	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:26.850 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:27.751 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:28.470 +0900	typetext		[backspace]	30	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:29.214 +0900	typetext		佐々木	31	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:29.216 +0900	Log		■名	33	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:30.142 +0900	tap	UserInfoEdit_title	at (363, 232)	34	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:30.144 +0900	setoption		mouseClickDelay = 2.5	35	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:33.609 +0900	tap	UserInfoEdit_LastName	at (105, 697)	36	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:33.612 +0900	setoption		mouseClickDelay = 0.02	37	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:34.519 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:35.429 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:36.149 +0900	typetext		[backspace]	39	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:36.869 +0900	typetext		凜	40	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:36.870 +0900	Log		■セイ	42	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:37.824 +0900	tap	UserInfoEdit_title	at (363, 232)	43	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:37.826 +0900	setoption		mouseClickDelay = 2.5	44	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:41.304 +0900	tap	UserInfoEdit_FristName_kana	at (112, 559)	45	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:41.307 +0900	setoption		mouseClickDelay = 0.02	46	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:42.157 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:43.108 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:43.824 +0900	typetext		[backspace]	48	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:44.573 +0900	typetext		ササキ	49	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:44.574 +0900	Log		■メイ	51	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:45.451 +0900	tap	UserInfoEdit_title	at (363, 232)	52	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:45.452 +0900	setoption		mouseClickDelay = 2.5	53	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:48.935 +0900	tap	UserInfoEdit_LastName_kana	at (108, 688)	54	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:48.937 +0900	setoption		mouseClickDelay = 0.02	55	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:49.752 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:50.647 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:51.362 +0900	typetext		[backspace]	57	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:52.095 +0900	typetext		リン	58	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:52.096 +0900	Log		■郵便番号	60	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:53.526 +0900	tap	UserInfoEdit_title	at (363, 232)	61	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:53.527 +0900	setoption		mouseClickDelay = 2.5	62	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:57.047 +0900	tap	UserInfoEdit_PostCode	at (108, 570)	63	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:57.049 +0900	setoption		mouseClickDelay = 0.02	64	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:56:57.876 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:58.833 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:56:59.553 +0900	typetext		[backspace]	66	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:00.352 +0900	typetext		1234567	67	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:01.808 +0900	tap	UserInfoEdit_title	at (363, 232)	69	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:01.809 +0900	Log		■性別(女性)	71	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:02.818 +0900	tap	UserInfoEdit_female	at (259, 820)	72	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:02.820 +0900	Log		■都道府県(東京都)	74	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:04.436 +0900	tap	UserInfoEdit_prefecture	at (118, 946)	75	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:05.546 +0900	imagefound	UserInfoEdit_prefecture_Tokyo	Unable to Find Image UserInfoEdit_prefecture_Tokyo within 1.00 seconds	76	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:05.721 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	78	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:06.322 +0900	imagefound	UserInfoEdit_prefecture_Tokyo	found at (138, 888)	79	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:06.852 +0900	tap	UserInfoEdit_prefecture_Tokyo	at (138, 888)	84	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:06.854 +0900	Log		■メルマガ受信形式(HTML)	86	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:08.500 +0900	tap	UserInfoEdit_maga_html	at (114, 1065)	87	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:08.503 +0900	Log		■職業(会社員)	89	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:10.093 +0900	tap	UserInfoEdit_job	at (112, 1188)	90	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:11.691 +0900	tap	UserInfoEdit_job_officeworker	at (142, 338)	91	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:11.692 +0900	Log		■世帯構成(単身)	93	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:12.802 +0900	imagefound	UserInfoEdit_family	Unable to Find Image UserInfoEdit_family within 1.00 seconds	94	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:12.966 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	96	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:13.860 +0900	tap	UserInfoEdit_family	at (115, 925)	98	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:14.743 +0900	tap	UserInfoEdit_family_aln	at (123, 402)	99	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:15.250 +0900	imagefound	UserInfoEdit_check_btn	found at (356, 1138)	102	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:16.341 +0900	tap	UserInfoEdit_check_btn	at (356, 1138)	104	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:18.354 +0900	imagefound	UserInfoEdit_Screen_check1	found at (286, 838)	112	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:18.354 +0900	Log		入力値チェック1：OK	114	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:18.370 +0900	typetext		[pageDown]	120	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:19.796 +0900	imagefound	UserInfoEdit_Screen_check2	found at (265, 704)	123	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:19.797 +0900	Log		入力値チェック2：OK	125	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:19.813 +0900	typetext		[pageDown]	131	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:19.814 +0900	Log		■修正ボタン	134	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:20.811 +0900	imagefound	UserInfoEdit_modify_btn	found at (221, 1110)	135	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:21.328 +0900	tap	UserInfoEdit_modify_btn	at (221, 1110)	137	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:21.331 +0900	Log		■姓	154	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:23.330 +0900	tap	UserInfoEdit_title	at (363, 232)	155	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:23.332 +0900	setoption		mouseClickDelay = 2.5	156	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:27.446 +0900	tap	UserInfoEdit_FristName	at (107, 557)	157	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:27.448 +0900	setoption		mouseClickDelay = 0.02	158	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:28.312 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:29.208 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:29.927 +0900	typetext		[backspace]	160	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:30.670 +0900	typetext		以後崎	161	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:30.672 +0900	Log		■名	163	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:31.603 +0900	tap	UserInfoEdit_title	at (363, 232)	164	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:31.605 +0900	setoption		mouseClickDelay = 2.5	165	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:35.072 +0900	tap	UserInfoEdit_LastName	at (105, 697)	166	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:35.074 +0900	setoption		mouseClickDelay = 0.02	167	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:35.873 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:36.767 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:37.484 +0900	typetext		[backspace]	169	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:38.216 +0900	typetext		良多	170	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:38.219 +0900	Log		■セイ	172	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:39.104 +0900	tap	UserInfoEdit_title	at (363, 232)	173	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:39.106 +0900	setoption		mouseClickDelay = 2.5	174	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:42.627 +0900	tap	UserInfoEdit_FristName_kana	at (112, 559)	175	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:42.629 +0900	setoption		mouseClickDelay = 0.02	176	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:43.441 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:44.344 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:45.061 +0900	typetext		[backspace]	178	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:45.821 +0900	typetext		イゴサキ	179	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:45.822 +0900	Log		■メイ	181	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:46.795 +0900	tap	UserInfoEdit_title	at (363, 232)	182	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:46.796 +0900	setoption		mouseClickDelay = 2.5	183	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:50.270 +0900	tap	UserInfoEdit_LastName_kana	at (108, 688)	184	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:50.272 +0900	setoption		mouseClickDelay = 0.02	185	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:51.091 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:51.994 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:52.713 +0900	typetext		[backspace]	187	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:53.467 +0900	typetext		リョウタ	188	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:53.468 +0900	Log		■郵便番号	190	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:54.405 +0900	tap	UserInfoEdit_title	at (363, 232)	191	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:54.406 +0900	setoption		mouseClickDelay = 2.5	192	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:57.939 +0900	tap	UserInfoEdit_PostCode	at (108, 570)	193	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:57.941 +0900	setoption		mouseClickDelay = 0.02	194	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:57:58.811 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:57:59.326 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 12:58:00.041 +0900	typetext		[backspace]	196	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:00.847 +0900	typetext		9876543	197	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:01.898 +0900	tap	UserInfoEdit_title	at (363, 232)	199	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:01.900 +0900	Log		■性別(男性)	201	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:02.899 +0900	tap	UserInfoEdit_male	at (109, 827)	202	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:02.900 +0900	Log		■都道府県(埼玉県)	204	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:04.469 +0900	tap	UserInfoEdit_prefecture	at (118, 946)	205	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:06.237 +0900	imagefound	UserInfoEdit_prefecture_Saitama	Unable to Find Image UserInfoEdit_prefecture_Saitama within 1.00 seconds	207	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:06.406 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	209	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:06.689 +0900	imagefound	UserInfoEdit_prefecture_Saitama	found at (142, 219)	211	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:07.394 +0900	tap	UserInfoEdit_prefecture_Saitama	at (142, 296)	216	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:07.395 +0900	Log		■メルマガ受信形式(テキスト)	218	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:09.009 +0900	tap	UserInfoEdit_maga_text	at (278, 1067)	219	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:09.012 +0900	Log		■職業(自営業)	221	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:10.600 +0900	tap	UserInfoEdit_job	at (112, 1188)	222	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:11.503 +0900	tap	UserInfoEdit_job_selfemployed	at (143, 471)	223	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:11.505 +0900	Log		■世帯構成(夫婦のみ)	225	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:13.104 +0900	imagefound	UserInfoEdit_family	Unable to Find Image UserInfoEdit_family within 1.00 seconds	226	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:13.276 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	228	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:14.176 +0900	tap	UserInfoEdit_family	at (115, 925)	230	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:15.147 +0900	tap	UserInfoEdit_family_couple	at (161, 533)	231	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:16.623 +0900	imagefound	UserInfoEdit_check_btn	found at (356, 1138)	234	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:17.539 +0900	tap	UserInfoEdit_check_btn	at (356, 1138)	236	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:20.589 +0900	imagefound	UserInfoEdit_Screen_modify_check1	found at (244, 839)	244	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:20.590 +0900	Log		入力値チェック1：OK	246	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:20.605 +0900	typetext		[pageDown]	252	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:21.683 +0900	imagefound	UserInfoEdit_Screen_modify_check2	found at (295, 819)	255	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:21.684 +0900	Log		入力値チェック2：OK	257	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:21.699 +0900	typetext		[pageDown]	263	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:21.700 +0900	Log		■登録ボタン	267	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:22.715 +0900	imagefound	UserInfoEdit_Regist_btn	found at (498, 1136)	268	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:22.982 +0900	tap	UserInfoEdit_Regist_btn	at (498, 1110)	270	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:24.866 +0900	imagefound	UserInfoEdit_End_word	found at (357, 572)	278	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:24.868 +0900	Log		登録情報確認・変更（完了）画面遷移チェック：OK	280	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:24.870 +0900	Log		■マイページトップへボタン	287	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:25.195 +0900	tap	UserInfoEdit_Mypage_btn	at (367, 765)	288	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:27.417 +0900	imagefound	Top_word	found at (357, 832)	291	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:27.418 +0900	Log		マイページトップ（カード未発行）画面遷移チェック：OK	293	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:27.420 +0900	Log		=================================	300	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:27.421 +0900	Log		【完了】	301	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:27.423 +0900	Log		=================================	302	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:58:27.804 +0900	EndTestCase		(Duration:"132.608901", Errors:"0", Exceptions:"0", StartTime:"2017-05-09 12:56:15 +0900", Successes:"1", TestCase:"UserInfoEdit_success.script", Warnings:"0")
+2017-05-09 12:58:27.853 +0900	SUCCESS		Execution Time 0:02:12 UserInfoEdit_success.script

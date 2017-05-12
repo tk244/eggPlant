@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="UserInfoEdit_1.script" package="mypage_Android.suite" timestamp="2017-05-11 10:50:10.064 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-11 10:50:10.064 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="UserInfoEdit_1.script" assertions="3" successes="0" errors="3" time="64.205943">
+    <failure type="LogError">登録情報確認・変更（入力）画面遷移チェック1：NG</failure>
+    <failure type="LogError">登録情報確認・変更（入力）画面遷移チェック2：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

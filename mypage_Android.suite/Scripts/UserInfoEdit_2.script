@@ -1,0 +1,66 @@
+﻿//正常登録
+Log "■正常登録"
+UserInfoEdit_success
+
+Log "【会員情報変更・追加登録完了メール】"
+
+Log "■アプリケーションキー"
+TypeText applicationKey
+
+//Mailer起動
+Log "■Mailer起動"
+Tap (Image:"Mailer", WaitFor:120)
+
+//Mailer戻る
+Log "■Mailer戻る"
+Tap "Mailer_back"
+
+//無限ループ
+repeat 100 times	
+	
+	wait 2
+	
+	If ImageFound(3,"UserInfoEdit_Mail_Title") then 		
+		//検出
+		//メール件名選択
+		Log "■メールを開く"
+		Tap "UserInfoEdit_Mail_Title"
+		exit repeat
+	End if
+	
+	//メールメニュー
+	Tap "Mail_manu"
+	
+	//更新
+	Tap "Mail_manu_update"		
+	
+end repeat
+
+//パスワード変更完了メールチェック1
+If ImageFound(3,"UserInfoEdit_Mail_word1") then 
+	//検出
+	Log "会員情報変更・追加登録完了メール(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "会員情報変更・追加登録完了メール(タイトル)チェック：NG"
+End if
+
+//パスワード変更完了メールチェック2
+If ImageFound(3,"UserInfoEdit_Mail_word2") then 
+	//検出
+	Log "会員情報変更・追加登録完了メール(本文)チェック：OK"
+Else
+	//未検出
+	LogError "会員情報変更・追加登録完了メール(本文)チェック：NG"
+End if
+
+Log "■アプリケーションキー"
+TypeText applicationKey
+
+Log "■Chrome起動"
+Tap "Chrome_application"
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

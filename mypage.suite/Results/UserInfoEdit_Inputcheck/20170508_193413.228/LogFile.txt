@@ -1,0 +1,27 @@
+﻿2017-05-08 19:34:13.229 +0900	START		Running UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.320 +0900	Log		=================================	1	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.322 +0900	Log		会員情報確認/変更(入力チェック)	2	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.323 +0900	Log		UserInfoEdit_Inputcheck	3	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.324 +0900	Log		=================================	4	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.325 +0900	Log		■メニュー	6	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.738 +0900	click	menu_btn	at (32, 110)	7	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:13.741 +0900	Log		■会員情報確認/変更	9	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:14.628 +0900	click	Menu_UserInfoEdit_Link	at (147, 319)	10	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:20.643 +0900	Log		■ループ：1	25	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:20.645 +0900	Log		■姓	27	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:20.967 +0900	click	UserInfoEdit_FristName	at (218, 278)	28	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:21.698 +0900	typetext		[controlKey]a	29	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:22.418 +0900	typetext		[backspace]	30	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:23.414 +0900	typetext		山田山田山田山田山田山田山田山田山田山田Ｙ	31	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:23.415 +0900	Log		■名	33	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:24.570 +0900	click	UserInfoEdit_LastName	at (221, 334)	34	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:25.300 +0900	typetext		[controlKey]a	35	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:26.020 +0900	typetext		[backspace]	36	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:27.017 +0900	typetext		太郎太郎太郎太郎太郎太郎太郎太郎太郎太郎Ｔ	37	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:27.018 +0900	Log		■セイ	39	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:28.187 +0900	click	UserInfoEdit_FristName_kana	at (218, 393)	40	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:28.915 +0900	typetext		[controlKey]a	41	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:29.636 +0900	typetext		[backspace]	42	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:30.613 +0900	typetext		ヤマダヤマダヤマダヤマダヤマダヤマダヤマダ	43	on_userinfoedit_inputcheck	UserInfoEdit_Inputcheck.script
+2017-05-08 19:34:30.801 +0900	EndTestCase		(Duration:"17.569759", Errors:"1", Exceptions:"0", StartTime:"2017-05-08 19:34:13 +0900", Successes:"0", TestCase:"UserInfoEdit_Inputcheck.script", Warnings:"0")
+2017-05-08 19:34:30.802 +0900	ABORTED		Execution Time 0:00:17 UserInfoEdit_Inputcheck.script

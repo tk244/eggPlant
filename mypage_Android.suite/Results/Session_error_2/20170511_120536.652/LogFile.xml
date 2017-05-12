@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Session_error_2.script" package="mypage_Android.suite" timestamp="2017-05-11 12:05:36.652 +0900"
+ tests="1" successes="0" errors="1" time="48.442723">
+  <properties>
+   <property name="RunDate" value="2017-05-11 12:05:36.652 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Session_error_2.script" assertions="1" successes="0" errors="1" time="48.4402">
+    <failure type="LogError">ログイン画面遷移チェック：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

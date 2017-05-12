@@ -1,0 +1,8 @@
+﻿wait 1
+If  ImageFound(1,"Input_keybord") then 
+	//検出
+	Log "キーボード検出"
+	wait 2
+	(*else
+	wait 1*)
+End if

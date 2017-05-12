@@ -1,0 +1,58 @@
+﻿2017-05-11 10:50:10.065 +0900	START		Running UserInfoEdit_1.script
+2017-05-11 10:50:10.138 +0900	Log		=================================	1	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:10.141 +0900	Log		会員情報確認/変更	2	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:10.144 +0900	Log		UserInfoEdit	3	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:10.148 +0900	Log		=================================	4	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:10.153 +0900	Log		■メニュー	8	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:14.149 +0900	tap	menu_btn	at (52, 217)	9	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:14.152 +0900	Log		■会員情報確認/変更	11	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:16.555 +0900	tap	Menu_UserInfoEdit_Link	at (277, 676)	12	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:28.428 +0900	imagefound	UserInfoEdit_word1	Unable to Find Image UserInfoEdit_word1 within 10.00 seconds	15	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:28.432 +0900	LogError		登録情報確認・変更（入力）画面遷移チェック1：NG	20	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:28.447 +0900	typetext		[pageDown]	23	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:38.536 +0900	imagefound	UserInfoEdit_word2	Unable to Find Image UserInfoEdit_word2 within 10.00 seconds	26	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:38.539 +0900	LogError		登録情報確認・変更（入力）画面遷移チェック2：NG	31	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:38.540 +0900	Log		■未入力チェック	36	on_userinfoedit_1	UserInfoEdit_1.script
+2017-05-11 10:50:38.549 +0900	Log		=================================	1	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:38.550 +0900	Log		会員情報確認/変更(必須チェック)	2	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:38.552 +0900	Log		UserInfoEdit_Required	3	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:38.554 +0900	Log		=================================	4	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:40.556 +0900	Log		■メニュー	8	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:42.242 +0900	tap	menu_btn	at (52, 217)	9	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:42.244 +0900	Log		■会員情報確認/変更	11	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:44.604 +0900	tap	Menu_UserInfoEdit_Link	at (277, 676)	12	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:44.606 +0900	Log		■姓	14	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:46.337 +0900	tap	UserInfoEdit_title	at (363, 232)	15	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:48.355 +0900	tap	UserInfoEdit_FristName	at (107, 557)	16	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:48.479 +0900	imagefound	UserInfoEdit_FristName	found at (107, 557)	17	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:49.381 +0900	tap	UserInfoEdit_FristName	at (107, 557)	22	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:50.445 +0900	doubletap	UserInfoEdit_FristName	at (107, 557)	23	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:51.287 +0900	imagefound	AllSelect	found at (670, 105)	24	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:52.813 +0900	tap	AllSelect	at (670, 105)	26	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:53.528 +0900	typetext		[backspace]	28	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:53.529 +0900	Log		■名	30	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:54.581 +0900	tap	UserInfoEdit_title	at (363, 232)	31	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:57.085 +0900	tap	UserInfoEdit_LastName	at (105, 697)	33	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:57.486 +0900	imagefound	UserInfoEdit_LastName	found at (105, 697)	34	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:57.971 +0900	tap	UserInfoEdit_LastName	at (105, 421)	39	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:50:59.215 +0900	doubletap	UserInfoEdit_LastName	at (105, 421)	40	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:00.123 +0900	imagefound	AllSelect	found at (670, 105)	41	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:01.507 +0900	tap	AllSelect	at (670, 105)	43	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:02.224 +0900	typetext		[backspace]	45	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:02.224 +0900	Log		■セイ	47	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:03.180 +0900	tap	UserInfoEdit_title	at (363, 232)	48	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:04.418 +0900	tap	UserInfoEdit_FristName_kana	at (112, 559)	50	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:04.713 +0900	imagefound	UserInfoEdit_FristName_kana	found at (112, 559)	51	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:05.413 +0900	tap	UserInfoEdit_FristName_kana	at (112, 559)	56	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:06.482 +0900	doubletap	UserInfoEdit_FristName_kana	at (112, 559)	57	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:07.351 +0900	imagefound	AllSelect	found at (670, 105)	58	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:08.639 +0900	tap	AllSelect	at (670, 105)	60	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:09.358 +0900	typetext		[backspace]	62	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:09.360 +0900	Log		■メイ	64	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:10.422 +0900	tap	UserInfoEdit_title	at (363, 232)	65	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:11.431 +0900	tap	UserInfoEdit_LastName_kana	at (108, 688)	66	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:12.723 +0900	imagefound	UserInfoEdit_LastName_kana	found at (108, 412)	68	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:13.035 +0900	tap	UserInfoEdit_LastName_kana	at (108, 412)	73	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:14.051 +0900	doubletap	UserInfoEdit_LastName_kana	at (108, 412)	74	on_userinfoedit_required	UserInfoEdit_Required.script
+2017-05-11 10:51:14.276 +0900	EndTestCase		(Duration:"64.205943", Errors:"3", Exceptions:"0", StartTime:"2017-05-11 10:50:10 +0900", Successes:"0", TestCase:"UserInfoEdit_1.script", Warnings:"0")
+2017-05-11 10:51:14.276 +0900	ABORTED		Execution Time 0:01:04 UserInfoEdit_1.script

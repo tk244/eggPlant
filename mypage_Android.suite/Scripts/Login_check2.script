@@ -1,0 +1,190 @@
+﻿Log "================================="
+Log "ログイン画面(メールアドレス・パスワード保存状態チェック)"
+Log "Login_check2"
+Log "================================="
+
+Log "【初期状態】"
+
+//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if
+
+
+
+Log "【メールアドレス・パスワード記憶ON/ログイン成功】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	click "Login_save_ON"
+end if
+
+Log "■ログイン成功"
+Login_default
+
+Log "■ログアウト"
+Logout
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【メールアドレス・パスワード記憶OFF/ログイン成功】"
+
+Log "■メールアドレス・パスワード記憶OFF"
+If  not  ImageFound(1,"Login_save_ON") then 	
+	click "Login_save_OFF"
+end if
+
+Log "■ログイン成功"
+Login_default
+
+Log "■ログアウト"
+Logout
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_OFF_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【メールアドレス・パスワード記憶OFF/ログイン失敗】"
+
+Log "■メールアドレス・パスワード記憶OFF"
+If  not  ImageFound(1,"Login_save_ON") then 	
+	click "Login_save_OFF"
+end if
+
+Log "■ログイン失敗"
+Login_failure
+
+Log "■ブラウザ閉じる"
+Browser_Close
+
+Log "■ブラウザ開く"
+Browser_Open
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_OFF_failure_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【メールアドレス・パスワード記憶ON/ログイン失敗】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	click "Login_save_ON"
+end if
+
+Log "■ログイン失敗"
+Login_failure
+
+Log "■ブラウザ閉じる"
+Browser_Close
+
+Log "■ブラウザ開く"
+Browser_Open
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_failure_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【cookie削除】"
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	click "Login_save_ON"
+end if
+
+Log "■ログイン成功"
+Login_default
+
+Log "■cookie削除"
+Browser_history_delete
+
+Log "■ブラウザ閉じる"
+Browser_Close
+
+Log "■ブラウザ開く"
+Browser_Open
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【cookiei無効】"
+Browser_cookie_OFF
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	click "Login_save_ON"
+end if
+
+Log "■ログイン成功"
+Login_default
+
+//cooki無効チェック
+If ImageFound(10,"Login_cookie_Invalid_word") then 	
+	//検出
+	Log "cookie無効チェック：OK"
+Else
+	//未検出
+	LogError "cookie無効チェック：NG"
+End if
+
+
+
+Log "【cookie有効】"
+Browser_cookie_ON
+
+Log "■ブラウザ閉じる"
+Browser_Close
+
+Log "■ブラウザ開く"
+Browser_Open
+
+Log "■メールアドレス・パスワード記憶OFF"
+If  not  ImageFound(1,"Login_save_ON") then 	
+	click "Login_save_OFF"
+end if
+
+Log "■ログイン成功"
+Login_default
+
+Log "■ログアウト"
+Logout

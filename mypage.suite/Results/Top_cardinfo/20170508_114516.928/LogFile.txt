@@ -1,0 +1,17 @@
+﻿2017-05-08 11:45:16.929 +0900	START		Running Top_cardinfo.script
+2017-05-08 11:45:17.021 +0900	Log		=================================	1	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:17.022 +0900	Log		トップ(カード情報)	2	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:17.024 +0900	Log		Top_cardinfo	3	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:17.026 +0900	Log		=================================	4	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:17.076 +0900	Log		=================================	1	on_login_default	Login_default.script
+2017-05-08 11:45:17.079 +0900	Log		ログイン画面(デフォルト)	2	on_login_default	Login_default.script
+2017-05-08 11:45:17.080 +0900	Log		Login_default	3	on_login_default	Login_default.script
+2017-05-08 11:45:17.081 +0900	Log		=================================	4	on_login_default	Login_default.script
+2017-05-08 11:45:17.084 +0900	Log		=================	12	on_login_default	Login_default.script
+2017-05-08 11:45:17.086 +0900	Log		正常	13	on_login_default	Login_default.script
+2017-05-08 11:45:17.087 +0900	Log		=================	14	on_login_default	Login_default.script
+2017-05-08 11:45:20.478 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	16	on_login_default	Login_default.script
+2017-05-08 11:45:20.479 +0900	Log		■メールアドレス	32	on_login_default	Login_default.script
+2017-05-08 11:45:28.474 +0900	Exception	Login_Mailaddress	No Image Found On Screen: "Login_Mailaddress"	33	on_login_default	Login_default.script
+2017-05-08 11:45:28.775 +0900	EndTestCase		(Duration:"11.844748", Errors:"1", Exceptions:"1", StartTime:"2017-05-08 11:45:16 +0900", Successes:"0", TestCase:"Top_cardinfo.script", Warnings:"0")
+2017-05-08 11:45:28.776 +0900	ABORTED		Execution Time 0:00:11 Top_cardinfo.script

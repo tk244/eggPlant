@@ -1,0 +1,7 @@
+﻿If ImageFound(5,"Browser_setdetail_btn") then 
+	Log "詳細設定"
+	Tap  (Image:"Browser_setdetail_btn", WaitFor:10)
+	
+	Log "安全ではありません"
+	Tap  (Image:"Browser_notsafe_btn", WaitFor:10)
+end if

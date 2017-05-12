@@ -1,0 +1,7 @@
+﻿2017-05-11 10:58:18.016 +0900	START		Running ShopMaga_category.script
+2017-05-11 10:58:18.104 +0900	Log		=================================	1	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:58:18.105 +0900	Log		店舗登録	2	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:58:18.107 +0900	Log		ShopMaga_category	3	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:58:18.108 +0900	Log		=================================	4	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:58:21.223 +0900	EndTestCase		(Duration:"3.205315", Errors:"1", Exceptions:"0", StartTime:"2017-05-11 10:58:18 +0900", Successes:"0", TestCase:"ShopMaga_category.script", Warnings:"0")
+2017-05-11 10:58:21.224 +0900	ABORTED		Execution Time 0:00:03 ShopMaga_category.script

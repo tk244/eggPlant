@@ -1,0 +1,302 @@
+﻿Log "================================="
+Log "会員情報確認/変更(正常)"
+Log "UserInfoEdit_success"
+Log "================================="
+
+wait 2
+
+Log "■メニュー"
+Tap  (Image:"menu_btn", WaitFor:10)
+
+Log "■会員情報確認/変更"
+Tap "Menu_UserInfoEdit_Link"
+
+put ResourcePath("UserInfoEdit_success.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into fn
+	put item 3 of it into ln
+	put item 4 of it into fnk
+	put item 5 of it into lnk
+	put item 6 of it into postcode
+end repeat
+
+Log "■姓"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_FristName", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText fn
+
+Log "■名"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_LastName", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText ln
+
+Log "■セイ"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_FristName_kana", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText fnk
+
+Log "■メイ"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_LastName_kana", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText lnk
+
+Log "■郵便番号"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_PostCode", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText postcode
+
+Tap "UserInfoEdit_title"
+
+Log "■性別(女性)"
+Tap "UserInfoEdit_female"
+
+Log "■都道府県(東京都)"
+Tap "UserInfoEdit_prefecture"
+If not  ImageFound(1,"UserInfoEdit_prefecture_Tokyo") then 
+	//未検出
+	SwipeUp
+	If not  ImageFound(1,"UserInfoEdit_prefecture_Tokyo") then 
+		//未検出
+		SwipeUp
+	End if
+End if
+Tap "UserInfoEdit_prefecture_Tokyo"
+
+Log "■メルマガ受信形式(HTML)"
+Tap "UserInfoEdit_maga_html"
+
+Log "■職業(会社員)"
+Tap "UserInfoEdit_job"
+Tap "UserInfoEdit_job_officeworker"
+
+Log "■世帯構成(単身)"
+If not  ImageFound(1,"UserInfoEdit_family") then 
+	//未検出
+	SwipeUp
+End if
+Tap "UserInfoEdit_family"
+Tap "UserInfoEdit_family_aln"
+
+//確認
+If ImageFound(3,"UserInfoEdit_check_btn") then
+	//検出
+	Tap "UserInfoEdit_check_btn"	
+Else
+	//未検出	
+	SwipeUp
+	Tap "UserInfoEdit_check_btn"	
+End if
+
+//入力値チェック1
+If ImageFound(10,"UserInfoEdit_Screen_check1") then 
+	//検出
+	Log "入力値チェック1：OK"
+Else
+	//未検出
+	LogError "入力値チェック1：NG"
+End if
+
+TypeText pageDown 
+
+//入力値チェック2
+If ImageFound(10,"UserInfoEdit_Screen_check2") then 
+	//検出
+	Log "入力値チェック2：OK"
+Else
+//未検出
+	LogError "入力値チェック2：NG"
+End if
+
+TypeText pageDown 
+
+//修正
+Log "■修正ボタン"
+If ImageFound(1,"UserInfoEdit_modify_btn") then
+	//検出
+	Tap "UserInfoEdit_modify_btn"	
+Else
+	//未検出	
+	SwipeUp 
+	Tap "UserInfoEdit_modify_btn"	
+End if
+
+put ResourcePath("UserInfoEdit_modify.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into fn
+	put item 3 of it into ln
+	put item 4 of it into fnk
+	put item 5 of it into lnk
+	put item 6 of it into postcode
+end repeat
+
+Log "■姓"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_FristName", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText fn
+
+Log "■名"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_LastName", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText ln
+
+Log "■セイ"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_FristName_kana", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText fnk
+
+Log "■メイ"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_LastName_kana", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText lnk
+
+Log "■郵便番号"
+Tap "UserInfoEdit_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"UserInfoEdit_PostCode", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText postcode
+
+Tap "UserInfoEdit_title"
+
+Log "■性別(男性)"
+Tap "UserInfoEdit_male"
+
+Log "■都道府県(埼玉県)"
+Tap "UserInfoEdit_prefecture"
+//スワイプ対応
+If not  ImageFound(1,"UserInfoEdit_prefecture_Saitama") then 
+	//未検出
+	SwipeDown
+	//スワイプ対応
+	If not  ImageFound(1,"UserInfoEdit_prefecture_Saitama") then 
+		//未検出
+		SwipeDown
+	End if
+End if
+Tap "UserInfoEdit_prefecture_Saitama"
+
+Log "■メルマガ受信形式(テキスト)"
+Tap "UserInfoEdit_maga_text"
+
+Log "■職業(自営業)"
+Tap "UserInfoEdit_job"
+Tap "UserInfoEdit_job_selfemployed"
+
+Log "■世帯構成(夫婦のみ)"
+If not  ImageFound(1,"UserInfoEdit_family") then 
+	//未検出
+	SwipeUp
+End if
+Tap "UserInfoEdit_family"
+Tap "UserInfoEdit_family_couple"
+
+//確認
+If ImageFound(3,"UserInfoEdit_check_btn") then
+	//検出
+	Tap "UserInfoEdit_check_btn"	
+Else
+	//未検出	
+	SwipeUp
+	Tap "UserInfoEdit_check_btn"	
+End if
+
+//入力値チェック1
+If ImageFound(10,"UserInfoEdit_Screen_modify_check1") then 
+		//検出
+		Log "入力値チェック1：OK"
+	Else
+		//未検出
+		LogError "入力値チェック1：NG"
+	End if
+	
+	TypeText pageDown
+	
+	//入力値チェック2
+	If ImageFound(10,"UserInfoEdit_Screen_modify_check2") then 
+	//検出
+	Log "入力値チェック2：OK"
+Else
+	//未検出
+	LogError "入力値チェック2：NG"
+End if
+
+TypeText pageDown
+
+
+//登録
+Log "■登録ボタン"
+If ImageFound(1,"UserInfoEdit_Regist_btn") then
+	//検出
+	Tap "UserInfoEdit_Regist_btn"	
+Else
+	//未検出	
+	SwipeUp 
+	Tap "UserInfoEdit_Regist_btn"	
+End if
+
+//登録情報確認・変更（完了）画面遷移チェック
+If ImageFound(10,"UserInfoEdit_End_word") then 
+	//検出
+	Log "登録情報確認・変更（完了）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "登録情報確認・変更（完了）画面遷移チェック：NG"
+End if
+
+//マイページトップへ
+Log "■マイページトップへボタン"
+Tap "UserInfoEdit_Mypage_btn"
+
+//マイページトップ（カード未発行）画面遷移チェック
+If ImageFound(10,"Top_word") then 
+	//検出
+	Log "マイページトップ（カード未発行）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "マイページトップ（カード未発行）画面遷移チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

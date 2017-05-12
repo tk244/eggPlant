@@ -1,0 +1,266 @@
+﻿Log "【ログイン情報保存-チェックボックスON】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■ログイン成功"
+Login_default
+
+Log "■ログアウト"
+Logout
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【パスワードをお忘れの方】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■パスワードをお忘れの方"
+Tap "Login_SearchPassword_Link"
+
+If ImageFound(10,"ScreenTransition_SearchPassword") then 
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+PressBackButton
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【新規登録はこちら(キャンセル)】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■新規登録はこちら"
+Tap "Login_UserInfoInsert_btn"
+//空メール送信画面遷移チェック
+If ImageFound(10,"UserInfoInsert_word") then 
+	//検出
+	Log "空メール送信画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "空メール送信画面遷移チェック：NG"
+End if
+
+Log "■キャンセル"
+Tap "UserInfoInsert_Cancel_btn"
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【新規登録はこちら(戻る)】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■新規登録はこちら"
+Tap "Login_UserInfoInsert_btn"
+//空メール送信画面遷移チェック
+If ImageFound(10,"UserInfoInsert_word") then 
+	//検出
+	Log "空メール送信画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "空メール送信画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+PressBackButton
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【ご利用規約】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■ご利用規約"
+Tap "Login_Rule_Link"
+
+If ImageFound(10,"ScreenTransition_Rule") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+PressBackButton
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【プライバシーポリシー】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■プライバシーポリシー"
+Tap "Login_Policy_Link"
+
+If ImageFound(10,"ScreenTransition_Policy") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+PressBackButton
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【お問い合わせ】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■お問い合わせ"
+Tap "Login_Contact_Link"
+
+If ImageFound(10,"ScreenTransition_Contact") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+PressBackButton
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+
+
+Log "【よくある質問】"
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	Tap "Login_save_ON"
+end if
+
+Log "■メールアドレス・パスワード変更"
+Login_Change
+
+Log "■よくある質問"
+Tap "Login_Faq_Link"
+
+If ImageFound(10,"ScreenTransition_Faq") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+PressBackButton
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if

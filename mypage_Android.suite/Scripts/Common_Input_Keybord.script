@@ -1,0 +1,3 @@
+﻿wait 2
+WaitFor 5,"Input_keybord"
+

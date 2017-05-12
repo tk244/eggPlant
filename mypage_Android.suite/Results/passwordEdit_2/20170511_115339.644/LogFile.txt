@@ -1,0 +1,124 @@
+﻿2017-05-11 11:53:39.645 +0900	START		Running passwordEdit_2.script
+2017-05-11 11:53:39.722 +0900	Log		■パスワード正常登録	1	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:53:39.756 +0900	Log		=================================	1	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:39.758 +0900	Log		パスワード変更(正常)	2	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:39.760 +0900	Log		passwordEdit_success	3	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:39.762 +0900	Log		=================================	4	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:39.765 +0900	Log		■新しいパスワード	15	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:40.696 +0900	tap	passwordEdit_Title	at (358, 232)	16	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:40.698 +0900	setoption		mouseClickDelay = 2.5	17	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:44.808 +0900	tap	SearchPassword_New_password	at (93, 749)	18	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:44.810 +0900	setoption		mouseClickDelay = 0.02	19	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:46.445 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:53:46.470 +0900	typetext		[backspace]	21	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:47.294 +0900	typetext		abc123xyz	22	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:47.297 +0900	Log		■新しいパスワード再入力	24	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:48.271 +0900	tap	passwordEdit_Title	at (358, 232)	25	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:48.272 +0900	setoption		mouseClickDelay = 2.5	26	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:52.392 +0900	tap	SearchPassword_New_passwordRe	at (96, 885)	27	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:52.394 +0900	setoption		mouseClickDelay = 0.02	28	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:54.089 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:53:54.107 +0900	typetext		[backspace]	30	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:54.938 +0900	typetext		abc123xyz	31	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:54.940 +0900	Log		■設定ボタン	33	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:55.884 +0900	tap	passwordEdit_Title	at (358, 232)	34	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:57.528 +0900	tap	passwordEdit_Set_btn	at (360, 1090)	35	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:58.950 +0900	imagefound	passwordEdit_End_word	found at (358, 555)	38	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:58.951 +0900	Log		パスワード変更（設定完了）画面遷移チェック：OK	40	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:58.952 +0900	Log		■マイページトップへボタン	46	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:53:59.216 +0900	tap	passwordEdit_Top_btn	at (368, 765)	47	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:00.531 +0900	imagefound	Top_word	found at (357, 832)	50	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:00.533 +0900	Log		マイページトップ（カード未発行）画面遷移チェック：OK	52	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:00.544 +0900	Log		=================================	1	on_logout	Logout.script
+2017-05-11 11:54:00.545 +0900	Log		ログアウト	2	on_logout	Logout.script
+2017-05-11 11:54:00.548 +0900	Log		Logout	3	on_logout	Logout.script
+2017-05-11 11:54:00.549 +0900	Log		=================================	4	on_logout	Logout.script
+2017-05-11 11:54:00.551 +0900	Log		■メニュー	6	on_logout	Logout.script
+2017-05-11 11:54:01.212 +0900	tap	menu_btn	at (52, 217)	7	on_logout	Logout.script
+2017-05-11 11:54:02.557 +0900	imagefound	Logout_Link	Unable to Find Image Logout_Link within 1.00 seconds	10	on_logout	Logout.script
+2017-05-11 11:54:02.728 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	12	on_logout	Logout.script
+2017-05-11 11:54:02.729 +0900	Log		■ログアウト	15	on_logout	Logout.script
+2017-05-11 11:54:03.697 +0900	tap	Logout_Link	at (186, 1216)	16	on_logout	Logout.script
+2017-05-11 11:54:03.700 +0900	Log		=================================	28	on_logout	Logout.script
+2017-05-11 11:54:03.702 +0900	Log		【完了】	29	on_logout	Logout.script
+2017-05-11 11:54:03.704 +0900	Log		=================================	30	on_logout	Logout.script
+2017-05-11 11:54:06.197 +0900	imagefound	Login_word	found at (357, 702)	62	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:06.199 +0900	Log		ログイン画面遷移チェック：OK	64	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:06.200 +0900	Log		--------------------------------------	74	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:06.202 +0900	Log		ログイン正常チェック	75	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:06.204 +0900	Log		--------------------------------------	76	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:09.537 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	78	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:09.539 +0900	Log		■メールアドレス	100	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:09.752 +0900	tap	Login_msg	at (364, 483)	101	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:09.754 +0900	setoption		mouseClickDelay = 2.5	102	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:13.870 +0900	tap	Login_Mailaddress	at (144, 606)	103	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:13.872 +0900	setoption		mouseClickDelay = 0.02	104	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:15.006 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:54:15.023 +0900	typetext		[backspace]	106	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:16.062 +0900	typetext		pointplus.arara@gmail.com	107	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:16.063 +0900	Log		■パスワード	109	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:17.498 +0900	tap	Login_msg	at (364, 483)	110	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:17.500 +0900	setoption		mouseClickDelay = 2.5	111	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:21.600 +0900	tap	Login_Password	at (141, 698)	112	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:21.602 +0900	setoption		mouseClickDelay = 0.02	113	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:22.824 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:54:22.840 +0900	typetext		[backspace]	115	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:23.666 +0900	typetext		abc123xyz	116	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:23.667 +0900	Log		■ログインボタン	120	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:25.099 +0900	tap	Login_msg	at (364, 483)	121	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:26.717 +0900	tap	Login_btn	at (353, 915)	122	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:33.670 +0900	imagefound	Top_word	Unable to Find Image Top_word within 3.00 seconds	127	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:33.672 +0900	Log		ループ：1	134	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:43.674 +0900	Log		--------------------------------------	74	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:43.677 +0900	Log		ログイン正常チェック	75	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:43.679 +0900	Log		--------------------------------------	76	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:44.566 +0900	imagefound	Login_error	found at (359, 612)	78	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:44.567 +0900	Log		■メールアドレス	80	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:45.528 +0900	tap	Login_msg	at (364, 483)	81	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:45.529 +0900	setoption		mouseClickDelay = 2.5	82	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:49.653 +0900	tap	Login_Mailaddress_Err	at (145, 694)	83	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:49.656 +0900	setoption		mouseClickDelay = 0.02	84	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:50.768 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:54:50.790 +0900	typetext		[backspace]	86	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:51.835 +0900	typetext		pointplus.arara@gmail.com	87	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:51.837 +0900	Log		■パスワード	89	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:53.123 +0900	tap	Login_msg	at (364, 483)	90	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:53.124 +0900	setoption		mouseClickDelay = 2.5	91	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:57.234 +0900	tap	Login_Password_Err	at (146, 799)	92	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:57.236 +0900	setoption		mouseClickDelay = 0.02	93	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:58.394 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:54:58.423 +0900	typetext		[backspace]	95	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:59.247 +0900	typetext		abc123xyz	96	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:54:59.249 +0900	Log		■ログインボタン	120	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:00.181 +0900	tap	Login_msg	at (364, 483)	121	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:01.798 +0900	tap	Login_btn	at (353, 1007)	122	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:05.652 +0900	imagefound	Top_word	found at (357, 832)	127	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:05.653 +0900	Log		マイページトップ（カード未発行）画面遷移チェック：OK	129	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:05.655 +0900	Log		=================================	141	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:05.656 +0900	Log		【完了】	142	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:05.657 +0900	Log		=================================	143	on_passwordedit_success	passwordEdit_success.script
+2017-05-11 11:55:05.661 +0900	Log		【登録完了メール】	5	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:05.662 +0900	Log		■アプリケーションキー	7	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:05.675 +0900	typetext		[applicationKey]	8	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:05.676 +0900	Log		■Mailer起動	11	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:07.139 +0900	tap	Mailer	at (303, 320)	12	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:07.141 +0900	Log		■Mailer戻る	15	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:08.890 +0900	imagefound	Mailer_back	found at (34, 97)	16	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:08.890 +0900	Log		■Mailer戻る	19	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:09.252 +0900	tap	Mailer_back	at (34, 97)	20	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:12.113 +0900	imagefound	passwordEdit_Mail_Title	found at (322, 295)	28	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:12.114 +0900	Log		■メールを開く	31	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:13.067 +0900	tap	passwordEdit_Mail_Title	at (322, 295)	32	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:13.776 +0900	imagefound	passwordEdit_Mail_word1	found at (278, 96)	45	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:13.776 +0900	Log		変更完了メール(タイトル)チェック：OK	47	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:14.389 +0900	imagefound	passwordEdit_Mail_word2	found at (358, 571)	54	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:14.390 +0900	Log		変更完了メール(本文)チェック：OK	56	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:14.392 +0900	Log		■アプリケーションキー	62	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:14.404 +0900	typetext		[applicationKey]	63	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:14.405 +0900	Log		■Chrome起動	65	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:15.835 +0900	tap	Chrome_application	at (304, 626)	66	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:15.838 +0900	Log		=================================	69	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:15.840 +0900	Log		【完了】	70	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:15.841 +0900	Log		=================================	71	on_passwordedit_2	passwordEdit_2.script
+2017-05-11 11:55:16.075 +0900	EndTestCase		(Duration:"96.428294", Errors:"0", Exceptions:"0", StartTime:"2017-05-11 11:53:39 +0900", Successes:"1", TestCase:"passwordEdit_2.script", Warnings:"0")
+2017-05-11 11:55:16.096 +0900	SUCCESS		Execution Time 0:01:36 passwordEdit_2.script

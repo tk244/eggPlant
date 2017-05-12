@@ -1,0 +1,19 @@
+﻿2017-05-08 17:27:21.323 +0900	START		Running Login_success_chg.script
+2017-05-08 17:27:21.398 +0900	Log		=================================	1	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.400 +0900	Log		ログイン画面(パスワード変更/正常)	2	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.404 +0900	Log		Login_success	3	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.411 +0900	Log		=================================	4	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.414 +0900	Log		=================	15	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.416 +0900	Log		正常	16	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.418 +0900	Log		=================	17	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.841 +0900	imagefound	Login_error	found at (509, 391)	19	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:21.841 +0900	Log		■メールアドレス	21	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:22.433 +0900	click	Login_Mailaddress_Err	at (389, 432)	22	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:23.486 +0900	typetext		pointplus.arara@gmail.com	23	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:23.487 +0900	Log		パスワード	25	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:24.692 +0900	click	Login_Password_Err	at (384, 479)	26	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:25.520 +0900	typetext		abc123xyz	27	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:25.521 +0900	Log		■ログインボタン	44	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:26.695 +0900	click	Login_btn	at (499, 574)	45	on_login_success_chg	Login_success_chg.script
+2017-05-08 17:27:29.938 +0900	EndTestCase		(Duration:"8.614281", Errors:"0", Exceptions:"0", StartTime:"2017-05-08 17:27:21 +0900", Successes:"1", TestCase:"Login_success_chg.script", Warnings:"0")
+2017-05-08 17:27:29.974 +0900	SUCCESS		Execution Time 0:00:08 Login_success_chg.script

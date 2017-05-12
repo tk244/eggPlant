@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="ChangeMail.script" package="mypage_Android.suite" timestamp="2017-05-11 16:10:05.549 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-11 16:10:05.549 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="ChangeMail.script" assertions="1" successes="0" errors="1" time="211.982146">
+  </testcase>
+ </testsuite>
+</testsuites>

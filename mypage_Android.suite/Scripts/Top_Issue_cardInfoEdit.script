@@ -1,0 +1,98 @@
+﻿Log "================================="
+Log "カード発行(カード番号入力)"
+Log "Top_Issue_cardInfoEdit"
+Log "================================="
+
+RegistNew_success
+
+Log "■発行するボタン"
+Tap "cardInfoEdit_issue_btn"
+
+//会員登録（カード情報登録）画面遷移チェック
+If ImageFound(10,"cardInfoEdit_word") then 	
+	//検出
+	Log "会員登録（カード情報登録）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（カード情報登録）画面遷移チェック：NG"
+End if
+
+Log "■カード番号を入力してモバイルカード発行"
+Tap "cardInfoEdit_radio2"
+
+Log "■新規にモバイルカード発行"
+Tap "cardInfoEdit_radio1"
+
+Log "■カード番号を入力してモバイルカード発行"
+Tap "cardInfoEdit_radio2"
+
+Log "■次へボタン"
+Tap "cardInfoEdit_next_btn"
+
+//会員登録（カード番号入力）画面遷移チェック
+If ImageFound(10,"Top_cardInfoEdit_card_word") then 	
+	//検出
+	Log "会員登録（カード番号入力）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（カード番号入力）画面遷移チェック：NG"
+End if
+
+Log "■入力チェック"
+CardnumberInsertcheck_Issue
+
+Log "■正常登録"
+put ResourcePath("Top_cardInfoEdit_Issue.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into card
+	put item 2 of it into pin
+end repeat
+
+Log "■カード番号"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"cardInfoEdit_card", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText card
+
+Log "■PIN番号"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"cardInfoEdit_pin", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText pin
+
+
+Log "■次へボタン"
+Tap "cardInfoEdit_next_btn"
+
+//会員登録（カード情報登録完了)画面遷移チェック
+If ImageFound(3,"cardInfoEdit_End_word") then 	
+	//検出
+	Log "会員登録（カード情報登録完了)画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（カード情報登録完了)画面遷移チェック：NG"
+End if
+
+Log "■マイページトップへボタン"
+Tap "cardInfoEdit_Top_btn"
+
+If ImageFound(10,"Top_QR") then 
+	//検出
+	Log "QRチェック：OK"
+Else
+	//未検出
+	LogError "QRチェック：NG"
+End if
+
+UserInfoDelete
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

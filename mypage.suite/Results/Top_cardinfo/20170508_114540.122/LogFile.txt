@@ -1,0 +1,60 @@
+﻿2017-05-08 11:45:40.124 +0900	START		Running Top_cardinfo.script
+2017-05-08 11:45:40.216 +0900	Log		=================================	1	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:40.217 +0900	Log		トップ(カード情報)	2	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:40.219 +0900	Log		Top_cardinfo	3	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:40.220 +0900	Log		=================================	4	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:45:40.267 +0900	Log		=================================	1	on_login_default	Login_default.script
+2017-05-08 11:45:40.268 +0900	Log		ログイン画面(デフォルト)	2	on_login_default	Login_default.script
+2017-05-08 11:45:40.269 +0900	Log		Login_default	3	on_login_default	Login_default.script
+2017-05-08 11:45:40.271 +0900	Log		=================================	4	on_login_default	Login_default.script
+2017-05-08 11:45:40.273 +0900	Log		=================	12	on_login_default	Login_default.script
+2017-05-08 11:45:40.275 +0900	Log		正常	13	on_login_default	Login_default.script
+2017-05-08 11:45:40.280 +0900	Log		=================	14	on_login_default	Login_default.script
+2017-05-08 11:45:43.523 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	16	on_login_default	Login_default.script
+2017-05-08 11:45:43.524 +0900	Log		■メールアドレス	32	on_login_default	Login_default.script
+2017-05-08 11:45:43.630 +0900	click	Login_Mailaddress	at (383, 395)	33	on_login_default	Login_default.script
+2017-05-08 11:45:44.355 +0900	typetext		[controlKey]a	34	on_login_default	Login_default.script
+2017-05-08 11:45:45.076 +0900	typetext		[backspace]	35	on_login_default	Login_default.script
+2017-05-08 11:45:46.263 +0900	typetext		pointplus_arara_default@yahoo.co.jp	36	on_login_default	Login_default.script
+2017-05-08 11:45:46.264 +0900	Log		■パスワード	38	on_login_default	Login_default.script
+2017-05-08 11:45:47.450 +0900	click	Login_Password	at (382, 435)	39	on_login_default	Login_default.script
+2017-05-08 11:45:48.179 +0900	typetext		[controlKey]a	40	on_login_default	Login_default.script
+2017-05-08 11:45:48.899 +0900	typetext		[backspace]	41	on_login_default	Login_default.script
+2017-05-08 11:45:49.725 +0900	typetext		a12345678	42	on_login_default	Login_default.script
+2017-05-08 11:45:49.727 +0900	Log		■ログインボタン	45	on_login_default	Login_default.script
+2017-05-08 11:45:50.902 +0900	click	Login_btn	at (499, 533)	46	on_login_default	Login_default.script
+2017-05-08 11:45:50.903 +0900	Log		=================================	58	on_login_default	Login_default.script
+2017-05-08 11:45:50.904 +0900	Log		【完了】	59	on_login_default	Login_default.script
+2017-05-08 11:45:50.905 +0900	Log		=================================	60	on_login_default	Login_default.script
+2017-05-08 11:45:50.911 +0900	Log		【ロゴ】	17	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:00.949 +0900	imagefound	Top_logo_word	Unable to Find Image Top_logo_word within 10.00 seconds	18	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:00.951 +0900	LogError		ロゴチェック：NG	23	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:00.952 +0900	Log		【モバイルカード】	26	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:01.458 +0900	imagefound	Top_QR	found at (462, 308)	27	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:01.459 +0900	Log		QRチェック：OK	29	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:04.549 +0900	imagefound	Top_Reacquisition	Unable to Find Image Top_Reacquisition within 3.00 seconds	35	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:04.551 +0900	LogError		再取得チェック：NG	40	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:04.552 +0900	Log		■カード番号	43	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:04.569 +0900	imagefound	Top_card_title	found at (427, 438)	44	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:04.570 +0900	Log		カード番号(タイトル)チェック：OK	46	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:17.540 +0900	imagefound	(TEXT:"8900 0000 1014 9224")	Unable to Find Image (TEXT:"8900 0000 1014 9224")	52	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:17.542 +0900	LogError		カード番号(数値)チェック：NG	57	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:17.544 +0900	Log		■ＰＩＮ番号	60	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:17.569 +0900	imagefound	Top_pinno_title	found at (470, 458)	61	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:17.570 +0900	Log		ＰＩＮ番号(タイトル)チェック：OK	63	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:19.896 +0900	imagefound	(TEXT:"153071")	found at (525, 457)	69	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:19.897 +0900	Log		ＰＩＮ番号(数値)チェック：OK	71	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:19.899 +0900	Log		■画面が暗いと…メッセージ	77	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:20.419 +0900	imagefound	Top_dispbright_msg	found at (502, 486)	78	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:20.420 +0900	Log		画面が暗いと…メッセージチェック：OK	80	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:20.421 +0900	Log		【残高/履歴/ランク照会】	87	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:21.020 +0900	click	Top_Inquiry_btn	at (670, 156)	89	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:24.025 +0900	Log		■参照日時	93	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:35.703 +0900	imagefound	(TEXT:"2017.04.25")	Unable to Find Image (TEXT:"2017.04.25")	94	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:35.705 +0900	LogError		参照日時チェック：NG	99	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:35.707 +0900	Log		■カード番号	102	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:35.718 +0900	imagefound	Top_cardInfoEdit_card_title	found at (504, 268)	103	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:35.719 +0900	Log		カード番号(タイトル)チェック：OK	105	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:43.581 +0900	Exception		Searching For Image: OCR Error: OCR operation was aborted	111	on_top_cardinfo	Top_cardinfo.script
+2017-05-08 11:46:43.769 +0900	EndTestCase		(Duration:"63.64431", Errors:"5", Exceptions:"1", StartTime:"2017-05-08 11:45:40 +0900", Successes:"0", TestCase:"Top_cardinfo.script", Warnings:"0")
+2017-05-08 11:46:43.772 +0900	ABORTED		Execution Time 0:01:03 Top_cardinfo.script

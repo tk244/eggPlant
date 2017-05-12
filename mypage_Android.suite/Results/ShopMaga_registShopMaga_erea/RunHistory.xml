@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<runHistory script="ShopMaga_registShopMaga_erea">
+ <run>
+  <RunDate>2017-05-11 10:52:59.754 +0900</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20170511_105259.754/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-05-11 11:17:38.528 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>74.148077</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170511_111738.528/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

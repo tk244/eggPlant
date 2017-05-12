@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2017-05-11 05:55:10 +0000";
+    CaptureHost = ASUS;
+    CaptureScreenSize =     (
+        720,
+        1280
+    );
+    HasAlpha = 1;
+    HotSpotX = 348;
+    HotSpotY = 488;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 12;
+    OriginalLocationY = 214;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+}

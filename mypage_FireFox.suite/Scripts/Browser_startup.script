@@ -1,0 +1,3 @@
+﻿Log "■Chrome起動"
+DoubleClick "Chrome"
+Wait 3

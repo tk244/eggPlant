@@ -1,0 +1,17 @@
+﻿2017-05-11 15:45:03.192 +0900	START		Running Top_cardinfo.script
+2017-05-11 15:45:03.294 +0900	Log		=================================	1	on_top_cardinfo	Top_cardinfo.script
+2017-05-11 15:45:03.295 +0900	Log		トップ(カード情報)	2	on_top_cardinfo	Top_cardinfo.script
+2017-05-11 15:45:03.297 +0900	Log		Top_cardinfo	3	on_top_cardinfo	Top_cardinfo.script
+2017-05-11 15:45:03.298 +0900	Log		=================================	4	on_top_cardinfo	Top_cardinfo.script
+2017-05-11 15:45:03.300 +0900	Log		■ログイン(デフォルト)	6	on_top_cardinfo	Top_cardinfo.script
+2017-05-11 15:45:03.345 +0900	Log		=================================	1	on_login_default	Login_default.script
+2017-05-11 15:45:03.346 +0900	Log		ログイン画面(デフォルト)	2	on_login_default	Login_default.script
+2017-05-11 15:45:03.348 +0900	Log		Login_default	3	on_login_default	Login_default.script
+2017-05-11 15:45:03.350 +0900	Log		=================================	4	on_login_default	Login_default.script
+2017-05-11 15:45:03.353 +0900	Log		=================	12	on_login_default	Login_default.script
+2017-05-11 15:45:03.355 +0900	Log		正常	13	on_login_default	Login_default.script
+2017-05-11 15:45:03.356 +0900	Log		=================	14	on_login_default	Login_default.script
+2017-05-11 15:45:06.571 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	16	on_login_default	Login_default.script
+2017-05-11 15:45:06.573 +0900	Log		■メールアドレス	38	on_login_default	Login_default.script
+2017-05-11 15:45:17.235 +0900	EndTestCase		(Duration:"14.041703", Errors:"1", Exceptions:"0", StartTime:"2017-05-11 15:45:03 +0900", Successes:"0", TestCase:"Top_cardinfo.script", Warnings:"0")
+2017-05-11 15:45:17.236 +0900	ABORTED		Execution Time 0:00:14 Top_cardinfo.script

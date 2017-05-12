@@ -1,0 +1,57 @@
+﻿Log "================================="
+Log "メールアドレス変更(メールアドレス入力チェック)"
+Log "ChangeMail_check"
+Log "================================="
+
+put ResourcePath("ChangeMail_error.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into no
+	put item 2 of it into mailaddress
+	
+	Log  "■ループ：" & no
+	
+	Log "■新しいメールアドレス"
+	Tap "ChangeMail_title"
+	SetOption mouseClickDelay,2.5
+	Tap (Image:"ChangeMail_NewMail", WaitFor:2)
+	SetOption mouseClickDelay,0.02
+	Common_AllSelect
+	TypeText mailaddress
+	
+	Log "■空メール送信"
+	Tap "ChangeMail_title"
+	Tap "ChangeMail_BlankMail"
+	
+	WaitFor 10, "ChangeMail_error_word"
+	
+	
+	If no = 1 then
+		
+		//[メールアドレス]：入力してください
+		If ImageFound(3,"ChangeMail_err_msg") then 
+			//検出
+			Log "[メールアドレス]未入力チェック：OK"
+		Else
+			//未検出
+			LogError "[メールアドレス]未入力チェック：NG"
+		End if
+		
+	else
+		
+		//[メールアドレス]：メールアドレスが不正です
+		If ImageFound(3,"ChangeMail_Injustice_msg") then 
+			//検出
+			Log "[メールアドレス]メールアドレスが不正です：OK"
+		Else
+			//未検出
+			LogError "[メールアドレス]メールアドレスが不正です：NG"
+		End if
+		
+	End if
+	
+end repeat
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

@@ -1,0 +1,185 @@
+﻿Log "================================="
+Log "トップページ"
+Log "Top_Screen_check"
+Log "================================="
+
+Log "--------------------------------------"
+Log "■画面遷移チェック"
+Log "--------------------------------------"
+
+Log "■パスワード変更"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_passwordEdit_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_passwordEdit") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■メールアドレス変更"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_changeMail_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_changeMail") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■会員情報確認/変更"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_UserInfoEdit_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_UserInfoEdit") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■My Hotto Mottoからのお知らせ"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_noShopMaga_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_noShopMaga") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■お気に入り店舗からのお知らせ"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_registShopMaga_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_registShopMaga") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■マイページトップ"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_Top_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_Top") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■ご利用規約"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_ApplicationRule_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_Rule") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■プライバシーポリシー"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_Privacy_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_Policy") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■お問い合わせ"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_contact_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_Contact") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■よくある質問"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_Faq_Link", WaitFor:3)
+If ImageFound(10,"ScreenTransition_Faq") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+Click "Back"
+
+Log "■ログアウト"
+Click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_Logout_Link", WaitFor:3)
+
+//再度ログイン
+Login_success
+
+Log "■利用登録解除（退会）"
+click  (Image:"menu_btn", WaitFor:10)
+wait 2
+Click  (Image:"Menu_UserInfoDelete_Link", WaitFor:3)
+
+If ImageFound(10,"ScreenTransition_UserInfoDelete") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "■戻る"
+click "Back"
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="
+

@@ -1,0 +1,147 @@
+﻿Log "================================="
+Log "会員情報登録(入力チェック)"
+Log "RegistNew_Inputcheck"
+Log "================================="
+
+put ResourcePath("UserInfoEdit_Inputcheck.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into no
+	put item 2 of it into fn_err
+	put item 3 of it into ln_err
+	put item 4 of it into fnk_err
+	put item 5 of it into lnk_err
+	put item 6 of it into postcode_err
+	
+	wait 3
+	
+	Log "■ループ：" & no
+	
+	Log "■姓"
+	Click (Image:"UserInfoEdit_FristName", WaitFor:10)	
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText fn_err	
+	
+	Log "■名"
+	Click "UserInfoEdit_LastName"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText ln_err	
+	
+	Log "■セイ"
+	Click "UserInfoEdit_FristName_kana"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText fnk_err	
+	
+	Log "■メイ"
+	Click "UserInfoEdit_LastName_kana"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText lnk_err	
+	
+	Log "■郵便番号"
+	Click "UserInfoEdit_PostCode"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText postcode_err
+	
+	Log "■確認ボタン"
+	//スクロール対応
+	If ImageFound(1,"UserInfoEdit_check_btn") then
+		//検出
+		Click "UserInfoEdit_check_btn"	
+	Else
+		//未検出	
+		TypeText pageDown	
+		Click "UserInfoEdit_check_btn"
+	End if
+	
+	if no = 1 then
+		If ImageFound(3,"UserInfoEdit_FitstName_len_Err") then 
+			//検出
+			Log "[姓]文字数チェック：OK"
+		Else
+			//未検出
+			LogError "[姓]文字数チェック：NG"
+		End if
+		
+		If ImageFound(3,"UserInfoEdit_LastName_len_Err") then 
+			//検出
+			Log "[名]文字数チェック：OK"
+		Else
+			//未検出
+			LogError "[名]文字数チェック：NG"
+		End if
+		
+		If ImageFound(3,"UserInfoEdit_FristName_kana_len_Err") then 
+			//検出
+			Log "[セイ]文字数チェック：OK"
+		Else
+			//未検出
+			LogError "[セイ]文字数チェック：NG"
+		End if
+		
+		If ImageFound(3,"UserInfoEdit_LastName_kana_len_Err") then 
+			//検出
+			Log "[メイ]文字数チェック：OK"
+		Else
+			//未検出
+			LogError "[メイ]文字数チェック：NG"
+		End if	
+		
+	Else
+		
+		If ImageFound(3,"UserInfoEdit_FitstName_em_Err") then 
+			//検出
+			Log "[姓]全角チェック：OK"
+		Else
+			//未検出
+			LogError "[姓]全角チェック：NG"
+		End if	
+		
+		If ImageFound(3,"UserInfoEdit_LastName_em_Err") then 
+			//検出
+			Log "[名]全角チェック：OK"
+		Else
+			//未検出
+			LogError "[名]全角チェック：NG"
+		End if	
+		
+		If ImageFound(3,"UserInfoEdit_FristName_kana_em_Err") then 
+			//検出
+			Log "[セイ]全角チェック：OK"
+		Else
+			//未検出
+			LogError "[セイ]全角チェック：NG"
+		End if	
+		
+		If ImageFound(3,"UserInfoEdit_LastName_kana_em_Err") then 
+			//検出
+			Log "[メイ]全角チェック：OK"
+		Else
+			//未検出
+			LogError "[メイ]全角チェック：NG"
+		End if
+		
+	end if
+	
+	Log "■郵便番号：入力チェック"
+	//スクロール対応
+	If ImageFound(3,"UserInfoEdit_PostCode_Err") then
+		//検出
+		Log "[郵便番号]チェック：OK"
+	Else
+		//未検出	
+		TypeText pageDown	
+		If ImageFound(3,"UserInfoEdit_PostCode_Err") then 
+			//検出
+			Log "[郵便番号]チェック：OK"
+		Else
+			//未検出
+			LogError "[郵便番号]チェック：NG"
+		End if
+		TypeText pageUp
+	End if
+	
+end repeat

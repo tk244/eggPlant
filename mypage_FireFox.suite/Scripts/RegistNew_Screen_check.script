@@ -1,0 +1,62 @@
+﻿Log "================================="
+Log "新規会員登録(画面遷移)"
+Log "RegistNew_Screen_check"
+Log "================================="
+
+Log "■新規登録はこちら"
+Click "Login_UserInfoInsert_btn"
+
+Log "■空メール送信画面"
+
+//空メール送信画面遷移チェック
+If ImageFound(10,"UserInfoInsert_word") then 
+	//検出
+	Log "空メール送信画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "空メール送信画面遷移チェック：NG"
+End if
+
+Log "■キャンセル"
+Click "UserInfoInsert_Cancel_btn"
+
+
+Log "■新規登録はこちら"
+Click "Login_UserInfoInsert_btn"
+
+Log "■ご利用規約"
+Click "UserInfoInsert_Rule_Link"
+
+If ImageFound(10,"ScreenTransition_Rule") then
+	//検出
+	Log "ご利用規約画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ご利用規約画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+Log "戻る"
+Click "Back"
+
+Log "■新規登録はこちら"
+Click "Login_UserInfoInsert_btn"
+
+Log "■プライバシーポリシー"
+Click "UserInfoInsert_Policy_Link"
+
+If ImageFound(10,"ScreenTransition_Policy") then
+	//検出
+	Log "プライバシーポリシー画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "プライバシーポリシー画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+Log "戻る"
+Click "Back"

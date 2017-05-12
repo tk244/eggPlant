@@ -1,0 +1,39 @@
+﻿Log "================================="
+Log "ログイン画面(メールアドレス・パスワード入力変更)"
+Log "Login_Change"
+Log "================================="
+
+put ResourcePath("Login_failure.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into pass
+end repeat
+
+Log "================="
+Log "正常"
+Log "================="
+
+If ImageFound(3,"Login_error") then 
+	//検出
+	Log "■メールアドレス"
+	Click "Login_Mailaddress_Err"
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Click "Login_Password_Err"
+	TypeText pass
+	
+	Else
+	//未検出
+	Log "■メールアドレス"
+	Click "Login_Mailaddress"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Click "Login_Password"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText pass
+End if

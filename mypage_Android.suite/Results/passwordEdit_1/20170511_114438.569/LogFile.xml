@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="passwordEdit_1.script" package="mypage_Android.suite" timestamp="2017-05-11 11:44:38.569 +0900"
+ tests="1" successes="0" errors="1" time="158.800776">
+  <properties>
+   <property name="RunDate" value="2017-05-11 11:44:38.569 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="passwordEdit_1.script" assertions="1" successes="0" errors="1" time="158.422505">
+    <failure type="LogError">[新しいパスワード再入力]未入力チェック：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

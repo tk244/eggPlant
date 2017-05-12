@@ -1,0 +1,10 @@
+﻿2017-05-08 17:31:01.455 +0900	START		Running Session_error_2.script
+2017-05-08 17:31:01.524 +0900	Log		=================================	1	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:01.526 +0900	Log		セッションエラー(URLを直接入力)	2	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:01.527 +0900	Log		ログイン画面リダイレクト	3	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:01.529 +0900	Log		Session_error2	4	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:01.532 +0900	Log		=================================	5	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:01.538 +0900	Log		■メールアドレス・パスワード記憶OFF	7	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:02.954 +0900	imagefound	Login_save_ON	Unable to Find Image Login_save_ON within 1.00 seconds	8	on_session_error_2	Session_error_2.script
+2017-05-08 17:31:15.468 +0900	EndTestCase		(Duration:"14.012006", Errors:"1", Exceptions:"0", StartTime:"2017-05-08 17:31:01 +0900", Successes:"0", TestCase:"Session_error_2.script", Warnings:"0")
+2017-05-08 17:31:15.469 +0900	ABORTED		Execution Time 0:00:14 Session_error_2.script

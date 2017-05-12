@@ -1,0 +1,69 @@
+﻿Log "================================="
+Log "新規会員登録"
+Log "RegistNew"
+Log "================================="
+
+Log "--------------------------------------"
+Log "■新規登録"
+Log "--------------------------------------"
+
+Log "■新規登録はこちら"
+Tap "Login_UserInfoInsert_btn"
+
+Log "■同意して登録する(空メール)"
+Tap "UserInfoInsert_MailExecute"
+
+//メール送信
+Log "■メール送信"
+Tap "MailSend"
+
+wait 3
+
+//Mailer戻る
+Log "■Mailer戻る"
+If ImageFound(3,"Mailer_back") then 		
+	//検出
+	//Mailer戻る
+	Log "■Mailer戻る"
+	Tap "Mailer_back"
+End if
+
+//無限ループ
+repeat 100 times	
+	
+	wait 2
+	
+	If ImageFound(3,"MailTitle") then 		
+		//検出
+		//メール件名選択
+		Log "■メールを開く"
+		Tap "MailTitle"
+		exit repeat
+	End if
+	
+	//メールメニュー
+	Tap "Mail_manu"
+	
+	//更新
+	Tap "Mail_manu_update"		
+	
+end repeat
+
+
+//メール本文(URL)選択
+Log "■本文(URL)選択"
+Tap  (Image:"MailUrl", WaitFor:10)
+
+Log "【パスワード・生年月日入力】"
+
+//会員登録（パスワード・生年月日入力）画面遷移チェック
+If ImageFound(10,"RegistNew_passwordInsert_word") then 
+	//検出
+	Log "会員登録（パスワード・生年月日入力）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（パスワード・生年月日入力）画面遷移チェック：NG"
+End if
+
+Log "■入力チェック"
+RegistNew_passwordInsert_check

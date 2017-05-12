@@ -1,0 +1,81 @@
+﻿SetOption remoteWorkInterval,1
+Log "================================="
+Log "開始"
+Log "================================="
+
+#0 ブラウザ起動
+Browser_Open
+
+#1 新規会員登録
+//RegistNew
+RegistNew_1
+RegistNew_2
+RegistNew_3
+
+#2  ログアウト
+Logout
+
+#3 パスワード再設定
+//SearchPassword
+SearchPassword_1
+SearchPassword_2
+
+#4 ログイン
+Login
+
+#5 マイページトップ（カード未発行）
+Top_Screen_check
+
+#6 登録情報確認・変更
+//UserInfoEdit
+UserInfoEdit_1
+UserInfoEdit_2
+
+//ShopMaga
+
+#7 My Hotto Mottoからのお知らせ
+ShopMaga_noShopMaga
+
+#8 お気に入り店舗からのお知らせ(エリアから検索)
+ShopMaga_registShopMaga_erea
+
+#9 お気に入り店舗からのお知らせ(郵便番号から検索)
+ShopMaga_registShopMaga_Postcode
+
+#10 お気に入り店舗からのお知らせ(住所から検索)
+ShopMaga_registShopMaga_address
+
+#11 パスワード変更
+//passwordEdit
+passwordEdit_1
+passwordEdit_2
+
+#12 退会
+UserInfoDelete
+
+#13 セッションエラー
+Session_error
+
+#14 会員登録（カード情報登録）(新規発行)
+//RegistNew_Issue_cardInfoNew
+
+#15 会員登録（カード情報登録）(カード番号入力)
+//RegistNew_Issue_cardInfoEdit
+
+#16カード発行(新規発行)
+//Top_Issue_cardInfoNew
+
+#17カード発行(カード番号入力)
+//Top_Issue_cardInfoEdit
+
+#18 マイページトップ
+Top_cardinfo
+
+#19 メールアドレス変更
+//ChangeMail
+
+
+Log "================================="
+Log "完了"
+Log "================================="
+

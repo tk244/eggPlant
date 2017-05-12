@@ -1,0 +1,49 @@
+﻿Log "================================="
+Log "ログイン画面(パスワード変更/正常)"
+Log "Login_success"
+Log "================================="
+
+put ResourcePath("UserInfo1.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into pass
+	put item 3 of it into pass_new
+	put item 4 of it into Birthday
+	put item 5 of it into passchg
+end repeat
+
+Log "================="
+Log "正常"
+Log "================="
+
+If ImageFound(3,"Login_error") then 
+	//検出
+	Log "■メールアドレス"
+	Click "Login_Mailaddress_Err"
+	TypeText mailaddress
+	
+	Log "パスワード"
+	Click "Login_Password_Err"
+	TypeText passchg
+	
+Else
+	//未検出
+	Log "■メールアドレス"
+	Click "Login_Mailaddress"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "パスワード"
+	Click "Login_Password"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText passchg
+End if
+
+Log "■ログインボタン"
+Click "Login_btn"
+
+wait 3
+
+

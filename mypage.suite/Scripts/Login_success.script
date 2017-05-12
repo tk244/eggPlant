@@ -1,0 +1,63 @@
+﻿Log "================================="
+Log "ログイン画面(正常)"
+Log "Login_success"
+Log "================================="
+
+put ResourcePath("UserInfo1.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into pass
+	put item 3 of it into pass_new
+end repeat
+
+Log "================="
+Log "正常"
+Log "================="
+
+If ImageFound(3,"Login_error") then 
+	//検出
+	Log "■メールアドレス"
+	Click "Login_Mailaddress_Err"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Click "Login_Password_Err"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText pass_new
+	
+Else
+	//未検出
+	Log "■メールアドレス"
+	Click "Login_Mailaddress"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Click "Login_Password"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText pass_new
+End if
+
+Log "■ログインボタン"
+Click "Login_btn"
+
+wait 3
+
+//マイページトップ（カード未発行）画面遷移チェック
+If ImageFound(10,"Top_word") then 	
+	//検出
+	Log "マイページトップ（カード未発行）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "マイページトップ（カード未発行）画面遷移チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

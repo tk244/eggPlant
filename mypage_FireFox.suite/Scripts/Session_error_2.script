@@ -1,0 +1,97 @@
+﻿Log "================================="
+Log "セッションエラー(URLを直接入力)"
+Log "ログイン画面リダイレクト"
+Log "Session_error2"
+Log "================================="
+
+Log "■メールアドレス・パスワード記憶OFF"
+If  not  ImageFound(1,"Login_save_ON") then 	
+	click "Login_save_OFF"
+end if
+
+Login_default
+
+Log "■ＵＲＬコピー"
+Click "Session_error_URL"
+TypeText controlKey, "c" 
+
+Log "■ブラウザ閉じる"
+Click "Browser_Close"
+
+Browser_startup
+
+Log "■ＵＲＬ貼付"
+Click "URL"
+TypeText controlKey, "v" ,Return 
+
+(*Log "■セッションエラー発生"
+
+//セッションエラー画面遷移チェック
+If ImageFound(3,"Session_error_msg") then 
+	//検出
+	Log "セッションエラー画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "セッションエラー画面遷移チェック：NG"
+End if
+
+Log "■ログイン画面へ"
+Click "Session_error_Login"*)
+
+//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 	
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if
+
+
+
+Log "■メールアドレス・パスワード記憶-ON"
+If  not  ImageFound(1,"Login_save_OFF") then 	
+	click "Login_save_ON"
+end if
+
+Login_default
+
+Log "■ＵＲＬコピー"
+Click "Session_error_URL"
+TypeText controlKey, "c" 
+
+Log "■ブラウザ閉じる"
+Click "Browser_Close"
+
+Browser_startup
+
+Log "■ＵＲＬ貼付"
+Click "URL"
+TypeText controlKey, "v" ,Return 
+
+(*Log "■セッションエラー発生"
+
+//セッションエラー画面遷移チェック
+If ImageFound(3,"Session_error_msg") then 
+	//検出
+	Log "セッションエラー画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "セッションエラー画面遷移チェック：NG"
+End if
+
+Log "■ログイン画面へ"
+Click "Session_error_Login"*)
+
+//メールアドレス・パスワード記憶チェック
+If ImageFound(10,"Login_save_ON_success_word") then 	
+	//検出
+	Log "メールアドレス・パスワード記憶チェック：OK"
+Else
+	//未検出
+	LogError "メールアドレス・パスワード記憶チェック：NG"
+End if
+
+Log "================================="
+Log "【完了】"
+Log "================================="

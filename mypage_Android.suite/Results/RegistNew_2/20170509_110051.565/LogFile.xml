@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="RegistNew_2.script" package="mypage_Android.suite" timestamp="2017-05-09 11:00:51.565 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-09 11:00:51.565 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="RegistNew_2.script" assertions="2" successes="0" errors="2" time="49.135919">
+    <failure type="LogError">会員登録（カード情報登録）画面遷移チェック：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

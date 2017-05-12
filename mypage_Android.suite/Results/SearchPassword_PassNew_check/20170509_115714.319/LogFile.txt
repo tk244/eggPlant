@@ -1,0 +1,72 @@
+﻿2017-05-09 11:57:14.321 +0900	START		Running SearchPassword_PassNew_check.script
+2017-05-09 11:57:14.401 +0900	Log		=================================	1	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:14.402 +0900	Log		パスワード再設定(パスワードチェック)	2	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:14.404 +0900	Log		SearchPassword_PassNew_check	3	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:14.407 +0900	Log		=================================	4	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:14.410 +0900	Log		■ループ：1	12	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:14.413 +0900	Log		■新しいパスワード	14	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:15.317 +0900	tap	SearchPassword_input_title	at (362, 233)	15	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:15.318 +0900	setoption		mouseClickDelay = 2.5	16	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:19.439 +0900	tap	SearchPassword_New_password	at (93, 549)	17	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:19.441 +0900	setoption		mouseClickDelay = 0.02	18	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:20.552 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:57:20.589 +0900	typetext		[backspace]	20	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:21.295 +0900	typetext			21	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:21.296 +0900	Log		■新しいパスワード再入力	23	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:22.553 +0900	tap	SearchPassword_input_title	at (362, 233)	24	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:22.554 +0900	setoption		mouseClickDelay = 2.5	25	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:26.666 +0900	tap	SearchPassword_New_passwordRe	at (96, 685)	26	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:26.668 +0900	setoption		mouseClickDelay = 0.02	27	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:27.768 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:57:27.813 +0900	typetext		[backspace]	29	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:28.515 +0900	typetext			30	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:28.516 +0900	Log		■設定ボタン	33	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:29.776 +0900	tap	SearchPassword_input_title	at (362, 233)	34	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:31.418 +0900	tap	SearchPassword_Set_btn	at (355, 890)	35	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:31.815 +0900	waitfor	SearchPassword_New_Required_word	found at (209, 431)	37	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:33.247 +0900	imagefound	SearchPassword_New_password_err_msg	found at (345, 451)	43	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:33.247 +0900	Log		[新しいパスワード]未入力チェック：OK	45	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:33.417 +0900	imagefound	SearchPassword_New_passwordRe_err_msg	found at (357, 501)	52	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:33.418 +0900	Log		[新しいパスワード再入力]未入力チェック：OK	54	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:33.422 +0900	Log		■ループ：2	12	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:33.423 +0900	Log		■新しいパスワード	14	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:34.384 +0900	tap	SearchPassword_input_title	at (362, 233)	15	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:34.386 +0900	setoption		mouseClickDelay = 2.5	16	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:38.496 +0900	tap	SearchPassword_New_password	at (93, 677)	17	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:38.500 +0900	setoption		mouseClickDelay = 0.02	18	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:40.217 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:57:40.270 +0900	typetext		[backspace]	20	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:40.988 +0900	typetext		1	21	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:40.988 +0900	Log		■新しいパスワード再入力	23	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:41.942 +0900	tap	SearchPassword_input_title	at (362, 233)	24	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:41.944 +0900	setoption		mouseClickDelay = 2.5	25	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:46.064 +0900	tap	SearchPassword_New_passwordRe	at (96, 813)	26	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:46.066 +0900	setoption		mouseClickDelay = 0.02	27	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:47.241 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:57:47.303 +0900	typetext		[backspace]	29	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:48.022 +0900	typetext		2	30	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:48.023 +0900	Log		■設定ボタン	33	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:48.877 +0900	tap	SearchPassword_input_title	at (362, 233)	34	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:50.507 +0900	tap	SearchPassword_Set_btn	at (355, 1018)	35	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:50.851 +0900	waitfor	SearchPassword_New_Required_word	found at (209, 559)	37	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:52.851 +0900	imagefound	SearchPassword_New_Disagreement_err_msg	found at (285, 446)	65	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:52.852 +0900	Log		[パスワード]不一致チェック：OK	67	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:53.727 +0900	imagefound	SearchPassword_New_password_len_msg	found at (356, 505)	74	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:53.727 +0900	Log		[新しいパスワード]8文字以上チェック：OK	76	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:54.601 +0900	imagefound	SearchPassword_New_passwordRe_len_msg	found at (360, 575)	83	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:54.602 +0900	Log		[新しいパスワード再入力]8文字以上チェック：OK	85	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:54.604 +0900	Log		■ループ：3	12	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:54.606 +0900	Log		■新しいパスワード	14	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:55.566 +0900	tap	SearchPassword_input_title	at (362, 233)	15	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:55.568 +0900	setoption		mouseClickDelay = 2.5	16	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:59.687 +0900	tap	SearchPassword_New_password	at (93, 749)	17	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:57:59.689 +0900	setoption		mouseClickDelay = 0.02	18	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:00.888 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:58:00.980 +0900	typetext		[backspace]	20	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:01.811 +0900	typetext		a12345678	21	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:01.813 +0900	Log		■新しいパスワード再入力	23	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:02.770 +0900	tap	SearchPassword_input_title	at (362, 233)	24	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:02.772 +0900	setoption		mouseClickDelay = 2.5	25	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:06.948 +0900	tap	SearchPassword_New_passwordRe	at (96, 885)	26	on_searchpassword_passnew_check	SearchPassword_PassNew_check.script
+2017-05-09 11:58:07.281 +0900	EndTestCase		(Duration:"52.958946", Errors:"1", Exceptions:"0", StartTime:"2017-05-09 11:57:14 +0900", Successes:"0", TestCase:"SearchPassword_PassNew_check.script", Warnings:"0")
+2017-05-09 11:58:07.282 +0900	ABORTED		Execution Time 0:00:52 SearchPassword_PassNew_check.script

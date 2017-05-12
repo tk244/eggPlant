@@ -1,0 +1,30 @@
+﻿Log "================================="
+Log "ログアウト"
+Log "Logout"
+Log "================================="
+
+Log "■メニュー"
+Tap  (Image:"menu_btn", WaitFor:10)
+
+//スワイプ対応
+If not  ImageFound(1,"Logout_Link") then 
+	//未検出
+	SwipeUp 
+End if
+
+Log "■ログアウト"
+Tap  (Image:"Logout_Link", WaitFor:10)
+
+(*//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 	
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if*)
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

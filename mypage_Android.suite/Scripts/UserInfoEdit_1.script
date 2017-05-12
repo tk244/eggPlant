@@ -1,0 +1,41 @@
+﻿Log "================================="
+Log "会員情報確認/変更"
+Log "UserInfoEdit"
+Log "================================="
+
+//wait 2
+
+Log "■メニュー"
+Tap  (Image:"menu_btn", WaitFor:10)
+
+Log "■会員情報確認/変更"
+Tap "Menu_UserInfoEdit_Link"
+
+//登録情報確認・変更（入力）画面遷移チェック1
+If ImageFound(10,"UserInfoEdit_word1") then 
+	//検出
+	Log "登録情報確認・変更（入力）画面遷移チェック1：OK"
+Else
+	//未検出
+	LogError "登録情報確認・変更（入力）画面遷移チェック1：NG"
+End if
+
+TypeText pageDown 
+
+//登録情報確認・変更（入力）画面遷移チェック2
+If ImageFound(10,"UserInfoEdit_word2") then 
+	//検出
+	Log "登録情報確認・変更（入力）画面遷移チェック2：OK"
+Else
+	//未検出
+	LogError "登録情報確認・変更（入力）画面遷移チェック2：NG"
+End if
+
+
+//未入力チェック
+Log "■未入力チェック"
+UserInfoEdit_Required
+
+//入力チェック
+Log "■入力チェック"
+UserInfoEdit_Inputcheck

@@ -1,0 +1,118 @@
+﻿2017-05-11 12:16:15.799 +0900	START		Running RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.901 +0900	Log		=================================	1	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.903 +0900	Log		新規会員登録(新規発行)	2	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.904 +0900	Log		RegistNew_Issue_cardInfoNew	3	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.906 +0900	Log		=================================	4	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.907 +0900	Log		--------------------------------------	6	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.908 +0900	Log		■新規登録	7	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.910 +0900	Log		--------------------------------------	8	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:15.911 +0900	Log		■新規登録はこちら	10	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:16.854 +0900	tap	Login_UserInfoInsert_btn	at (364, 1157)	11	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:16.856 +0900	Log		■同意して登録する(空メール)	13	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:19.398 +0900	tap	UserInfoInsert_MailExecute	at (352, 897)	14	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:19.399 +0900	Log		■メール送信	17	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:21.968 +0900	tap	MailSend	at (559, 101)	18	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:24.974 +0900	Log		■Mailer戻る	23	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:28.199 +0900	imagefound	Mailer_back	Unable to Find Image Mailer_back within 3.00 seconds	24	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:33.321 +0900	imagefound	MailTitle	Unable to Find Image MailTitle within 3.00 seconds	36	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:33.539 +0900	tap	Mail_manu	at (667, 101)	45	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:34.575 +0900	tap	Mail_manu_update	at (168, 195)	48	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:37.414 +0900	imagefound	MailTitle	found at (269, 296)	36	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:37.415 +0900	Log		■メールを開く	39	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:37.778 +0900	tap	MailTitle	at (269, 296)	40	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:37.779 +0900	Log		■本文(URL)選択	54	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:39.607 +0900	tap	MailUrl	at (355, 455)	55	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:39.609 +0900	Log		【パスワード・生年月日入力】	58	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:43.122 +0900	imagefound	RegistNew_passwordInsert_word	found at (359, 700)	61	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:43.123 +0900	Log		会員登録（パスワード・生年月日入力）画面遷移チェック：OK	63	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:43.124 +0900	Log		■正常登録	70	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:43.126 +0900	Log		■パスワード	79	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:43.385 +0900	tap	RegistNew_title	at (370, 230)	80	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:43.387 +0900	setoption		mouseClickDelay = 2.5	81	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:47.481 +0900	tap	RegistNew_PasswordInsert_Password	at (94, 548)	82	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:47.485 +0900	setoption		mouseClickDelay = 0.02	83	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:48.666 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:16:48.718 +0900	typetext		[backspace]	85	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:49.557 +0900	typetext		a123456789	86	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:49.558 +0900	Log		■パスワード再入力	88	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:51.036 +0900	tap	RegistNew_title	at (370, 230)	89	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:51.037 +0900	setoption		mouseClickDelay = 2.5	90	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:55.174 +0900	tap	RegistNew_PasswordInsert_PasswordRe	at (96, 685)	91	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:55.176 +0900	setoption		mouseClickDelay = 0.02	92	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:56.944 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:16:56.962 +0900	typetext		[backspace]	94	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:57.805 +0900	typetext		a123456789	95	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:57.806 +0900	Log		■生年月日	97	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:59.224 +0900	tap	RegistNew_title	at (370, 230)	98	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:16:59.226 +0900	setoption		mouseClickDelay = 2.5	99	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:03.335 +0900	tap	RegistNew_PasswordInsert_Birthday	at (96, 820)	100	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:03.337 +0900	setoption		mouseClickDelay = 0.02	101	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:04.554 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:17:04.589 +0900	typetext		[backspace]	103	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:05.400 +0900	typetext		19951231	104	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:05.401 +0900	Log		■次へボタン	106	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:06.825 +0900	tap	RegistNew_title	at (370, 230)	107	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:08.459 +0900	tap	RegistNew_PasswordInsert_Next_btn	at (356, 1027)	108	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:08.460 +0900	Log		【カード情報登録】	111	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:10.733 +0900	imagefound	RegistNew_CardNumberInsert_word	found at (360, 682)	114	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:10.734 +0900	Log		会員登録（カード情報登録）画面遷移チェック：OK	116	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:10.735 +0900	Log		■カード番号を入力してモバイルカードを発行	122	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:11.699 +0900	tap	RegistNew_CardNumberInsert_radio2	at (102, 637)	123	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:11.700 +0900	Log		■新規にモバイルカードを発行	125	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:13.367 +0900	tap	RegistNew_CardNumberInsert_radio1	at (103, 540)	126	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:13.369 +0900	Log		■次へボタン	128	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:15.053 +0900	tap	RegistNew_CardNumberInsert_Next_btn	at (352, 941)	129	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:15.054 +0900	Log		【追加属性入力】	131	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:18.029 +0900	imagefound	RegistNew_word	found at (355, 735)	134	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:18.030 +0900	Log		会員登録（追加属性入力）画面チェック1：OK	136	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:18.044 +0900	typetext		[pageDown]	142	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:19.516 +0900	imagefound	RegistNew_word2	found at (357, 776)	145	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:19.517 +0900	Log		会員登録（追加属性入力）画面チェック2：OK	147	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:19.702 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	153	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:20.580 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	154	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:21.459 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	155	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:21.460 +0900	Log		■正常登録	157	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:21.464 +0900	Log		■姓	168	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:22.414 +0900	tap	RegistNew_title	at (370, 230)	169	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:22.415 +0900	setoption		mouseClickDelay = 2.5	170	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:26.527 +0900	tap	RegistNew_InfoInsert_FirstName	at (105, 559)	171	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:26.528 +0900	setoption		mouseClickDelay = 0.02	172	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:27.653 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:17:27.695 +0900	typetext		[backspace]	174	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:28.425 +0900	typetext		中田	175	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:28.426 +0900	Log		■名	177	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:29.866 +0900	tap	RegistNew_title	at (370, 230)	178	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:29.868 +0900	setoption		mouseClickDelay = 2.5	179	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:33.989 +0900	tap	RegistNew_InfoInsert_LastName	at (99, 691)	180	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:33.991 +0900	setoption		mouseClickDelay = 0.02	181	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:35.690 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:17:35.730 +0900	typetext		[backspace]	183	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:36.464 +0900	typetext		弘孝	184	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:36.466 +0900	Log		■セイ	186	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:37.451 +0900	tap	RegistNew_title	at (370, 230)	187	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:37.453 +0900	setoption		mouseClickDelay = 2.5	188	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:41.581 +0900	tap	RegistNew_InfoInsert_FirstNameKana	at (102, 832)	189	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:41.583 +0900	setoption		mouseClickDelay = 0.02	190	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:42.697 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:17:42.729 +0900	typetext		[backspace]	192	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:43.476 +0900	typetext		タナカ	193	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:43.477 +0900	Log		■メイ	195	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:44.421 +0900	tap	RegistNew_title	at (370, 230)	196	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:44.422 +0900	setoption		mouseClickDelay = 2.5	197	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:48.548 +0900	tap	RegistNew_InfoInsert_LastNameKana	at (107, 968)	198	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:48.551 +0900	setoption		mouseClickDelay = 0.02	199	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:49.711 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:17:49.770 +0900	typetext		[backspace]	201	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:50.529 +0900	typetext		ヒロタカ	202	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:50.530 +0900	Log		■郵便番号	204	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:51.866 +0900	tap	RegistNew_title	at (370, 230)	205	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:51.868 +0900	setoption		mouseClickDelay = 2.5	206	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:55.967 +0900	tap	RegistNew_InfoInsert_Postcode	at (101, 1123)	207	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:55.969 +0900	setoption		mouseClickDelay = 0.02	208	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:57.135 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:17:57.198 +0900	typetext		[backspace]	210	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:57.996 +0900	typetext		9991212	211	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:57.997 +0900	Log		■性別(男性)	213	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:17:59.503 +0900	tap	RegistNew_title	at (370, 230)	214	on_registnew_issue_cardinfonew	RegistNew_Issue_cardInfoNew.script
+2017-05-11 12:18:25.949 +0900	EndTestCase		(Duration:"130.148323", Errors:"1", Exceptions:"0", StartTime:"2017-05-11 12:16:15 +0900", Successes:"0", TestCase:"RegistNew_Issue_cardInfoNew.script", Warnings:"0")
+2017-05-11 12:18:25.950 +0900	ABORTED		Execution Time 0:02:10 RegistNew_Issue_cardInfoNew.script

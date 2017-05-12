@@ -1,0 +1,20 @@
+﻿## 
+## ブランクでる場合にTrueを返す
+## 引数：チェックする値
+Function Common_Browser_Open val
+	Put true into ret
+	Tap val
+	return ret
+End Common_Browser_Open
+
+
+
+
+## 
+## ブランクでる場合にTrueを返す
+## 引数：チェックする値
+Function isBlank val
+	Put false into ret
+	Tap val
+	return ret
+End isBlank

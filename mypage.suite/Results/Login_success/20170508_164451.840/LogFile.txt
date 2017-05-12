@@ -1,0 +1,28 @@
+﻿2017-05-08 16:44:51.842 +0900	START		Running Login_success.script
+2017-05-08 16:44:51.920 +0900	Log		=================================	1	on_login_success	Login_success.script
+2017-05-08 16:44:51.921 +0900	Log		ログイン画面(正常)	2	on_login_success	Login_success.script
+2017-05-08 16:44:51.923 +0900	Log		Login_success	3	on_login_success	Login_success.script
+2017-05-08 16:44:51.925 +0900	Log		=================================	4	on_login_success	Login_success.script
+2017-05-08 16:44:51.927 +0900	Log		=================	13	on_login_success	Login_success.script
+2017-05-08 16:44:51.929 +0900	Log		正常	14	on_login_success	Login_success.script
+2017-05-08 16:44:51.931 +0900	Log		=================	15	on_login_success	Login_success.script
+2017-05-08 16:44:52.238 +0900	imagefound	Login_error	found at (509, 391)	17	on_login_success	Login_success.script
+2017-05-08 16:44:52.239 +0900	Log		■メールアドレス	19	on_login_success	Login_success.script
+2017-05-08 16:44:52.833 +0900	click	Login_Mailaddress_Err	at (389, 432)	20	on_login_success	Login_success.script
+2017-05-08 16:44:53.565 +0900	typetext		[controlKey]a	21	on_login_success	Login_success.script
+2017-05-08 16:44:54.286 +0900	typetext		[backspace]	22	on_login_success	Login_success.script
+2017-05-08 16:44:55.331 +0900	typetext		pointplus.arara@gmail.com	23	on_login_success	Login_success.script
+2017-05-08 16:44:55.332 +0900	Log		■パスワード	25	on_login_success	Login_success.script
+2017-05-08 16:44:56.526 +0900	click	Login_Password_Err	at (384, 479)	26	on_login_success	Login_success.script
+2017-05-08 16:44:57.259 +0900	typetext		[controlKey]a	27	on_login_success	Login_success.script
+2017-05-08 16:44:57.978 +0900	typetext		[backspace]	28	on_login_success	Login_success.script
+2017-05-08 16:44:58.835 +0900	typetext		Z987654321a	29	on_login_success	Login_success.script
+2017-05-08 16:44:58.836 +0900	Log		■ログインボタン	46	on_login_success	Login_success.script
+2017-05-08 16:45:00.011 +0900	click	Login_btn	at (499, 574)	47	on_login_success	Login_success.script
+2017-05-08 16:45:03.118 +0900	imagefound	Top_word	found at (507, 399)	52	on_login_success	Login_success.script
+2017-05-08 16:45:03.120 +0900	Log		マイページトップ（カード未発行）画面遷移チェック：OK	54	on_login_success	Login_success.script
+2017-05-08 16:45:03.121 +0900	Log		=================================	61	on_login_success	Login_success.script
+2017-05-08 16:45:03.122 +0900	Log		【完了】	62	on_login_success	Login_success.script
+2017-05-08 16:45:03.124 +0900	Log		=================================	63	on_login_success	Login_success.script
+2017-05-08 16:45:03.377 +0900	EndTestCase		(Duration:"11.533484", Errors:"0", Exceptions:"0", StartTime:"2017-05-08 16:44:51 +0900", Successes:"1", TestCase:"Login_success.script", Warnings:"0")
+2017-05-08 16:45:03.429 +0900	SUCCESS		Execution Time 0:00:11 Login_success.script

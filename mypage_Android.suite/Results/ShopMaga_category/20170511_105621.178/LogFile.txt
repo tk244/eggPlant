@@ -1,0 +1,26 @@
+﻿2017-05-11 10:56:21.180 +0900	START		Running ShopMaga_category.script
+2017-05-11 10:56:21.273 +0900	Log		=================================	1	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:21.275 +0900	Log		店舗登録	2	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:21.276 +0900	Log		ShopMaga_category	3	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:21.278 +0900	Log		=================================	4	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:24.280 +0900	Log		■登録1	8	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:25.250 +0900	imagefound	ShopMaga_TypeSelect_erea_1_1	found at (565, 810)	9	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:26.319 +0900	tap	ShopMaga_TypeSelect_erea_1_1	at (565, 810)	14	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:29.086 +0900	imagefound	ShopMaga_TypeSelec_Add_msg	found at (168, 722)	15	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:29.087 +0900	Log		登録チェック：OK	17	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:29.088 +0900	Log		■登録2	23	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:29.378 +0900	imagefound	ShopMaga_TypeSelect_erea_1_2	found at (571, 935)	24	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:30.446 +0900	tap	ShopMaga_TypeSelect_erea_1_2	at (571, 935)	29	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:30.892 +0900	imagefound	ShopMaga_TypeSelec_Add_msg	found at (168, 722)	30	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:30.893 +0900	Log		登録チェック：OK	32	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:30.895 +0900	Log		■登録3	38	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:31.132 +0900	imagefound	ShopMaga_TypeSelect_erea_1_3	found at (571, 1059)	39	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:31.399 +0900	tap	ShopMaga_TypeSelect_erea_1_3	at (571, 1059)	44	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:31.478 +0900	imagefound	ShopMaga_TypeSelec_Add_msg	found at (168, 722)	45	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:31.479 +0900	Log		登録チェック：OK	47	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:31.480 +0900	Log		■登録4	53	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:32.584 +0900	imagefound	ShopMaga_TypeSelect_erea_1_4	Unable to Find Image ShopMaga_TypeSelect_erea_1_4 within 1.00 seconds	54	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:32.597 +0900	typetext		[pageDown]	56	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:58.567 +0900	Exception	ShopMaga_TypeSelect_erea_1_4	No Image Found On Screen: "ShopMaga_TypeSelect_erea_1_4"	59	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 10:56:58.811 +0900	EndTestCase		(Duration:"37.629192", Errors:"1", Exceptions:"1", StartTime:"2017-05-11 10:56:21 +0900", Successes:"0", TestCase:"ShopMaga_category.script", Warnings:"0")
+2017-05-11 10:56:58.812 +0900	ABORTED		Execution Time 0:00:37 ShopMaga_category.script

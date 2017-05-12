@@ -1,0 +1,30 @@
+﻿2017-05-11 12:04:51.125 +0900	START		Running UserInfoDelete.script
+2017-05-11 12:04:51.200 +0900	Log		=================================	1	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:51.202 +0900	Log		退会	2	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:51.206 +0900	Log		UserInfoDelete	3	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:51.212 +0900	Log		=================================	4	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:51.213 +0900	Log		■メニュー	6	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:51.990 +0900	tap	menu_btn	at (52, 217)	7	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:53.892 +0900	imagefound	Logout_Link	Unable to Find Image Logout_Link within 1.00 seconds	10	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:54.069 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	12	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:54.070 +0900	Log		■利用登録解除(退会)	15	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:55.121 +0900	tap	Menu_UserInfoDelete_Link	at (531, 1221)	16	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:57.332 +0900	imagefound	UserInfoDelete_word	found at (362, 550)	19	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:57.333 +0900	Log		退会（トップ）画面遷移チェック：OK	21	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:57.335 +0900	Log		■次へボタン	27	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:58.286 +0900	tap	UserInfoDelete_Next_btn	at (356, 736)	28	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:59.144 +0900	imagefound	UserInfoDelete_check_word	found at (357, 540)	31	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:59.145 +0900	Log		退会（確認）画面遷移チェック：OK	33	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:59.147 +0900	Log		■削除ボタン	39	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:04:59.407 +0900	tap	UserInfoDelete_Delete_btn	at (355, 734)	40	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:00.924 +0900	imagefound	UserInfoDelete_End_word	found at (359, 602)	43	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:00.925 +0900	Log		退会（完了）画面遷移チェック：OK	45	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:00.926 +0900	Log		■ログイン画面へボタン	51	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:01.182 +0900	tap	UserInfoDelete_Login_btn	at (353, 835)	52	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:04.060 +0900	imagefound	Login_word	found at (357, 702)	57	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:04.062 +0900	Log		ログイン画面遷移チェック：OK	59	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:04.064 +0900	Log		=================================	77	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:04.066 +0900	Log		【完了】	78	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:04.068 +0900	Log		=================================	79	on_userinfodelete	UserInfoDelete.script
+2017-05-11 12:05:04.283 +0900	EndTestCase		(Duration:"13.157105", Errors:"0", Exceptions:"0", StartTime:"2017-05-11 12:04:51 +0900", Successes:"1", TestCase:"UserInfoDelete.script", Warnings:"0")
+2017-05-11 12:05:04.344 +0900	SUCCESS		Execution Time 0:00:13 UserInfoDelete.script

@@ -1,0 +1,72 @@
+﻿Log "================================="
+Log "My Hotto Mottoからのお知らせ"
+Log "ShopMaga_noShopMaga"
+Log "================================="
+
+Log "■メニュー"
+Click  (Image:"menu_btn", WaitFor:10)
+
+Log "【My Hotto Mottoからのお知らせ】"
+Click "Menu_noShopMaga_Link"
+
+//会員共通メール登録画面遷移チェック1
+If ImageFound(10,"noShopMaga_1_word") then 
+	//検出
+	Log "会員共通メール登録画面遷移チェック1：OK"
+Else
+	//未検出
+	LogError "会員共通メール登録画面遷移チェック1：NG"
+End if
+
+//会員共通メール登録画面遷移チェック
+If ImageFound(10,"noShopMaga_2_word") then 
+//検出
+Log "会員共通メール登録画面遷移チェック2：OK"
+Else
+//未検出
+LogError "会員共通メール登録画面遷移チェック2：NG"
+End if
+
+//解除？
+If ImageFound(3,"ShopMaga_Release_btn") then 
+	//検出
+	Log "解除ボタン"
+	Click "ShopMaga_Release_btn"
+	
+	//登録表示チェック
+	If ImageFound(3,"ShopMaga_Regist_btn") then 
+		//検出
+		Log "登録表示チェック：OK"
+	Else
+		//未検出
+		LogError "登録表示チェック：NG"
+	End if
+	
+Else
+	
+	//登録？
+	If ImageFound(3,"ShopMaga_Regist_btn") then 
+		//検出
+		Log "登録ボタン"
+		Click "ShopMaga_Regist_btn"
+		
+		wait 3
+		
+		//解除表示チェック
+		If ImageFound(3,"ShopMaga_Release_btn") then 
+			//検出
+			Log "解除表示チェック：OK"
+		Else
+			//未検出
+			LogError "解除表示チェック：NG"
+		End if
+	Else
+		//未検出
+		LogError "NG"
+	End if
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

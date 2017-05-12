@@ -1,0 +1,105 @@
+﻿Log "================================="
+Log "ログイン画面(メールアドレス/パスワード保存チェック)"
+Log "Login_infosave_check"
+Log "================================="
+
+Log "【初期状態】"
+
+
+Log "【ログイン成功-チェックボックスON】"
+
+Log "■メールアドレス/パスワード保存ON"
+
+Log "■ログイン成功"
+Login_success
+
+Log "■ログアウト"
+Logout
+
+Log "■ログイン情報チェック"
+
+
+
+Log "【ログイン成功-チェックボックスOFF】"
+
+Log "■メールアドレス/パスワード保存ON"
+
+Log "■ログイン成功"
+Login_success
+
+Log "■ログアウト"
+Logout
+
+Log "■ログイン情報チェック"
+
+
+
+Log "【ログイン失敗-チェックボックスON】"
+
+Log "■メールアドレス/パスワード保存ON"
+
+Log "■ログイン失敗"
+Login_failure
+
+Log "■ログイン情報チェック"
+
+
+
+Log "【ログイン失敗-チェックボックスOFF】"
+
+Log "■メールアドレス/パスワード保存OFF"
+
+Log "■ログイン失敗"
+Login_failure
+
+Log "■ログイン情報チェック"
+
+
+
+Log "【ログイン成功-チェックボックスON-cookie削除】"
+
+Log "■メールアドレス/パスワード保存ON"
+
+Log "■ログイン成功"
+Login_success
+
+Log "■cookie削除"
+Browser_history_delete
+
+Log "■戻る"
+PressBackButton
+wait 2
+
+Log "■HTTPSエラー対応"
+HTTPS
+
+Log "■ログイン情報チェック"
+
+
+
+Log "【cookie無効】"
+
+Log "■cookie無効"
+Browser_cookie_OFF
+
+Log "■ログイン成功"
+Login_success
+
+Log "■cookie無効メッセージチェック"
+
+Log "■cookie有効"
+Browser_cookie_ON
+
+Log "■ログイン成功"
+Login_success
+
+
+
+
+
+
+
+
+
+
+

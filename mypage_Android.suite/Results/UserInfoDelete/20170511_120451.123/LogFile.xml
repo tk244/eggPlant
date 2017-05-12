@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="UserInfoDelete.script" package="mypage_Android.suite" timestamp="2017-05-11 12:04:51.123 +0900"
+ tests="1" successes="1" errors="0" time="13.160065">
+  <properties>
+   <property name="RunDate" value="2017-05-11 12:04:51.123 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="UserInfoDelete.script" assertions="1" successes="1" errors="0" time="13.157105">
+  </testcase>
+ </testsuite>
+</testsuites>

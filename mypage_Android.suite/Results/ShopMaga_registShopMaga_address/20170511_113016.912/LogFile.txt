@@ -1,0 +1,71 @@
+﻿2017-05-11 11:30:16.913 +0900	START		Running ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:16.990 +0900	Log		=================================	1	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:16.993 +0900	Log		お気に入り店舗からのお知らせ(郵便番号から検索)	2	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:16.997 +0900	Log		ShopMaga_registShopMaga_address	3	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:17.002 +0900	Log		=================================	4	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:19.009 +0900	Log		■メニュー	8	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:19.974 +0900	tap	menu_btn	at (52, 217)	9	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:19.976 +0900	Log		【My Hotto Mottoからのお知らせ】	11	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:21.649 +0900	tap	Menu_noShopMaga_Link	at (341, 798)	12	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:21.651 +0900	Log		【お気に入り店舗からのお知らせ】	14	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:23.117 +0900	tap	ShopMaga_registShopMaga	at (544, 319)	15	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:26.087 +0900	imagefound	ShopMaga_registShopMaga_word	found at (356, 544)	20	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:26.087 +0900	Log		お気に入り店舗からのお知らせ画面遷移チェック：OK	22	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:26.089 +0900	Log		■お気に入り店舗追加	28	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:26.350 +0900	tap	ShopMaga_registShopMagaTypeSelect_btn	at (356, 600)	29	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:26.352 +0900	Log		【住所から検索】	31	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:27.581 +0900	tap	shopMaga_registShopMagaTypeSelect_address_btn	at (358, 722)	32	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:27.583 +0900	Log		■未入力チェック	34	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:28.939 +0900	tap	ShopMaga_Title	at (360, 232)	35	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:28.940 +0900	setoption		mouseClickDelay = 2.5	36	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:33.111 +0900	tap	shopMaga_registShopMagaTypeSelect_address	at (102, 657)	37	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:33.113 +0900	setoption		mouseClickDelay = 0.02	38	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:34.758 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:30:34.773 +0900	typetext		[backspace]	40	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:34.774 +0900	Log		■検索ボタン	42	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:35.734 +0900	tap	ShopMaga_Title	at (360, 232)	43	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:37.427 +0900	tap	shopMaga_registShopMagaTypeSelect_address_search	at (356, 857)	44	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:38.901 +0900	imagefound	shopMaga_registShopMagaTypeSelect_address_msg	found at (281, 639)	46	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:38.902 +0900	Log		未入力チェック：OK	48	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:38.904 +0900	Log		■正常検索	54	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:38.906 +0900	Log		■住所入力	60	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:39.169 +0900	tap	ShopMaga_Title	at (360, 232)	61	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:39.171 +0900	setoption		mouseClickDelay = 2.5	62	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:43.277 +0900	tap	shopMaga_registShopMagaTypeSelect_address	at (102, 717)	63	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:43.279 +0900	setoption		mouseClickDelay = 0.02	64	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:44.411 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 11:30:44.426 +0900	typetext		[backspace]	66	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:45.173 +0900	typetext		北海道	67	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:45.174 +0900	Log		■検索ボタン	69	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:46.597 +0900	tap	ShopMaga_Title	at (360, 232)	70	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:48.296 +0900	tap	shopMaga_registShopMagaTypeSelect_address_search	at (356, 917)	71	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:48.297 +0900	Log		■店舗登録	73	on_shopmaga_registshopmaga_address	ShopMaga_registShopMaga_address.script
+2017-05-11 11:30:48.307 +0900	Log		=================================	1	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:48.309 +0900	Log		店舗登録	2	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:48.310 +0900	Log		ShopMaga_category	3	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:48.312 +0900	Log		=================================	4	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:51.314 +0900	Log		■登録1	8	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:52.221 +0900	imagefound	ShopMaga_TypeSelect_erea_1_1	found at (565, 1176)	9	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:52.645 +0900	tap	ShopMaga_TypeSelect_erea_1_1	at (565, 1176)	14	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:54.952 +0900	imagefound	ShopMaga_TypeSelec_Add_msg	found at (168, 622)	15	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:55.884 +0900	imagefound	ShopMaga_TypeSelect_erea_1_1Rs	found at (570, 1209)	17	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:55.884 +0900	Log		登録チェック：OK	19	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:55.886 +0900	Log		■登録2	29	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:59.249 +0900	imagefound	ShopMaga_TypeSelect_erea_1_2	Unable to Find Image ShopMaga_TypeSelect_erea_1_2 within 3.00 seconds	30	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:30:59.261 +0900	typetext		[pageDown]	32	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:00.454 +0900	tap	ShopMaga_TypeSelect_erea_1_2	at (571, 361)	35	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:04.773 +0900	imagefound	ShopMaga_TypeSelec_Add_msg	found at (168, 622)	36	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:11.854 +0900	imagefound	ShopMaga_TypeSelect_erea_1_2Rs	Unable to Find Image ShopMaga_TypeSelect_erea_1_2Rs within 7.00 seconds	38	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:11.855 +0900	LogError		登録チェック：NG	43	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:11.857 +0900	Log		■登録3	51	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:15.477 +0900	imagefound	ShopMaga_TypeSelect_erea_1_3	Unable to Find Image ShopMaga_TypeSelect_erea_1_3 within 3.00 seconds	52	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:15.490 +0900	typetext		[pageDown]	54	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:16.668 +0900	tap	ShopMaga_TypeSelect_erea_1_3	at (571, 485)	57	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:18.790 +0900	imagefound	ShopMaga_TypeSelec_Add_msg	found at (168, 622)	58	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:26.216 +0900	imagefound	ShopMaga_TypeSelect_erea_1_3Rs	Unable to Find Image ShopMaga_TypeSelect_erea_1_3Rs within 7.00 seconds	60	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:26.217 +0900	LogError		登録チェック：NG	65	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:26.219 +0900	Log		■登録4	72	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:29.938 +0900	imagefound	ShopMaga_TypeSelect_erea_1_4	Unable to Find Image ShopMaga_TypeSelect_erea_1_4 within 3.00 seconds	73	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:29.952 +0900	typetext		[pageDown]	75	on_shopmaga_category	ShopMaga_category.script
+2017-05-11 11:31:30.479 +0900	EndTestCase		(Duration:"73.564581", Errors:"3", Exceptions:"0", StartTime:"2017-05-11 11:30:16 +0900", Successes:"0", TestCase:"ShopMaga_registShopMaga_address.script", Warnings:"0")
+2017-05-11 11:31:30.480 +0900	ABORTED		Execution Time 0:01:13 ShopMaga_registShopMaga_address.script

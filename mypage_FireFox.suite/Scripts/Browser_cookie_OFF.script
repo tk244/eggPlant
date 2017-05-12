@@ -1,0 +1,30 @@
+﻿Log "================================="
+Log "Cookie無効"
+Log "Browser_cookie_OFF"
+Log "================================="
+
+Log "■ブラウザメニュー"
+Click  (Image:"Browser_menu", WaitFor:10)
+
+Log "■オプション"
+Click  (Image:"Browser_menu_option", WaitFor:10)
+
+Log "■プライバシー"
+Click  (Image:"Browser_menu_option_privacy", WaitFor:10)
+
+If not ImageFound(1,"Browser_menu_option_privacy_save_set") then 
+	Log "■記憶させる履歴を詳細設定する"
+	Click  (Image:"Browser_menu_option_privacy_notsave", WaitFor:10)
+	
+	Log "■履歴を一切記憶させない"
+	Tap  (Image:"Browser_menu_option_privacy_save_set", WaitFor:10)
+end if
+
+Log "■Cookie無効"
+Click  (Image:"Browser_menu_option_privacy_save_set_cookie_OFF", WaitFor:10)
+
+Log "■ブラウザ閉じる"
+Browser_Close
+
+Log "■ブラウザ開く"
+Browser_Open

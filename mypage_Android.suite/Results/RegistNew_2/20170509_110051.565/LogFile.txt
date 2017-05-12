@@ -1,0 +1,39 @@
+﻿2017-05-09 11:00:51.567 +0900	START		Running RegistNew_2.script
+2017-05-09 11:00:51.636 +0900	Log		■正常登録	1	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:51.644 +0900	Log		■パスワード	10	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:52.598 +0900	tap	RegistNew_title	at (370, 230)	11	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:54.697 +0900	imagefound	Input_keybord	Unable to Find Image Input_keybord within 1.00 seconds	2	on_common_input_keybord_vanish	Common_Input_Keybord_Vanish.script
+2017-05-09 11:00:54.916 +0900	tap	RegistNew_PasswordInsert_Password	at (94, 784)	13	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:57.214 +0900	waitfor	Input_keybord	found at (287, 1218)	2	on_common_input_keybord	Common_Input_Keybord.script
+2017-05-09 11:00:57.564 +0900	doubletap	RegistNew_PasswordInsert_Password	at (94, 420)	15	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:58.938 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:00:58.969 +0900	typetext		[backspace]	17	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:59.815 +0900	typetext		a123456789	18	on_registnew_2	RegistNew_2.script
+2017-05-09 11:00:59.816 +0900	Log		■パスワード再入力	20	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:01.261 +0900	tap	RegistNew_title	at (370, 230)	21	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:03.465 +0900	imagefound	Input_keybord	Unable to Find Image Input_keybord within 1.00 seconds	2	on_common_input_keybord_vanish	Common_Input_Keybord_Vanish.script
+2017-05-09 11:01:04.542 +0900	tap	RegistNew_PasswordInsert_PasswordRe	at (96, 767)	23	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:07.087 +0900	waitfor	Input_keybord	found at (287, 1218)	2	on_common_input_keybord	Common_Input_Keybord.script
+2017-05-09 11:01:07.615 +0900	doubletap	RegistNew_PasswordInsert_PasswordRe	at (96, 419)	25	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:09.203 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:01:09.240 +0900	typetext		[backspace]	27	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:10.082 +0900	typetext		a123456789	28	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:10.084 +0900	Log		■生年月日	30	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:11.551 +0900	tap	RegistNew_title	at (370, 230)	31	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:13.687 +0900	imagefound	Input_keybord	Unable to Find Image Input_keybord within 1.00 seconds	2	on_common_input_keybord_vanish	Common_Input_Keybord_Vanish.script
+2017-05-09 11:01:13.893 +0900	tap	RegistNew_PasswordInsert_Birthday	at (96, 902)	33	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:16.249 +0900	waitfor	Input_keybord	found at (287, 1218)	2	on_common_input_keybord	Common_Input_Keybord.script
+2017-05-09 11:01:17.031 +0900	doubletap	RegistNew_PasswordInsert_Birthday	at (96, 416)	35	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:17.685 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:01:18.689 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:01:19.402 +0900	typetext		[backspace]	37	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:20.217 +0900	typetext		19951231	38	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:20.218 +0900	Log		■次へボタン	40	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:21.141 +0900	tap	RegistNew_title	at (370, 230)	41	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:22.204 +0900	tap	RegistNew_PasswordInsert_Next_btn	at (356, 1109)	42	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:22.206 +0900	Log		【カード情報登録】	45	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:32.494 +0900	imagefound	RegistNew_CardNumberInsert_word	Unable to Find Image RegistNew_CardNumberInsert_word within 10.00 seconds	48	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:32.497 +0900	LogError		会員登録（カード情報登録）画面遷移チェック：NG	53	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:32.499 +0900	Log		■カード番号を入力してモバイルカードを発行	56	on_registnew_2	RegistNew_2.script
+2017-05-09 11:01:40.704 +0900	EndTestCase		(Duration:"49.135919", Errors:"2", Exceptions:"0", StartTime:"2017-05-09 11:00:51 +0900", Successes:"0", TestCase:"RegistNew_2.script", Warnings:"0")
+2017-05-09 11:01:40.706 +0900	ABORTED		Execution Time 0:00:49 RegistNew_2.script

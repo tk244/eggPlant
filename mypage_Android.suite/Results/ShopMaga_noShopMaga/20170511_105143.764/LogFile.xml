@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="ShopMaga_noShopMaga.script" package="mypage_Android.suite" timestamp="2017-05-11 10:51:43.764 +0900"
+ tests="1" successes="1" errors="0" time="8.294966">
+  <properties>
+   <property name="RunDate" value="2017-05-11 10:51:43.764 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="ShopMaga_noShopMaga.script" assertions="1" successes="1" errors="0" time="8.292936">
+  </testcase>
+ </testsuite>
+</testsuites>

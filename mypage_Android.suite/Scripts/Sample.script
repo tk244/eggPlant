@@ -1,0 +1,100 @@
+﻿Put "" into blank
+
+Log common.Common_Browser_Open("Chrome")
+
+
+Log common's isBlank("Chrome")
+
+TypeText "pointplus.arara@gmail.com"
+
+TypeText Return 
+
+TypeText "ああああああああああああああああああああああああああああああああああああああああ"
+
+Log "■アプリケーションキー"
+TypeText applicationKey
+
+//Mailer起動
+Log "■Mailer起動"
+Tap (Image:"Mailer", WaitFor:120)
+
+//Mailer戻る
+Log "■Mailer戻る"
+If ImageFound(3,"Mailer_back") then 		
+	//検出
+	//Mailer戻る
+	Log "■Mailer戻る"
+	Tap "Mailer_back"
+End if
+
+
+global dog -- declares dog as a global var
+
+Put "Hello" into dog -- stores a string in dog
+
+
+//無限ループ
+repeat 100 times	
+	
+	wait 2
+	
+	If ImageFound(3,"SearchPassword_Title") then 		
+		//検出
+		//メール件名選択
+		Log "■メールを開く"
+		Tap "SearchPassword_Title", "SearchPassword_Title"
+		exit repeat
+	End if
+	
+	//メールメニュー
+	Tap "Mail_manu"
+	
+	//更新
+	Tap "Mail_manu_update"		
+	
+end repeat
+
+//メール本文(URL)選択
+Log "■メール本文(URL)選択"
+Tap "SearchPassword_Url"
+
+
+
+
+If ImageFound (Text:"3,000", WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック：NG"
+End if
+
+
+//無限ループ
+repeat 100 times	
+	
+	Log "■My Hotto Mottoからのお知らせ"
+	Tap  (Image:"menu_btn", WaitFor:10)
+	Tap "Menu_noShopMaga_Link"
+	If ImageFound(10,"ScreenTransition_noShopMaga") then
+		//検出
+		Log "画面遷移チェック：OK"
+	Else
+		//未検出
+		LogError "画面遷移チェック：NG"
+	End if
+	
+	Log "■戻る"
+	PressBackButton
+	
+	wait 2
+end repeat
+
+
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_Birthday", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText Birthday

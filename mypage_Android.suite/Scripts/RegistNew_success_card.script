@@ -1,0 +1,323 @@
+﻿Log "================================="
+Log "新規会員登録(カード登録)"
+Log "RegistNew_success_card"
+Log "================================="
+
+Log "--------------------------------------"
+Log "新規登録"
+Log "--------------------------------------"
+
+Log "■新規登録はこちら"
+Tap "Login_UserInfoInsert_btn"
+
+Log "■同意して登録する(空メール)"
+Tap "UserInfoInsert_MailExecute"
+
+//メール送信
+Log "■メール送信"
+Tap "MailSend"
+
+wait 3
+
+//Mailer戻る
+Log "■Mailer戻る"
+If ImageFound(3,"Mailer_back") then 		
+	//検出
+	//Mailer戻る
+	Log "■Mailer戻る"
+	Tap "Mailer_back"
+End if
+
+//無限ループ
+repeat 100 times	
+	
+	wait 2
+	
+	If ImageFound(3,"MailTitle") then 		
+		//検出
+		//メール件名選択
+		Log "■メールを開く"
+		Tap "MailTitle"
+		exit repeat
+	End if
+	
+	//メールメニュー
+	Tap "Mail_manu"
+	
+	//更新
+	Tap "Mail_manu_update"		
+	
+end repeat
+
+
+//メール本文(URL)選択
+Log "■本文(URL)選択"
+Tap  (Image:"MailUrl", WaitFor:10)
+
+
+Log "【パスワード・生年月日入力】"
+
+//会員登録（パスワード・生年月日入力）画面遷移チェック
+If ImageFound(10,"RegistNew_passwordInsert_word") then 
+	//検出
+	Log "会員登録（パスワード・生年月日入力）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（パスワード・生年月日入力）画面遷移チェック：NG"
+End if
+
+
+Log "■正常登録"
+put ResourcePath("UserInfo1.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mail
+	put item 2 of it into pass
+	put item 3 of it into pass_new
+	put item 4 of it into Birthday	
+end repeat
+
+Log "■パスワード"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_PasswordInsert_Password", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_PasswordInsert_Password"
+Common_AllSelect
+TypeText backspace
+TypeText pass
+
+Log "■パスワード再入力"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_PasswordInsert_PasswordRe", WaitFor:2)
+Common_Input_Keybord	
+DoubleTap "RegistNew_PasswordInsert_PasswordRe"
+Common_AllSelect
+TypeText backspace
+TypeText pass
+
+Log "■生年月日"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_PasswordInsert_Birthday", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_PasswordInsert_Birthday"
+Common_AllSelect
+TypeText backspace
+TypeText Birthday
+
+Log "■次へボタン"
+Tap "RegistNew_title"
+tap "RegistNew_PasswordInsert_Next_btn"
+
+
+Log "【カード情報登録】"
+
+//会員登録（カード情報登録）画面遷移チェック
+If ImageFound(10,"RegistNew_CardNumberInsert_word") then 
+	//検出
+	Log "会員登録（カード情報登録）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（カード情報登録）画面遷移チェック：NG"
+End if
+
+Log "■カード番号を入力してモバイルカードを発行"
+Tap "RegistNew_CardNumberInsert_radio2"
+
+Log "次へボタン"
+Tap "RegistNew_CardNumberInsert_Next_btn"
+
+Log "■入力チェック"
+CardnumberInsertcheck
+
+Log "■正常登録"
+put ResourcePath("CardNumberInsert.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into card
+	put item 2 of it into pin
+end repeat
+
+Log "■カード番号"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"cardInfoEdit_card", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "cardInfoEdit_card"
+Common_AllSelect
+TypeText backspace
+TypeText card
+
+Log "■ＰＩＮ番号"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"cardInfoEdit_pin", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "cardInfoEdit_pin"
+Common_AllSelect
+TypeText backspace
+TypeText pin
+
+Log "■次へボタン"
+Tap "RegistNew_title"
+Tap "cardInfoEdit_next_btn"
+
+
+Log "【追加属性入力】"
+
+//会員登録（追加属性入力）画面遷移チェック1
+If ImageFound(10,"RegistNew_word") then 
+	//検出
+	Log "会員登録（追加属性入力）画面チェック1：OK"
+Else
+	//未検出
+	LogError "会員登録（追加属性入力）画面チェック1：NG"
+End if
+
+TypeText pageDown 
+
+//会員登録（追加属性入力）画面遷移チェック2
+If ImageFound(10,"RegistNew_word2") then 
+	//検出
+	Log "会員登録（追加属性入力）画面チェック2：OK"
+Else
+	//未検出
+	LogError "会員登録（追加属性入力）画面チェック2：NG"
+End if
+
+SwipeDown
+SwipeDown
+SwipeDown
+
+Log "■正常登録"
+
+put ResourcePath("UserInfo2.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into fn
+	put item 2 of it into ln
+	put item 3 of it into fkana
+	put item 4 of it into lkana
+	put item 5 of it into post
+end repeat
+
+Log "■姓"
+Tap "RegistNew_title"
+Tap (Image:"RegistNew_InfoInsert_FirstName", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_InfoInsert_FirstName"
+Common_AllSelect
+TypeText backspace
+TypeText fn
+
+Log "■名"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_InfoInsert_LastName", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_InfoInsert_LastName"
+Common_AllSelect
+TypeText backspace
+TypeText ln
+
+Log "■セイ"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_InfoInsert_FirstNameKana", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_InfoInsert_FirstNameKana"
+Common_AllSelect
+TypeText backspace
+TypeText fkana	
+
+Log "■メイ"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_InfoInsert_LastNameKana", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_InfoInsert_LastNameKana"
+Common_AllSelect
+TypeText backspace
+TypeText lkana	
+
+Log "■郵便番号"
+Tap "RegistNew_title"
+Common_Input_Keybord_Vanish
+Tap (Image:"RegistNew_InfoInsert_Postcode", WaitFor:2)
+Common_Input_Keybord
+DoubleTap "RegistNew_InfoInsert_Postcode"
+Common_AllSelect
+TypeText backspace
+TypeText postcode
+	
+Log "■性別(女性)"
+Tap "RegistNew_title"
+Tap "RegistNew_InfoInsert_female"
+
+Log "■都道府県(神奈川県)"
+Tap "RegistNew_InfoInsert_prefecture"
+If not  ImageFound(1,"RegistNew_InfoInsert_prefecture_Kanagawa") then 
+	//未検出
+	SwipeUp
+	If not  ImageFound(1,"RegistNew_InfoInsert_prefecture_Kanagawa") then 
+		//未検出
+		SwipeUp
+	End if
+End if
+Tap "RegistNew_InfoInsert_prefecture_Kanagawa"
+
+Log "■メルマガ受信形式(テキスト)"
+Tap "RegistNew_InfoInsert_maga_text"
+
+Log "■職業(無職)"
+Tap "RegistNew_InfoInsert_job"
+Tap "RegistNew_InfoInsert_job_Unemployed"
+
+Log "■世帯構成(その他)"
+Tap "RegistNew_InfoInsert_family"
+Tap "RegistNew_InfoInsert_family_etc"
+
+Log "■確認ボタン"
+//スワイプ対応
+If not  ImageFound(1,"RegistNew_InfoInsert_Check_btn") then 
+	//未検出
+	SwipeUp 
+End if
+Tap "RegistNew_InfoInsert_Check_btn"
+
+
+//入力値チェック1
+If ImageFound(10,"RegistNew_InfoInsert_Screen_check1") then 
+	//検出
+	Log "入力値チェック1：OK"
+Else
+	//未検出
+	LogError "入力値チェック1：NG"
+End if
+
+TypeText pageDown 
+
+//入力値チェック2
+If ImageFound(10,"RegistNew_InfoInsert_Screen_check2") then 
+	//検出
+	Log "入力値チェック2：OK"
+Else
+	//未検出
+	LogError "入力値チェック2：NG"
+End if
+
+//会員登録（完了）画面遷移チェック
+If ImageFound(10,"RegistNew_End_word") then 
+	//検出
+	Log "会員登録（完了）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（完了）画面遷移チェック：NG"
+End if
+
+Log "お気に入り店舗メルマガ登録へボタン"
+click  (Image:"RegistNew_InfoInsertDone_ShopMaga_btn", WaitFor:10)
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

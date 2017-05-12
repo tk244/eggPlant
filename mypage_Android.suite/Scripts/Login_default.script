@@ -1,0 +1,82 @@
+﻿Log "================================="
+Log "ログイン画面(デフォルト)"
+Log "Login_default"
+Log "================================="
+
+put ResourcePath("Login_default.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into pass
+end repeat
+
+Log "================="
+Log "正常"
+Log "================="
+
+If ImageFound(3,"Login_error") then 
+	//検出		
+	Log "■メールアドレス"
+	Tap "Login_msg"
+	SetOption mouseClickDelay,2.5
+	Tap (Image:"Login_Mailaddress_Err", WaitFor:2)
+	SetOption mouseClickDelay,0.02
+	Common_AllSelect
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Tap "Login_msg"
+	SetOption mouseClickDelay,2.5
+	Tap (Image:"Login_Password_Err", WaitFor:2)
+	SetOption mouseClickDelay,0.02
+	Common_AllSelect
+	TypeText backspace
+	TypeText pass
+	
+Else
+	//未検出
+	Log "■メールアドレス"
+	Tap "Login_msg"
+	SetOption mouseClickDelay,2.5
+	Tap (Image:"Login_Mailaddress", WaitFor:2)
+	SetOption mouseClickDelay,0.02
+	Common_AllSelect
+	TypeText backspace
+	TypeText mailaddress
+	
+	Log "■パスワード"
+	Tap "Login_msg"
+	SetOption mouseClickDelay,2.5
+	Tap (Image:"Login_Password", WaitFor:2)
+	SetOption mouseClickDelay,0.02
+	Common_AllSelect
+	TypeText backspace
+	TypeText pass
+	
+End if
+
+
+Log "■ログインボタン"
+If ImageFound(1,"Login_msg") then 	
+	//検出
+	Tap "Login_msg"
+Else
+	//未検出
+	Tap "Login_cookie_Invalid_word"
+End if
+
+Tap "Login_btn"
+
+(*Log "【ロゴ】"
+If ImageFound(30,"Top_logo_word") then 	
+	//検出
+	Log "ロゴチェック：OK"
+Else
+	//未検出
+	LogError "ロゴチェック：NG"
+End if*)
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

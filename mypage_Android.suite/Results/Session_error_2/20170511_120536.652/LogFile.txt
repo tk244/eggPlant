@@ -1,0 +1,72 @@
+﻿2017-05-11 12:05:36.653 +0900	START		Running Session_error_2.script
+2017-05-11 12:05:36.730 +0900	Log		=================================	1	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:36.732 +0900	Log		セッションエラー(ホームボタン追加)	2	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:36.733 +0900	Log		Session_error2	3	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:36.735 +0900	Log		=================================	4	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:36.758 +0900	Log		=================================	1	on_login_default	Login_default.script
+2017-05-11 12:05:36.759 +0900	Log		ログイン画面(デフォルト)	2	on_login_default	Login_default.script
+2017-05-11 12:05:36.761 +0900	Log		Login_default	3	on_login_default	Login_default.script
+2017-05-11 12:05:36.762 +0900	Log		=================================	4	on_login_default	Login_default.script
+2017-05-11 12:05:36.765 +0900	Log		=================	12	on_login_default	Login_default.script
+2017-05-11 12:05:36.767 +0900	Log		正常	13	on_login_default	Login_default.script
+2017-05-11 12:05:36.771 +0900	Log		=================	14	on_login_default	Login_default.script
+2017-05-11 12:05:40.013 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	16	on_login_default	Login_default.script
+2017-05-11 12:05:40.015 +0900	Log		■メールアドレス	38	on_login_default	Login_default.script
+2017-05-11 12:05:40.233 +0900	tap	Login_msg	at (364, 483)	39	on_login_default	Login_default.script
+2017-05-11 12:05:40.235 +0900	setoption		mouseClickDelay = 2.5	40	on_login_default	Login_default.script
+2017-05-11 12:05:44.343 +0900	tap	Login_Mailaddress	at (144, 606)	41	on_login_default	Login_default.script
+2017-05-11 12:05:44.345 +0900	setoption		mouseClickDelay = 0.02	42	on_login_default	Login_default.script
+2017-05-11 12:05:45.503 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:05:45.523 +0900	typetext		[backspace]	44	on_login_default	Login_default.script
+2017-05-11 12:05:46.701 +0900	typetext		pointplus_arara_default@yahoo.co.jp	45	on_login_default	Login_default.script
+2017-05-11 12:05:46.704 +0900	Log		■パスワード	47	on_login_default	Login_default.script
+2017-05-11 12:05:47.639 +0900	tap	Login_msg	at (364, 483)	48	on_login_default	Login_default.script
+2017-05-11 12:05:47.640 +0900	setoption		mouseClickDelay = 2.5	49	on_login_default	Login_default.script
+2017-05-11 12:05:51.725 +0900	tap	Login_Password	at (141, 698)	50	on_login_default	Login_default.script
+2017-05-11 12:05:51.727 +0900	setoption		mouseClickDelay = 0.02	51	on_login_default	Login_default.script
+2017-05-11 12:05:52.914 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-11 12:05:52.929 +0900	typetext		[backspace]	53	on_login_default	Login_default.script
+2017-05-11 12:05:53.753 +0900	typetext		a12345678	54	on_login_default	Login_default.script
+2017-05-11 12:05:53.754 +0900	Log		■ログインボタン	59	on_login_default	Login_default.script
+2017-05-11 12:05:53.963 +0900	imagefound	Login_msg	found at (364, 483)	60	on_login_default	Login_default.script
+2017-05-11 12:05:55.088 +0900	tap	Login_msg	at (364, 483)	62	on_login_default	Login_default.script
+2017-05-11 12:05:56.728 +0900	tap	Login_btn	at (353, 915)	68	on_login_default	Login_default.script
+2017-05-11 12:05:56.730 +0900	Log		=================================	80	on_login_default	Login_default.script
+2017-05-11 12:05:56.732 +0900	Log		【完了】	81	on_login_default	Login_default.script
+2017-05-11 12:05:56.733 +0900	Log		=================================	82	on_login_default	Login_default.script
+2017-05-11 12:05:56.736 +0900	Log		■ブラウザメニュー	8	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:58.356 +0900	tap	Browser_manu	at (674, 104)	9	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:58.358 +0900	Log		■ホーム画面に追加	11	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:59.654 +0900	tap	Browser_manu_homeadd	at (359, 970)	12	on_session_error_2	Session_error_2.script
+2017-05-11 12:05:59.656 +0900	Log		■追加ボタン	14	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:01.279 +0900	tap	Browser_manu_homeadd_add	at (579, 780)	15	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:01.281 +0900	Log		■ブラウザ履歴削除	17	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:01.286 +0900	Log		=================================	1	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:01.288 +0900	Log		ブラウザ履歴削除	2	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:01.289 +0900	Log		Browser_history_delete	3	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:01.290 +0900	Log		=================================	4	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:01.292 +0900	Log		■ブラウザメニュー	6	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:02.285 +0900	tap	Browser_manu	at (674, 104)	7	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:02.286 +0900	Log		■履歴	9	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:03.177 +0900	tap	Browser_manu_history	at (282, 580)	10	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:03.181 +0900	Log		■閲覧履歴データの消去...	12	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:05.944 +0900	tap	Browser_manu_history_delete	at (352, 1237)	13	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:05.947 +0900	Log		■データを削除ボタン	15	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:07.342 +0900	tap	Browser_manu_history_delete_Done	at (171, 952)	16	on_browser_history_delete	Browser_history_delete.script
+2017-05-11 12:06:07.347 +0900	Log		■ホームボタン	20	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:08.046 +0900	presshomebutton			21	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:08.047 +0900	Log		■マイページアイコン起動	23	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:09.953 +0900	tap	MyPageAppli_btn	at (281, 185)	24	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:09.955 +0900	Log		■HTTPSエラー	26	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:12.582 +0900	imagefound	Browser_setdetail_btn	found at (367, 1180)	1	on_https	HTTPS.script
+2017-05-11 12:06:12.583 +0900	Log		詳細設定	2	on_https	HTTPS.script
+2017-05-11 12:06:13.537 +0900	tap	Browser_setdetail_btn	at (367, 1180)	3	on_https	HTTPS.script
+2017-05-11 12:06:13.539 +0900	Log		安全ではありません	5	on_https	HTTPS.script
+2017-05-11 12:06:14.444 +0900	tap	Browser_notsafe_btn	at (537, 807)	6	on_https	HTTPS.script
+2017-05-11 12:06:24.862 +0900	imagefound	Login_word	Unable to Find Image Login_word within 10.00 seconds	46	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:24.866 +0900	LogError		ログイン画面遷移チェック：NG	51	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:24.867 +0900	Log		=================================	55	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:24.869 +0900	Log		【完了】	56	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:24.871 +0900	Log		=================================	57	on_session_error_2	Session_error_2.script
+2017-05-11 12:06:25.095 +0900	EndTestCase		(Duration:"48.4402", Errors:"1", Exceptions:"0", StartTime:"2017-05-11 12:05:36 +0900", Successes:"0", TestCase:"Session_error_2.script", Warnings:"0")
+2017-05-11 12:06:25.124 +0900	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:00:48 Session_error_2.script

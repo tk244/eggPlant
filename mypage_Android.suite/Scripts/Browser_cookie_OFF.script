@@ -1,0 +1,31 @@
+﻿Log "================================="
+Log "Cookie無効"
+Log "Browser_cookie_OFF"
+Log "================================="
+
+Log "■ブラウザメニュー"
+Tap  (Image:"Browser_manu", WaitFor:10)
+
+Log "■設定"
+Tap  (Image:"Browser_manu_set", WaitFor:10)
+
+Log "■サイトの設定"
+Tap  (Image:"Browser_manu_set_site", WaitFor:10)
+
+Log "■Cookie"
+Tap  (Image:"Browser_manu_set_site_cookie", WaitFor:10)
+
+Log "■Cookie無効"
+Tap  (Image:"Browser_manu_set_site_cookie_OFF", WaitFor:10)
+
+Log "■戻る"
+PressBackButton
+wait 1
+
+Log "■戻る"
+PressBackButton
+wait 1
+
+Log "■戻る"
+PressBackButton
+wait 1

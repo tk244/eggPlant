@@ -1,0 +1,183 @@
+﻿2017-05-09 11:35:40.649 +0900	START		Running RegistNew_Inputcheck.script
+2017-05-09 11:35:40.740 +0900	Log		=================================	1	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:40.742 +0900	Log		会員情報登録(入力チェック)	2	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:40.744 +0900	Log		RegistNew_Inputcheck	3	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:40.745 +0900	Log		=================================	4	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:41.752 +0900	Log		■ループ：1	17	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:41.948 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	19	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:42.816 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	20	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:43.697 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	21	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:43.697 +0900	Log		■姓	23	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:45.418 +0900	tap	RegistNew_title	at (370, 230)	24	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:45.420 +0900	setoption		mouseClickDelay = 2.5	25	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:49.644 +0900	tap	RegistNew_InfoInsert_FirstName	at (105, 559)	26	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:49.646 +0900	setoption		mouseClickDelay = 0.02	27	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:50.779 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:35:50.839 +0900	typetext		[backspace]	29	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:51.828 +0900	typetext		山田山田山田山田山田山田山田山田山田山田Ｙ	30	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:51.829 +0900	Log		■名	32	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:52.788 +0900	tap	RegistNew_title	at (370, 230)	33	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:52.789 +0900	setoption		mouseClickDelay = 2.5	34	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:56.959 +0900	tap	RegistNew_InfoInsert_LastName	at (99, 691)	35	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:56.961 +0900	setoption		mouseClickDelay = 0.02	36	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:58.230 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:35:58.291 +0900	typetext		[backspace]	38	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:59.286 +0900	typetext		太郎太郎太郎太郎太郎太郎太郎太郎太郎太郎Ｔ	39	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:35:59.288 +0900	Log		■セイ	41	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:00.775 +0900	tap	RegistNew_title	at (370, 230)	42	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:00.777 +0900	setoption		mouseClickDelay = 2.5	43	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:04.960 +0900	tap	RegistNew_InfoInsert_FirstNameKana	at (102, 832)	44	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:04.963 +0900	setoption		mouseClickDelay = 0.02	45	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:06.635 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:36:06.675 +0900	typetext		[backspace]	47	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:07.669 +0900	typetext		ヤマダヤマダヤマダヤマダヤマダヤマダヤマダ	48	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:07.671 +0900	Log		■メイ	50	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:36:09.016 +0900	tap	RegistNew_title	at (370, 230)	51	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:30.120 +0900	setoption		mouseClickDelay = 2.5	52	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:40.420 +0900	tap	RegistNew_InfoInsert_LastNameKana	at (107, 968)	53	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:40.423 +0900	setoption		mouseClickDelay = 0.02	54	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:41.572 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:37:41.588 +0900	typetext		[backspace]	56	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:42.567 +0900	typetext		タロウタロウタロウタロウタロウタロウタロウ	57	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:42.568 +0900	Log		■郵便番号	59	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:43.586 +0900	tap	RegistNew_title	at (370, 230)	60	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:43.587 +0900	setoption		mouseClickDelay = 2.5	61	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:47.754 +0900	tap	RegistNew_InfoInsert_Postcode	at (101, 1123)	62	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:47.756 +0900	setoption		mouseClickDelay = 0.02	63	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:48.977 +0900	imagefound	AllSelect	Unable to Find Image AllSelect within 1.00 seconds	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:37:49.028 +0900	typetext		[backspace]	65	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:49.842 +0900	typetext		12345678	66	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:49.844 +0900	Log		■確認ボタン	68	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:51.386 +0900	tap	RegistNew_title	at (370, 230)	69	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:53.016 +0900	imagefound	RegistNew_InfoInsert_Check_btn	Unable to Find Image RegistNew_InfoInsert_Check_btn within 1.00 seconds	71	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:53.029 +0900	typetext		[pageDown]	73	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:56.027 +0900	tap	RegistNew_InfoInsert_Check_btn	at (360, 1141)	76	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:57.639 +0900	waitfor	RegistNew_InfoInsert_Required_word	found at (210, 431)	78	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:57.869 +0900	imagefound	UserInfoEdit_FitstName_len_Err	found at (340, 818)	82	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:57.870 +0900	Log		[姓]文字数チェック：OK	84	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:58.095 +0900	imagefound	UserInfoEdit_LastName_len_Err	found at (346, 1047)	90	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:58.096 +0900	Log		[名]文字数チェック：OK	92	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:59.025 +0900	imagefound	UserInfoEdit_FristName_kana_len_Err	found at (346, 1256)	99	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:59.685 +0900	imagefound	UserInfoEdit_FristName_kana_len_Err	found at (346, 1256)	104	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:37:59.686 +0900	Log		[セイ]文字数チェック：OK	106	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:02.409 +0900	imagefound	UserInfoEdit_LastName_kana_len_Err	Unable to Find Image UserInfoEdit_LastName_kana_len_Err within 2.00 seconds	113	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:02.422 +0900	typetext		[pageDown]	115	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:05.358 +0900	imagefound	UserInfoEdit_LastName_kana_len_Err	found at (355, 523)	118	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:05.359 +0900	Log		[メイ]文字数チェック：OK	120	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:06.287 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (360, 783)	175	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:06.288 +0900	Log		■郵便番号：入力チェック	180	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:07.211 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (360, 783)	181	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:07.212 +0900	Log		[郵便番号]チェック：OK	183	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:08.220 +0900	Log		■ループ：2	17	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:08.408 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	19	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:09.275 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	20	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:10.151 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	21	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:10.153 +0900	Log		■姓	23	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:11.877 +0900	tap	RegistNew_title	at (370, 230)	24	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:11.878 +0900	setoption		mouseClickDelay = 2.5	25	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:16.048 +0900	tap	RegistNew_InfoInsert_FirstName	at (105, 725)	26	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:16.050 +0900	setoption		mouseClickDelay = 0.02	27	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:16.964 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:17.984 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:18.703 +0900	typetext		[backspace]	29	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:19.490 +0900	typetext		Yamada	30	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:19.492 +0900	Log		■名	32	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:20.431 +0900	tap	RegistNew_title	at (370, 230)	33	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:20.432 +0900	setoption		mouseClickDelay = 2.5	34	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:23.951 +0900	tap	RegistNew_InfoInsert_LastName	at (99, 645)	35	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:23.953 +0900	setoption		mouseClickDelay = 0.02	36	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:24.904 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:25.915 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:26.633 +0900	typetext		[backspace]	38	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:27.396 +0900	typetext		Taro	39	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:27.397 +0900	Log		■セイ	41	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:28.383 +0900	tap	RegistNew_title	at (370, 230)	42	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:28.385 +0900	setoption		mouseClickDelay = 2.5	43	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:31.803 +0900	tap	RegistNew_InfoInsert_FirstNameKana	at (102, 648)	44	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:31.806 +0900	setoption		mouseClickDelay = 0.02	45	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:32.715 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:33.730 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:34.446 +0900	typetext		[backspace]	47	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:35.235 +0900	typetext		yamada	48	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:35.236 +0900	Log		■メイ	50	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:36.241 +0900	tap	RegistNew_title	at (370, 230)	51	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:36.242 +0900	setoption		mouseClickDelay = 2.5	52	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:39.652 +0900	tap	RegistNew_InfoInsert_LastNameKana	at (107, 646)	53	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:39.655 +0900	setoption		mouseClickDelay = 0.02	54	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:40.586 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:41.601 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:42.315 +0900	typetext		[backspace]	56	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:43.073 +0900	typetext		taro	57	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:43.074 +0900	Log		■郵便番号	59	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:43.995 +0900	tap	RegistNew_title	at (370, 230)	60	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:43.997 +0900	setoption		mouseClickDelay = 2.5	61	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:47.473 +0900	tap	RegistNew_InfoInsert_Postcode	at (101, 663)	62	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:47.475 +0900	setoption		mouseClickDelay = 0.02	63	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:47.963 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:49.188 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:38:49.908 +0900	typetext		[backspace]	65	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:50.625 +0900	typetext		1	66	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:50.626 +0900	Log		■確認ボタン	68	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:52.017 +0900	tap	RegistNew_title	at (370, 230)	69	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:53.975 +0900	imagefound	RegistNew_InfoInsert_Check_btn	Unable to Find Image RegistNew_InfoInsert_Check_btn within 1.00 seconds	71	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:53.988 +0900	typetext		[pageDown]	73	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:56.998 +0900	tap	RegistNew_InfoInsert_Check_btn	at (360, 1141)	76	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:58.583 +0900	waitfor	RegistNew_InfoInsert_Required_word	found at (210, 431)	78	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:58.758 +0900	imagefound	UserInfoEdit_FitstName_em_Err	found at (283, 801)	128	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:58.759 +0900	Log		[姓]全角チェック：OK	130	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:58.985 +0900	imagefound	UserInfoEdit_LastName_em_Err	found at (283, 995)	136	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:58.986 +0900	Log		[名]全角チェック：OK	138	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:38:59.533 +0900	imagefound	UserInfoEdit_FristName_kana_em_Err	found at (361, 1203)	145	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:00.457 +0900	imagefound	UserInfoEdit_FristName_kana_em_Err	found at (361, 1203)	150	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:00.458 +0900	Log		[セイ]全角チェック：OK	152	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:03.370 +0900	imagefound	UserInfoEdit_LastName_kana_em_Err	Unable to Find Image UserInfoEdit_LastName_kana_em_Err within 2.00 seconds	159	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:03.386 +0900	typetext		[pageDown]	161	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:06.292 +0900	imagefound	UserInfoEdit_LastName_kana_em_Err	found at (358, 457)	164	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:06.293 +0900	Log		[メイ]全角チェック：OK	166	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:07.225 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (360, 711)	175	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:07.226 +0900	Log		■郵便番号：入力チェック	180	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:08.144 +0900	imagefound	UserInfoEdit_PostCode_Err	found at (360, 711)	181	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:08.145 +0900	Log		[郵便番号]チェック：OK	183	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:09.152 +0900	Log		■ループ：3	17	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:09.341 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	19	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:10.217 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	20	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:11.097 +0900	swipedown		Swiped down from (360, 384) to (360, 896)	21	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:11.098 +0900	Log		■姓	23	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:12.141 +0900	tap	RegistNew_title	at (370, 230)	24	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:12.142 +0900	setoption		mouseClickDelay = 2.5	25	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:16.335 +0900	tap	RegistNew_InfoInsert_FirstName	at (105, 725)	26	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:16.337 +0900	setoption		mouseClickDelay = 0.02	27	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:17.191 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:18.171 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:18.889 +0900	typetext		[backspace]	29	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:19.609 +0900	typetext		ｱ	30	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:19.610 +0900	Log		■名	32	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:20.580 +0900	tap	RegistNew_title	at (370, 230)	33	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:20.581 +0900	setoption		mouseClickDelay = 2.5	34	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:24.003 +0900	tap	RegistNew_InfoInsert_LastName	at (99, 609)	35	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:24.005 +0900	setoption		mouseClickDelay = 0.02	36	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:24.930 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:25.923 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:26.640 +0900	typetext		[backspace]	38	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:27.361 +0900	typetext		ｱ	39	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:27.362 +0900	Log		■セイ	41	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:28.785 +0900	tap	RegistNew_title	at (370, 230)	42	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:28.787 +0900	setoption		mouseClickDelay = 2.5	43	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:32.306 +0900	tap	RegistNew_InfoInsert_FirstNameKana	at (102, 806)	44	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:32.308 +0900	setoption		mouseClickDelay = 0.02	45	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:33.239 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:34.254 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:34.974 +0900	typetext		[backspace]	47	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:35.694 +0900	typetext		ｱ	48	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:35.695 +0900	Log		■メイ	50	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:36.647 +0900	tap	RegistNew_title	at (370, 230)	51	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:36.648 +0900	setoption		mouseClickDelay = 2.5	52	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:40.128 +0900	tap	RegistNew_InfoInsert_LastNameKana	at (107, 646)	53	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:40.132 +0900	setoption		mouseClickDelay = 0.02	54	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:41.055 +0900	imagefound	AllSelect	found at (670, 105)	1	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:42.051 +0900	tap	AllSelect	at (670, 105)	3	on_common_allselect	Common_AllSelect.script
+2017-05-09 11:39:42.766 +0900	typetext		[backspace]	56	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:43.485 +0900	typetext		ｱ	57	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:43.486 +0900	Log		■郵便番号	59	on_registnew_inputcheck	RegistNew_Inputcheck.script
+2017-05-09 11:39:44.512 +0900	EndTestCase		(Duration:"243.86157", Errors:"1", Exceptions:"0", StartTime:"2017-05-09 11:35:40 +0900", Successes:"0", TestCase:"RegistNew_Inputcheck.script", Warnings:"0")
+2017-05-09 11:39:44.513 +0900	ABORTED		Execution Time 0:04:03 RegistNew_Inputcheck.script

@@ -1,0 +1,16 @@
+﻿Log "================================="
+Log "ブラウザ履歴削除"
+Log "Browser_history_delete"
+Log "================================="
+
+Log "■ブラウザメニュー"
+Tap  (Image:"Browser_manu", WaitFor:10)
+
+Log "■履歴"
+Tap  (Image:"Browser_manu_history", WaitFor:10)
+
+Log "■閲覧履歴データの消去..."
+Tap  (Image:"Browser_manu_history_delete", WaitFor:10)
+
+Log "■データを削除ボタン"
+Tap  (Image:"Browser_manu_history_delete_Done", WaitFor:10)

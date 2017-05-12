@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Top_Issue_cardInfoNew.script" package="mypage.suite" timestamp="2017-05-08 18:19:04.633 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-08 18:19:04.633 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="Top_Issue_cardInfoNew.script" assertions="1" successes="0" errors="1" time="10.161617">
+  </testcase>
+ </testsuite>
+</testsuites>

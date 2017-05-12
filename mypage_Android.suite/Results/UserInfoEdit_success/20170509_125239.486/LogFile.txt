@@ -1,0 +1,11 @@
+﻿2017-05-09 12:52:39.488 +0900	START		Running UserInfoEdit_success.script
+2017-05-09 12:52:39.588 +0900	Log		=================================	1	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:39.591 +0900	Log		会員情報確認/変更(正常)	2	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:39.593 +0900	Log		UserInfoEdit_success	3	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:39.596 +0900	Log		=================================	4	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:41.599 +0900	Log		■メニュー	8	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:42.560 +0900	tap	menu_btn	at (52, 217)	9	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:42.562 +0900	Log		■会員情報確認/変更	11	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:52:44.203 +0900	tap	Menu_UserInfoEdit_Link	at (277, 676)	12	on_userinfoedit_success	UserInfoEdit_success.script
+2017-05-09 12:53:02.273 +0900	EndTestCase		(Duration:"22.783501", Errors:"1", Exceptions:"0", StartTime:"2017-05-09 12:52:39 +0900", Successes:"0", TestCase:"UserInfoEdit_success.script", Warnings:"0")
+2017-05-09 12:53:02.274 +0900	ABORTED		Execution Time 0:00:22 UserInfoEdit_success.script

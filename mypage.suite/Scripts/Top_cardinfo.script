@@ -1,0 +1,364 @@
+﻿Log "================================="
+Log "トップ(カード情報)"
+Log "Top_cardinfo"
+Log "================================="
+
+Login_default
+
+put ResourcePath("Top_cardinfo.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into card_no
+	put item 2 of it into pin_no
+	put item 3 of it into Currentdate	
+	put item 4 of it into expirationdate
+	put item 5 of it into ConfirmDay
+end repeat
+
+Log "【ロゴ】"
+If ImageFound(10,"Top_logo_word") then 	
+	//検出
+	Log "ロゴチェック：OK"
+Else
+	//未検出
+	LogError "ロゴチェック：NG"
+End if
+
+Log "【モバイルカード】"
+If ImageFound(3,"Top_QR") then 
+	//検出
+	Log "QRチェック：OK"
+Else
+	//未検出
+	LogError "QRチェック：NG"
+End if
+
+If ImageFound(3,"Top_Reacquisition") then 
+	//検出
+	Log "再取得チェック：OK"
+Else
+	//未検出
+	LogError "再取得チェック：NG"
+End if
+
+Log "■カード番号"
+If ImageFound (1,"Top_card_title") then
+	//検出
+	Log "カード番号(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "カード番号(タイトル)チェック：NG"
+End if
+
+If ImageFound (Text:card_no, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック：NG"
+End if
+
+Log "■ＰＩＮ番号"
+If ImageFound (1,"Top_pinno_title") then
+	//検出
+	Log "ＰＩＮ番号(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "ＰＩＮ番号(タイトル)チェック：NG"
+End if
+
+If ImageFound (Text:pin_no, WaitFor:1) then
+	//検出
+	Log "ＰＩＮ番号(数値)チェック：OK"
+Else
+	//未検出
+	LogError "ＰＩＮ番号(数値)チェック：NG"
+End if
+
+Log "■画面が暗いと…メッセージ"
+If ImageFound (1,"Top_dispbright_msg") then
+	//検出
+	Log "画面が暗いと…メッセージチェック：OK"
+Else
+	//未検出
+	LogError "画面が暗いと…メッセージチェック：NG"
+End if
+
+
+Log "【残高/履歴/ランク照会】"
+
+Click "Top_Inquiry_btn"
+
+wait 3
+
+Log "■参照日時"
+If ImageFound (Text:Currentdate, WaitFor:1) then
+	//検出
+	Log "参照日時チェック：OK"
+Else
+	//未検出
+	LogError "参照日時チェック：NG"
+End if
+
+Log "■カード番号"
+If ImageFound (1,"Top_cardInfoEdit_card_title") then
+	//検出
+	Log "カード番号(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "カード番号(タイトル)チェック：NG"
+End if
+
+If ImageFound (Text:card_no, WaitFor:1) then
+	//検出
+	Log "カード番号(数値)チェック：OK"
+Else
+	//未検出
+	LogError "カード番号(数値)チェック：NG"
+End if
+
+
+Log "■残高"
+If ImageFound (1,"Top_cardInfoEdit_balance_title") then
+	//検出
+	Log "残高(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "残高(タイトル)チェック：NG"
+End if
+
+Log "■チャージ残高"
+If ImageFound (1,"Top_cardInfoEdit_charge_title") then
+	//検出
+	Log "チャージ残高(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "チャージ残高(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_charge_value") then
+	//検出
+	Log "チャージ残高(値)チェック：OK"
+Else
+	//未検出
+	LogError "チャージ残高(値)チェック：NG"
+End if
+
+Log "■ポイント残高"
+If ImageFound (1,"Top_cardInfoEdit_point_title") then
+	//検出
+	Log "ポイント残高(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "ポイント残高(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_point_value") then
+	//検出
+	Log "ポイント残高(値)チェック：OK"
+Else
+	//未検出
+	LogError "ポイント残高(値)チェック：NG"
+End if
+
+Log "■うちチャージ等付与ポイント残高"
+If ImageFound (1,"Top_cardInfoEdit_chargepoint_title") then
+	//検出
+	Log "うちチャージ等付与ポイント残高(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "うちチャージ等付与ポイント残高(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_chargepoint_value") then
+	//検出
+	Log "うちチャージ等付与ポイント残高(値)チェック：OK"
+Else
+	//未検出
+	LogError "うちチャージ等付与ポイント残高(値)チェック：NG"
+End if
+
+Log "■カード有効期限"
+If ImageFound (1,"Top_cardInfoEdit_expirationdate_title") then
+	//検出
+	Log "カード有効期限(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "カード有効期限(タイトル)チェック：NG"
+End if
+
+If ImageFound (Text:expirationdate, WaitFor:1) then
+	//検出
+	Log "カード有効期限(値)チェック：OK"
+Else
+	//未検出
+	LogError "カード有効期限(値)チェック：NG"
+End if
+
+Log "■失効予定一覧(10件まで)"
+If ImageFound (1,"Top_cardInfoEdit_lapse_title") then
+	//検出
+	Log "失効予定一覧(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "失効予定一覧(タイトル)チェック：NG"
+End if
+
+
+If ImageFound (1,"Top_cardInfoEdit_lapse_msg") then
+	//検出
+	Log "失効予定一覧(メッセージ)チェック：OK"
+Else
+	//未検出
+	LogError "失効予定一覧(タイトル)チェック：NG"
+End if
+
+TypeText pageDown
+
+Log "■ランク情報"
+If ImageFound (1,"Top_cardInfoEdit_rank_title") then
+	//検出
+	Log "ランク情報(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "ランク情報(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_rank_image") then
+	//検出
+	Log "ランク情報(画像)チェック：OK"
+Else
+	//未検出
+	LogError "ランク情報(画像)チェック：NG"
+End if
+
+Log "■次回ランク確定日"
+If ImageFound (1,"Top_cardInfoEdit_ConfirmDay_title") then
+	//検出
+	Log "次回ランク確定日(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "次回ランク確定日(タイトル)チェック：NG"
+End if
+
+If ImageFound (Text:ConfirmDay, WaitFor:1) then
+	//検出
+	Log "次回ランク確定日(値)チェック：OK"
+Else
+	//未検出
+	LogError "次回ランク確定日(値)チェック：NG"
+End if
+
+Log "■確定見込みランク"
+If ImageFound (1,"Top_cardInfoEdit_ConfirmRank_title") then
+	//検出
+	Log "確定見込みランク(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "確定見込みランク(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_ConfirmRank_value") then
+	//検出
+	Log "確定見込みランク(値)チェック：OK"
+Else
+	//未検出
+	LogError "確定見込みランク(値)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_RankCondition_msg") then
+	//検出
+	Log "ランク条件メッセージチェック：OK"
+Else
+	//未検出
+	LogError "ランク条件メッセージチェック：NG"
+End if
+Log "■最新のご利用履歴(30件まで)"
+If ImageFound (1,"Top_cardInfoEdit_History_title") then
+	//検出
+	Log "最新のご利用履歴(30件まで)(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴(30件まで)(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History1_value") then
+	//検出
+	Log "最新のご利用履歴(先頭)(値)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴(先頭)(値)チェック：NG"
+End if
+
+Log "最新のご利用履歴(先頭)選択"
+click "Top_cardInfoEdit_History1_value"
+
+If ImageFound (1,"Top_cardInfoEdit_History_shop_title") then
+	//検出
+	Log "最新のご利用履歴 店舗(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴 店舗(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History1_shop_value") then
+	//検出
+	Log "最新のご利用履歴 店舗(先頭)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴 店舗(先頭)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History_transaction_title") then
+	//検出
+	Log "最新のご利用履歴 取引種別(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴 取引種別(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History1_transaction_value") then
+	//検出
+	Log "最新のご利用履歴(先頭)取引種別(値)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴(先頭)取引種別(値)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History_money_title") then
+	//検出
+	Log "最新のご利用履歴 金額(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴 金額(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History1_money_value") then
+	//検出
+	Log "最新のご利用履歴(先頭)金額(値)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴(先頭)金額(値)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History_point_title") then
+	//検出
+	Log "最新のご利用履歴(先頭)ポイント(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴(先頭)ポイント(タイトル)チェック：NG"
+End if
+
+If ImageFound (1,"Top_cardInfoEdit_History1_point_value") then
+	//検出
+	Log "最新のご利用履歴(先頭)ポイント(値)チェック：OK"
+Else
+	//未検出
+	LogError "最新のご利用履歴(先頭)ポイント(値)チェック：NG"
+End if
+
+Logout
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

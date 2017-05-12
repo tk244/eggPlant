@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="ShopMaga_registShopMaga_address.script" package="mypage_Android.suite" timestamp="2017-05-11 11:30:16.912 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-11 11:30:16.912 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="ShopMaga_registShopMaga_address.script" assertions="3" successes="0" errors="3" time="73.564581">
+    <failure type="LogError">登録チェック：NG</failure>
+    <failure type="LogError">登録チェック：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

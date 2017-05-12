@@ -1,0 +1,43 @@
+﻿Log "================================="
+Log "Cookie有効"
+Log "Browser_cookie_ON"
+Log "================================="
+
+Log "■ブラウザメニュー"
+Click  (Image:"Browser_menu", WaitFor:10)
+
+Log "■設定"
+Click  (Image:"Browser_menu_set", WaitFor:10)
+
+Log "■コンテンツの設定"
+//スクロール対応
+If ImageFound(1,"Browser_menu_set_content") then
+	//検出
+	Click  (Image:"Browser_menu_set_content", WaitFor:10)	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click  (Image:"Browser_menu_set_detail", WaitFor:10)	
+	//スクロール対応
+	If ImageFound(1,"Browser_menu_set_content") then
+		//検出
+		Click  (Image:"Browser_menu_set_content", WaitFor:10)	
+	Else
+		//未検出	
+		TypeText pageDown	
+		Click  (Image:"Browser_menu_set_content", WaitFor:10)	
+	End if
+	
+End if
+
+Log "■Cookie有効"
+Click  (Image:"Browser_menu_set_site_cookie_ON", WaitFor:10)
+
+Log "■完了"
+Click  (Image:"Browser_menu_set_content_close", WaitFor:10)
+
+Log "■ブラウザ閉じる"
+Browser_Close
+
+Log "■ブラウザ開く"
+Browser_Open

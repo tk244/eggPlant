@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="UserInfoEdit.script" package="mypage.suite" timestamp="2017-05-08 16:56:25.160 +0900"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-05-08 16:56:25.160 +0900"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="UserInfoEdit.script" assertions="2" successes="0" errors="2" time="175.671315">
+    <failure type="LogError">入力値チェック：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

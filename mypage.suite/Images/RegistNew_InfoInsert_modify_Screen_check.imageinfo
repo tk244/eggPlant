@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2017-05-08 06:58:22 +0000";
+    CaptureHost = PC0000010;
+    CaptureScreenSize =     (
+        1024,
+        768
+    );
+    HasAlpha = 1;
+    HotSpotX = 42;
+    HotSpotY = 14;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 618;
+    OriginalLocationY = 635;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

@@ -1,0 +1,33 @@
+﻿2017-05-09 12:15:08.382 +0900	START		Running Login_check.script
+2017-05-09 12:15:08.461 +0900	Log		=================================	3	on_login_check	Login_check.script
+2017-05-09 12:15:08.463 +0900	Log		ログイン画面(チェック)	4	on_login_check	Login_check.script
+2017-05-09 12:15:08.465 +0900	Log		Login_check	5	on_login_check	Login_check.script
+2017-05-09 12:15:08.467 +0900	Log		=================================	6	on_login_check	Login_check.script
+2017-05-09 12:15:09.287 +0900	imagefound	Login_word	found at (357, 702)	9	on_login_check	Login_check.script
+2017-05-09 12:15:09.287 +0900	Log		ログイン画面チェック：OK	11	on_login_check	Login_check.script
+2017-05-09 12:15:09.289 +0900	Log		--------------------------------------	17	on_login_check	Login_check.script
+2017-05-09 12:15:09.290 +0900	Log		■画面遷移チェック	18	on_login_check	Login_check.script
+2017-05-09 12:15:09.292 +0900	Log		--------------------------------------	19	on_login_check	Login_check.script
+2017-05-09 12:15:09.293 +0900	Log		■パスワードをお忘れの方	21	on_login_check	Login_check.script
+2017-05-09 12:15:10.262 +0900	tap	Login_SearchPassword_Link	at (368, 999)	22	on_login_check	Login_check.script
+2017-05-09 12:15:12.693 +0900	imagefound	ScreenTransition_SearchPassword	found at (359, 747)	24	on_login_check	Login_check.script
+2017-05-09 12:15:12.695 +0900	Log		画面遷移チェック：OK	26	on_login_check	Login_check.script
+2017-05-09 12:15:12.697 +0900	Log		■戻る	32	on_login_check	Login_check.script
+2017-05-09 12:15:12.700 +0900	pressbackbutton			33	on_login_check	Login_check.script
+2017-05-09 12:15:12.700 +0900	Log		■新規登録はこちら	35	on_login_check	Login_check.script
+2017-05-09 12:15:12.724 +0900	Log		=================================	1	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:12.725 +0900	Log		新規会員登録(画面遷移)	2	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:12.727 +0900	Log		RegistNew_Screen_check	3	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:12.728 +0900	Log		=================================	4	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:12.729 +0900	Log		■新規登録はこちら	6	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:14.881 +0900	tap	Login_UserInfoInsert_btn	at (364, 1133)	7	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:14.882 +0900	Log		■空メール送信画面	9	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:18.119 +0900	imagefound	UserInfoInsert_word	Unable to Find Image UserInfoInsert_word within 3.00 seconds	12	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:18.122 +0900	LogError		空メール送信画面遷移チェック：NG	17	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:19.520 +0900	imagefound	UserInfoInsert_Cancel_btn	Unable to Find Image UserInfoInsert_Cancel_btn within 1.00 seconds	21	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:19.691 +0900	swipeup		Swiped up from (360, 896) to (360, 384)	23	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:19.692 +0900	Log		■キャンセル	25	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:20.732 +0900	tap	UserInfoInsert_Cancel_btn	at (372, 1114)	26	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:20.733 +0900	Log		■新規登録はこちら	29	on_registnew_screen_check	RegistNew_Screen_check.script
+2017-05-09 12:15:22.454 +0900	EndTestCase		(Duration:"14.070842", Errors:"2", Exceptions:"0", StartTime:"2017-05-09 12:15:08 +0900", Successes:"0", TestCase:"Login_check.script", Warnings:"0")
+2017-05-09 12:15:22.455 +0900	ABORTED		Execution Time 0:00:14 Login_check.script

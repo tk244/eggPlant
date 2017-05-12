@@ -1,0 +1,11 @@
+﻿2017-05-08 16:52:19.628 +0900	START		Running UserInfoEdit.script
+2017-05-08 16:52:19.702 +0900	Log		=================================	1	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:19.703 +0900	Log		会員情報確認/変更	2	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:19.704 +0900	Log		UserInfoEdit	3	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:19.706 +0900	Log		=================================	4	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:19.710 +0900	Log		■メニュー	6	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:20.036 +0900	click	menu_btn	at (32, 110)	7	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:20.038 +0900	Log		■会員情報確認/変更	9	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:20.911 +0900	click	Menu_UserInfoEdit_Link	at (147, 319)	10	on_userinfoedit	UserInfoEdit.script
+2017-05-08 16:52:28.304 +0900	EndTestCase		(Duration:"8.67449", Errors:"1", Exceptions:"0", StartTime:"2017-05-08 16:52:19 +0900", Successes:"0", TestCase:"UserInfoEdit.script", Warnings:"0")
+2017-05-08 16:52:28.304 +0900	ABORTED		Execution Time 0:00:08 UserInfoEdit.script

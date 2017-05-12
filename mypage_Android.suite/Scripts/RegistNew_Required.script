@@ -1,0 +1,75 @@
+﻿Log "================================="
+Log "会員情報登録(必須チェック)"
+Log "RegistNew_Required"
+Log "================================="
+
+Log "■確認ボタン"
+Tap "RegistNew_title"
+//スワイプ対応
+If not  ImageFound(1,"RegistNew_InfoInsert_Check_btn") then 
+	//未検出
+	SwipeUp 
+	SwipeUp 
+	SwipeUp 
+	wait 1
+End if
+Tap "RegistNew_InfoInsert_Check_btn"
+
+WaitFor 10, "RegistNew_InfoInsert_Required_word"
+
+//スワイプ対応
+If not  ImageFound(2,"UserInfoEdit_FristName_Err") then 
+	//未検出
+	SwipeUp 
+End if
+If ImageFound(7,"UserInfoEdit_FristName_Err") then 
+	//検出
+	Log "[姓]必須チェック：OK"
+Else
+	//未検出
+	LogError "[姓]必須チェック：NG"
+End if
+
+//スワイプ対応
+If not  ImageFound(2,"UserInfoEdit_LastName_err") then 
+	//未検出
+	SwipeUp 
+End if
+If ImageFound(7,"UserInfoEdit_LastName_err") then 
+	//検出
+	Log "[名]必須チェック：OK"
+Else
+	//未検出
+	LogError "[名]必須チェック：NG"
+End if
+
+//スワイプ対応
+If not  ImageFound(2,"UserInfoEdit_FristName_kana_err") then 
+	//未検出
+	SwipeUp 
+End if
+If ImageFound(7,"UserInfoEdit_FristName_kana_err") then 
+	//検出
+	Log "[セイ]必須チェック：OK"
+Else
+	//未検出
+	LogError "[セイ]必須チェック：NG"
+End if
+
+//スワイプ対応
+If not  ImageFound(2,"UserInfoEdit_LastName_kana_err") then 
+	//未検出
+	SwipeUp 
+End if
+If ImageFound(7,"UserInfoEdit_LastName_kana_err") then 
+	//検出
+	Log "[メイ]必須チェック：OK"
+Else
+	//未検出
+	LogError "[メイ]必須チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

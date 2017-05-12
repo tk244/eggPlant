@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="ShopMaga_registShopMaga_Postcode">
+ <run>
+  <RunDate>2017-05-11 11:20:40.135 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>102.362292</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170511_112040.135/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

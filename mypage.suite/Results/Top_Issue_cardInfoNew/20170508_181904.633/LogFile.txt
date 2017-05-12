@@ -1,0 +1,16 @@
+﻿2017-05-08 18:19:04.636 +0900	START		Running Top_Issue_cardInfoNew.script
+2017-05-08 18:19:04.713 +0900	Log		=================================	1	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:04.714 +0900	Log		カード発行(新規発行)	2	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:04.716 +0900	Log		Top_Issue_cardInfoNew	3	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:04.723 +0900	Log		=================================	4	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:04.753 +0900	Log		=================================	1	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.754 +0900	Log		新規会員登録(エラーチェックなし)	2	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.755 +0900	Log		RegistNew_success	3	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.757 +0900	Log		=================================	4	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.758 +0900	Log		--------------------------------------	6	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.759 +0900	Log		■新規登録	7	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.761 +0900	Log		--------------------------------------	8	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:04.763 +0900	Log		■新規登録はこちら	10	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:08.200 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	11	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:14.799 +0900	EndTestCase		(Duration:"10.161617", Errors:"1", Exceptions:"0", StartTime:"2017-05-08 18:19:04 +0900", Successes:"0", TestCase:"Top_Issue_cardInfoNew.script", Warnings:"0")
+2017-05-08 18:19:14.800 +0900	ABORTED		Execution Time 0:00:10 Top_Issue_cardInfoNew.script

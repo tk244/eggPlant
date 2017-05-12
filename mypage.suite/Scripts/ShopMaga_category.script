@@ -1,0 +1,189 @@
+﻿Log "================================="
+Log "店舗登録"
+Log "ShopMaga_category"
+Log "================================="
+
+Log "■登録1"
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_1") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_1"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_1"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	Log "登録チェック：OK"
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■登録2"
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_2") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_2"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_2"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	Log "登録チェック：OK"
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■登録3"
+//スクロール対応
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_3") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_3"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_3"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	Log "登録チェック：OK"
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■登録4"
+//スクロール対応
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_4") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_4"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_4"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelect_erea_Limit_msg") then 
+	//検出
+	Log "登録上限(3件)チェック：OK"
+Else
+	//未検出
+	LogError "登録上限(3件)チェック：NG"
+End if
+
+Log "■解除1"
+//スクロール対応
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_1Rs") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_1Rs"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_1Rs"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Release_msg") then
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+Log "■解除2"
+//スクロール対応
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_2Rs") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_2Rs"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_2Rs"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Release_msg") then
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+Log "■解除3"
+//スクロール対応
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_3Rs") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_3Rs"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_3Rs"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Release_msg") then
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+Log "■再登録1"
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_1") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_1"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_1"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	Log "登録チェック：OK"
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■再登録2"
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_2") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_2"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_2"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	Log "登録チェック：OK"
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■再登録3"
+If ImageFound(3,"ShopMaga_TypeSelect_erea_1_3") then
+	//検出
+	Click "ShopMaga_TypeSelect_erea_1_3"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "ShopMaga_TypeSelect_erea_1_3"	
+End if
+wait 2
+If ImageFound(3,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	Log "登録チェック：OK"
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if

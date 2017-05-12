@@ -1,0 +1,194 @@
+﻿Log "================================="
+Log "お気に入り店舗からのお知らせ(エリアから検索)"
+Log "ShopMaga_registShopMaga_erea"
+Log "================================="
+
+wait 2
+
+Log "■メニュー"
+Tap  (Image:"menu_btn", WaitFor:10)
+
+Log "【My Hotto Mottoからのお知らせ】"
+Tap "Menu_noShopMaga_Link"
+
+Log "【お気に入り店舗からのお知らせ】"
+Tap "ShopMaga_registShopMaga"
+
+wait 2
+
+//お気に入り店舗からのお知らせ画面遷移チェック
+If ImageFound(10,"ShopMaga_registShopMaga_word") then 
+	//検出
+	Log "お気に入り店舗からのお知らせ画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "お気に入り店舗からのお知らせ画面遷移チェック：NG"
+End if
+
+Log "■お気に入り店舗追加"
+Tap "ShopMaga_registShopMagaTypeSelect_btn"
+
+Log "【郵便番号から検索】"
+Tap "ShopMaga_registShopMagaTypeSelect_Postcode_btn"
+
+//お気に入り店舗からのお知らせ(エリアから検索)画面遷移チェック
+If ImageFound(10,"ShopMaga_registShopMaga_Postcode_word") then 
+	//検出
+	Log "お気に入り店舗からのお知らせ(エリアから検索)画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "お気に入り店舗からのお知らせ(エリアから検索)画面遷移チェック：NG"
+End if
+
+put ResourcePath("ShopMaga_registShopMagaTypeSelect_Postcode_error.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into no
+	put item 2 of it into Postcode_err
+	
+	Log "■郵便番号"
+	Tap "ShopMaga_Title"
+	SetOption mouseClickDelay,2.5
+	Tap (Image:"ShopMaga_registShopMagaTypeSelect_Postcode_search", WaitFor:2)
+	SetOption mouseClickDelay,0.02
+	Common_AllSelect
+	TypeText backspace
+	TypeText Postcode_err
+	
+	Log "■検索ボタン"
+	Tap "ShopMaga_Title"
+	Tap "ShopMaga_registShopMagaTypeSelect_Postcode_search_btn"
+	
+	Log  "■ループ：" & no
+	
+	If no = 5 then
+		If ImageFound(3,"ShopMaga_registShopMagaTypeSelect_Postcode_nothing_msg") then
+			//検出
+			Log "郵便番号不一致チェック：OK"
+		Else
+			//未検出
+			LogError "郵便番号不一致チェック：NG"
+		End if	
+		
+		Log "■戻る(郵便番号から検索)"
+		Tap "ShopMaga_back"
+		wait 2
+		else
+		
+		If ImageFound(3,"ShopMaga_registShopMagaTypeSelect_Postcode_msg") then
+			//検出
+			Log "3桁以上の郵便番号チェック：OK"
+		Else
+			//未検出
+			LogError "3桁以上の郵便番号チェック：NG"			
+End if				
+End if
+
+end repeat
+
+put ResourcePath("ShopMaga_registShopMagaTypeSelect_Postcode.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into Postcode	
+end repeat
+
+Log "■郵便番号"
+Tap "ShopMaga_Title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"ShopMaga_registShopMagaTypeSelect_Postcode_search", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText Postcode
+
+Log "■検索ボタン"
+Tap "ShopMaga_Title"
+Tap "ShopMaga_registShopMagaTypeSelect_Postcode_search_btn"
+
+wait 3
+
+Log "■登録1"
+If not  ImageFound(1,"ShopMaga_TypeSelect_erea_1_1") then 
+	//未検出
+	TypeText pageDown
+	wait 1
+End if
+Tap (Image:"ShopMaga_TypeSelect_erea_1_1", WaitFor:3)
+If ImageFound(7,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	If ImageFound(7,"ShopMaga_TypeSelect_erea_1_1Rs") then
+		//検出
+		Log "登録チェック：OK"
+	Else
+		//未検出
+		LogError "登録チェック：NG"
+	End if
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■解除1"
+//スクロール対応
+If not ImageFound(1,"ShopMaga_TypeSelect_erea_1_1Rs") then
+	//未検出	
+	TypeText pageDown
+	wait 1
+End if
+Tap (Image:"ShopMaga_TypeSelect_erea_1_1Rs", WaitFor:3)
+If ImageFound(7,"ShopMaga_TypeSelec_Release_msg") then
+	//検出
+	If ImageFound(7,"ShopMaga_TypeSelect_erea_1_1") then
+		//検出
+		Log "解除チェック：OK"
+	Else
+		//未検出
+		LogError "解除チェック：NG"
+	End if
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+Log "■再登録1"
+If not  ImageFound(1,"ShopMaga_TypeSelect_erea_1_1") then 
+	//未検出
+	TypeText pageDown
+	wait 1
+End if
+Tap (Image:"ShopMaga_TypeSelect_erea_1_1", WaitFor:3)
+If ImageFound(7,"ShopMaga_TypeSelec_Add_msg") then
+	//検出
+	If ImageFound(7,"ShopMaga_TypeSelect_erea_1_1Rs") then
+		//検出
+		Log "登録チェック：OK"
+	Else
+		//未検出
+		LogError "登録チェック：NG"
+	End if
+Else
+	//未検出
+	LogError "登録チェック：NG"
+End if
+
+Log "■戻る(郵便番号から検索)"
+Tap "ShopMaga_back"
+wait 2
+Log "■戻る(お気に入り店舗の追加)"
+Tap "ShopMaga_back"
+wait 2
+Log "■戻る(メルマガ)"
+Tap "ShopMaga_back"
+
+Log "■お気に入り店舗からのお知らせ(解除)"
+Tap "ShopMaga_registShopMaga_1"
+If ImageFound(7,"ShopMaga_registShopMaga_Release_msg") then 
+	//検出
+	Log "解除チェック：OK"
+Else
+	//未検出
+	LogError "解除チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

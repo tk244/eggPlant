@@ -1,0 +1,4 @@
+﻿If ImageFound(1,"AllSelect") then 
+	//検出
+	tap "AllSelect"
+End if

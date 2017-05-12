@@ -1,0 +1,40 @@
+﻿Log "================================="
+Log "セッションエラー(退会後)"
+Log "Session_error1"
+Log "================================="
+
+Log "■新規登録はこちら"
+Tap "Login_UserInfoInsert_btn"
+
+Log "■戻る"
+PressBackButton
+
+(*
+Log "■セッションエラー発生"
+
+//セッションエラー画面遷移チェック
+If ImageFound(10,"Session_error_msg") then 
+	//検出
+	Log "セッションエラー画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "セッションエラー画面遷移チェック：NG"
+End if
+
+Log "■ログイン画面へ"
+Tap "Session_error_Login"
+*)
+
+//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 	
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

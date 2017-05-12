@@ -1,0 +1,86 @@
+﻿Log "■正常登録"
+put ResourcePath("UserInfo1.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mail
+	put item 2 of it into pass
+	put item 3 of it into pass_new
+	put item 4 of it into Birthday	
+end repeat
+
+Log "■パスワード"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_Password", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText pass
+
+Log "■パスワード再入力"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_PasswordRe", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText pass
+
+Log "■生年月日"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_Birthday", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText Birthday
+
+Log "■次へボタン"
+Tap "RegistNew_title"
+tap "RegistNew_PasswordInsert_Next_btn"
+
+
+Log "【カード情報登録】"
+
+//会員登録（カード情報登録）画面遷移チェック
+If ImageFound(10,"RegistNew_CardNumberInsert_word") then 
+	//検出
+	Log "会員登録（カード情報登録）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（カード情報登録）画面遷移チェック：NG"
+End if
+
+Log "■カード番号を入力してモバイルカードを発行"
+Tap "RegistNew_CardNumberInsert_radio2"
+
+Log "■新規にモバイルカードを発行"
+Tap "RegistNew_CardNumberInsert_radio1"
+
+Log "■あとで登録する"
+Tap "RegistNew_CardNumberInsert_radio3"
+
+Log "■次へボタン"
+Tap "RegistNew_CardNumberInsert_Next_btn"
+
+
+Log "【追加属性入力】"
+
+//会員登録（追加属性入力）画面遷移チェック1
+If ImageFound(10,"RegistNew_word") then 
+	//検出
+	Log "会員登録（追加属性入力）画面チェック1：OK"
+Else
+	//未検出
+	LogError "会員登録（追加属性入力）画面チェック1：NG"
+End if
+
+TypeText pageDown 
+
+//会員登録（追加属性入力）画面遷移チェック2
+If ImageFound(10,"RegistNew_word2") then 
+	//検出
+	Log "会員登録（追加属性入力）画面チェック2：OK"
+Else
+	//未検出
+	LogError "会員登録（追加属性入力）画面チェック2：NG"
+End if

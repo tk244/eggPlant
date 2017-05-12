@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="UserInfoEdit.script" package="mypage.suite" timestamp="2017-05-09 10:34:18.853 +0900"
+ tests="1" successes="0" errors="1" time="272.356223">
+  <properties>
+   <property name="RunDate" value="2017-05-09 10:34:18.853 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="UserInfoEdit.script" assertions="1" successes="0" errors="1" time="272.354442">
+    <failure type="LogError">登録情報確認・変更（入力）画面遷移チェック：NG</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+﻿Log "================================="
+Log "Chrome起動"
+Log "Browser"
+Log "================================="
+
+Log "■Chrome起動"
+DoubleClick "Chrome"
+Wait 3
+
+Log "■URLアクセス"
+Click "URL"
+TypeText "https://plstg.ppsys.jp/PL70KQNAHM/",Return 
+
+HTTPS
+
+(*//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if*)

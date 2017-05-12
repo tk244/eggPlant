@@ -1,0 +1,5 @@
+﻿Log "■アプリケーションキー"
+TypeText applicationKey
+
+Log "■全てのアプリを終了する"
+Tap (Image:"AllAppliEnd_btn", WaitFor:10)

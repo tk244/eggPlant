@@ -1,0 +1,394 @@
+﻿Log "================================="
+Log "新規会員登録((カード番号入力))"
+Log "RegistNew_Issue_cardInfoEdit"
+Log "================================="
+
+
+Log "--------------------------------------"
+Log "■新規登録"
+Log "--------------------------------------"
+
+Log "■新規登録はこちら"
+Tap "Login_UserInfoInsert_btn"
+
+Log "■同意して登録する(空メール)"
+Tap "UserInfoInsert_MailExecute"
+
+//メール送信
+Log "■メール送信"
+Tap "MailSend"
+
+wait 3
+
+//Mailer戻る
+Log "■Mailer戻る"
+If ImageFound(3,"Mailer_back") then 		
+	//検出
+	//Mailer戻る
+	Log "■Mailer戻る"
+	Tap "Mailer_back"
+End if
+
+//無限ループ
+repeat 100 times	
+	
+	wait 2
+	
+	If ImageFound(3,"MailTitle") then 		
+		//検出
+		//メール件名選択
+		Log "■メールを開く"
+		Tap "MailTitle"
+		exit repeat
+	End if
+	
+	//メールメニュー
+	Tap "Mail_manu"
+	
+	//更新
+	Tap "Mail_manu_update"		
+	
+end repeat
+
+
+//メール本文(URL)選択
+Log "■本文(URL)選択"
+Tap  (Image:"MailUrl", WaitFor:10)
+
+
+Log "【パスワード・生年月日入力】"
+
+//会員登録（パスワード・生年月日入力）画面遷移チェック
+If ImageFound(10,"RegistNew_passwordInsert_word") then 
+	//検出
+	Log "会員登録（パスワード・生年月日入力）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（パスワード・生年月日入力）画面遷移チェック：NG"
+End if
+
+
+Log "■正常登録"
+put ResourcePath("UserInfo1.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mail
+	put item 2 of it into pass
+	put item 3 of it into pass_new
+	put item 4 of it into Birthday	
+end repeat
+
+Log "■パスワード"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_Password", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText pass
+
+Log "■パスワード再入力"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_PasswordRe", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText pass
+
+Log "■生年月日"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_PasswordInsert_Birthday", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText Birthday
+
+Log "■次へボタン"
+Tap "RegistNew_title"
+tap "RegistNew_PasswordInsert_Next_btn"
+
+
+Log "【カード情報登録】"
+
+//会員登録（カード情報登録）画面遷移チェック
+If ImageFound(10,"RegistNew_CardNumberInsert_word") then 
+	//検出
+	Log "会員登録（カード情報登録）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（カード情報登録）画面遷移チェック：NG"
+End if
+
+Log "■カード番号を入力してモバイルカードを発行"
+Tap "RegistNew_CardNumberInsert_radio2"
+
+Log "■次へボタン"
+Tap "RegistNew_CardNumberInsert_Next_btn"
+
+Log "■入力チェック"
+CardnumberInsertcheck
+
+Log "■正常登録"
+put ResourcePath("RegistNew_cardInfoEdit_Issue.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into card
+	put item 2 of it into pin
+end repeat
+
+Log "■カード番号"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"cardInfoEdit_card", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText card
+
+Log "■ＰＩＮ番号"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"cardInfoEdit_pin", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText pin
+
+
+Log "■次へボタン"
+Tap "cardInfoEdit_next_btn"
+
+Log "【追加属性入力】"
+
+//会員登録（追加属性入力）画面遷移チェック1
+If ImageFound(10,"RegistNew_word") then 
+	//検出
+	Log "会員登録（追加属性入力）画面チェック1：OK"
+Else
+	//未検出
+	LogError "会員登録（追加属性入力）画面チェック1：NG"
+End if
+
+TypeText pageDown 
+
+//会員登録（追加属性入力）画面遷移チェック2
+If ImageFound(10,"RegistNew_word2") then 
+	//検出
+	Log "会員登録（追加属性入力）画面チェック2：OK"
+Else
+	//未検出
+	LogError "会員登録（追加属性入力）画面チェック2：NG"
+End if
+
+SwipeDown
+SwipeDown
+SwipeDown
+
+Log "■正常登録"
+
+put ResourcePath("RegistNew_modify.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into fn2
+	put item 2 of it into ln2
+	put item 3 of it into fkana2
+	put item 4 of it into lkana2
+	put item 5 of it into postcode2
+end repeat
+
+Log "■姓"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_InfoInsert_FirstName", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText fn2
+
+Log "■名"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_InfoInsert_LastName", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText ln2
+
+Log "■セイ"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_InfoInsert_FirstNameKana", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText fkana2
+
+Log "■メイ"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_InfoInsert_LastNameKana", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText lkana2
+
+Log "■郵便番号"
+Tap "RegistNew_title"
+SetOption mouseClickDelay,2.5
+Tap (Image:"RegistNew_InfoInsert_Postcode", WaitFor:2)
+SetOption mouseClickDelay,0.02
+Common_AllSelect
+TypeText backspace
+TypeText postcode2
+
+Log "■性別(男性)"
+Tap "RegistNew_title"
+Tap "RegistNew_InfoInsert_male"
+
+Log "■都道府県(宮城県)"
+Tap "RegistNew_InfoInsert_prefecture"
+If not  ImageFound(1,"RegistNew_InfoInsert_prefecture_miyagi") then 
+	//未検出
+	SwipeDown
+	If not  ImageFound(1,"RegistNew_InfoInsert_prefecture_miyagi") then 
+		//未検出
+		SwipeDown
+		If not  ImageFound(1,"RegistNew_InfoInsert_prefecture_miyagi") then 
+			//未検出
+			SwipeDown
+		End if
+	End if
+End if
+Tap "RegistNew_InfoInsert_prefecture_miyagi"
+
+Log "■メルマガ受信形式(HTML)"
+Tap "RegistNew_InfoInsert_maga_html"
+
+Log "■職業(学生)"
+Tap "RegistNew_InfoInsert_job"
+Tap "RegistNew_InfoInsert_job_Student"
+
+Log "■世帯構成(2世代(親と同居))"
+Tap "RegistNew_InfoInsert_family"
+Tap "RegistNew_InfoInsert_family_Household2"
+
+Log "■確認ボタン"
+//スワイプ対応
+If not  ImageFound(1,"RegistNew_InfoInsert_Check_btn") then 
+	//未検出
+	SwipeUp 
+End if
+Tap "RegistNew_InfoInsert_Check_btn"
+
+//入力値チェック1
+If ImageFound(10,"RegistNew_InfoInsert_modify_Screen_check1") then 
+	//検出
+	Log "入力値チェック1：OK"
+Else
+	//未検出
+	LogError "入力値チェック1：NG"
+End if
+
+TypeText pageDown
+
+//入力値チェック2
+If ImageFound(10,"RegistNew_InfoInsert_modify_Screen_check2") then 
+	//検出
+	Log "入力値チェック2：OK"
+Else
+	//未検出
+	LogError "入力値チェック2：NG"
+End if
+
+Log "■登録ボタン"
+//スワイプ対応
+If not  ImageFound(1,"RegistNew_InfoInsert_Regist_btn") then 
+	//未検出
+	TypeText pageDown 
+	wait 1
+End if
+Tap "RegistNew_InfoInsert_Regist_btn"
+
+//会員登録（完了）画面遷移チェック
+If ImageFound(10,"RegistNew_End_word") then 
+	//検出
+	Log "会員登録（完了）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "会員登録（完了）画面遷移チェック：NG"
+End if
+
+Log "■マイページトップへボタン"
+Tap "RegistNew_InfoInsertDone_Top_btn"
+
+If ImageFound(10,"Top_QR") then 
+	//検出
+	Log "QRチェック：OK"
+Else
+	//未検出
+	LogError "QRチェック：NG"
+End if
+
+Log "【登録完了メール】"
+
+Log "■アプリケーションキー"
+TypeText applicationKey
+
+//Mailer起動
+Log "■Mailer起動"
+Tap (Image:"Mailer", WaitFor:120)
+
+//Mailer戻る
+Log "■Mailer戻る"
+Tap "Mailer_back"
+
+//無限ループ
+repeat 100 times	
+	
+	wait 2
+	
+	If ImageFound(3,"RegistNew_InfoInsert_Mail_Title") then 		
+		//検出
+		//メール件名選択
+		Log "■メールを開く"
+		Tap "RegistNew_InfoInsert_Mail_Title"
+		exit repeat
+	End if
+	
+	//メールメニュー
+	Tap "Mail_manu"
+	
+	//更新
+	Tap "Mail_manu_update"		
+	
+end repeat
+
+//登録完了メールチェック1
+If ImageFound(10,"RegistNew_InfoInsert_Mail_word1") then 
+	//検出
+	Log "登録完了メール(タイトル)チェック：OK"
+Else
+	//未検出
+	LogError "登録完了メール(タイトル)チェック：NG"
+End if
+
+//登録完了メールチェック2
+If ImageFound(10,"RegistNew_InfoInsert_Mail_word2") then 
+	//検出
+	Log "登録完了メール(本文)チェック：OK"
+Else
+	//未検出
+	LogError "登録完了メール(本文)チェック：NG"
+End if
+
+Log "■アプリケーションキー"
+TypeText applicationKey
+
+Log "■Chrome起動"
+Tap "Chrome_application"
+
+UserInfoDelete
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

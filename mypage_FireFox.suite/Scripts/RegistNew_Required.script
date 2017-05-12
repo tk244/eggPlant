@@ -1,0 +1,69 @@
+﻿Log "================================="
+Log "会員情報登録(必須チェック)"
+Log "RegistNew_Required"
+Log "================================="
+
+Log "■姓"
+Click "UserInfoEdit_FristName"
+TypeText controlKey, "a" 
+TypeText backspace
+
+Log "■名"
+Click "UserInfoEdit_LastName"
+TypeText controlKey, "a" 
+TypeText backspace
+
+Log "■セイ"
+Click "UserInfoEdit_FristName_kana"
+TypeText controlKey, "a" 
+TypeText backspace
+
+Log "■メイ"
+Click "UserInfoEdit_LastName_kana"
+TypeText controlKey, "a" 
+TypeText backspace
+
+
+Log "■確認ボタン"
+//スクロール対応
+If ImageFound(3,"UserInfoEdit_check_btn") then
+	//検出
+	Click "UserInfoEdit_check_btn"	
+Else
+	//未検出	
+	TypeText pageDown	
+	Click "UserInfoEdit_check_btn"	
+End if
+
+
+If ImageFound(3,"UserInfoEdit_FristName_Err") then 
+	//検出
+	Log "[姓]必須チェック：OK"
+Else
+	//未検出
+	LogError "[姓]必須チェック：NG"
+End if
+
+If ImageFound(3,"UserInfoEdit_LastName_err") then 
+	//検出
+	Log "[名]必須チェック：OK"
+Else
+	//未検出
+	LogError "[名]必須チェック：NG"
+End if
+
+If ImageFound(3,"UserInfoEdit_FristName_kana_err") then 
+	//検出
+	Log "[セイ]必須チェック：OK"
+Else
+	//未検出
+	LogError "[セイ]必須チェック：NG"
+End if
+
+If ImageFound(3,"UserInfoEdit_LastName_kana_err") then 
+	//検出
+	Log "[メイ]必須チェック：OK"
+Else
+	//未検出
+	LogError "[メイ]必須チェック：NG"
+End if

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="UserInfoDelete">
+ <run>
+  <RunDate>2017-05-11 12:04:51.123 +0900</RunDate>
+  <Status>Success</Status>
+  <Duration>13.160065</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170511_120451.123/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

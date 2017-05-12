@@ -1,0 +1,79 @@
+﻿Log "================================="
+Log "退会"
+Log "UserInfoDelete"
+Log "================================="
+
+Log "■メニュー"
+Tap (Image:"menu_btn", WaitFor:10)
+
+//スワイプ対応
+If not  ImageFound(1,"Logout_Link") then 
+	//未検出
+	SwipeUp 
+End if
+
+Log "■利用登録解除(退会)"
+Tap "Menu_UserInfoDelete_Link"
+
+//退会（トップ）画面遷移チェック
+If ImageFound(10,"UserInfoDelete_word") then 
+	//検出
+	Log "退会（トップ）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "退会（トップ）画面遷移チェック：NG"
+End if
+
+Log "■次へボタン"
+Tap  (Image:"UserInfoDelete_Next_btn", WaitFor:10)
+
+//退会（確認）画面遷移チェック
+If ImageFound(10,"UserInfoDelete_check_word") then 
+	//検出
+	Log "退会（確認）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "退会（確認）画面遷移チェック：NG"
+End if
+
+Log "■削除ボタン"
+Tap  (Image:"UserInfoDelete_Delete_btn", WaitFor:10)
+
+//退会（完了）画面遷移チェック
+If ImageFound(10,"UserInfoDelete_End_word") then 
+	//検出
+	Log "退会（完了）画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "退会（完了）画面遷移チェック：NG"
+End if
+
+Log "■ログイン画面へボタン"
+Tap  (Image:"UserInfoDelete_Login_btn", WaitFor:10)
+
+wait 2
+
+//ログイン画面遷移チェック
+If ImageFound(10,"Login_word") then 
+	//検出
+	Log "ログイン画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面遷移チェック：NG"
+End if
+
+(*Login_success_chg
+
+//ログインエラーチェック
+If ImageFound(10,"Login_error_word") then 
+	//検出
+	Log "ログインエラーチェック：OK"
+Else
+	//未検出
+	LogError "ログインエラーチェック：NG"
+End if*)
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

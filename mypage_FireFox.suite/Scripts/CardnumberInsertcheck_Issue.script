@@ -1,0 +1,114 @@
+﻿put ResourcePath("CardnumberInsertcheck_error.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into no
+	put item 2 of it into card_Err
+	put item 3 of it into pin_Err
+	
+	Log "■カード番号"
+	Click "CardnumberInsertcheck_Card"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText card_Err
+	
+	Log "■ＰＩＮ番号"
+	Click "CardnumberInsertcheck_Pin"
+	TypeText controlKey, "a" 
+	TypeText backspace
+	TypeText pin_Err
+	
+	Log "■次へボタン"
+	Click "CardnumberInsertcheck_Next_btn"
+	
+	wait 2
+	
+	Log  "ループ：" & no
+	
+	If no = 1 then
+		//[カード番号・ＰＩＮ番号]：入力されたカード番号またはＰＩＮ番号が違います
+		If ImageFound(3,"CardnumberInsertcheck_mistake_msg") then 
+			//検出
+			Log "[カード番号・ＰＩＮ番号]入力チェック：OK"
+		Else
+			//未検出
+			LogError "[カード番号・ＰＩＮ番号]入力チェック：NG"
+		End if		
+	End if
+	
+	If no = 2 then
+		//[カード番号・ＰＩＮ番号]：入力されたカード番号またはＰＩＮ番号が違います
+		If ImageFound(3,"CardnumberInsertcheck_mistake_msg") then 
+			//検出
+			Log "[カード番号・ＰＩＮ番号]入力チェック：OK"
+		Else
+			//未検出
+			LogError "[カード番号・ＰＩＮ番号]入力チェック：NG"
+		End if	
+	End if
+	
+	If no = 3 then
+		//[カード番号・ＰＩＮ番号]：入力されたカード番号またはＰＩＮ番号が違います
+		If ImageFound(3,"CardnumberInsertcheck_mistake_msg") then 
+			//検出
+			Log "[カード番号・ＰＩＮ番号]入力チェック：OK"
+		Else
+			//未検出
+			LogError "[カード番号・ＰＩＮ番号]入力チェック：NG"
+		End if	
+	End if
+	
+	If no = 4 then
+		//[カード番号・ＰＩＮ番号]：入力されたカード番号またはＰＩＮ番号が違います
+		If ImageFound(3,"CardnumberInsertcheck_mistake_msg") then 
+			//検出
+			Log "[カード番号・ＰＩＮ番号]入力チェック：OK"
+		Else
+			//未検出
+			LogError "[カード番号・ＰＩＮ番号]入力チェック：NG"
+		End if	
+	End if
+	
+	If no = 5 then
+		//[カード番号・ＰＩＮ番号]：入力されたカード番号またはＰＩＮ番号が違います
+		If ImageFound(3,"CardnumberInsertcheck_mistake_msg") then 
+			//検出
+			Log "[カード番号・ＰＩＮ番号]入力チェック：OK"
+		Else
+			//未検出
+			LogError "[カード番号・ＰＩＮ番号]入力チェック：NG"
+		End if
+	End if
+	
+	If no = 6 then
+		//[カード番号・ＰＩＮ番号]：入力されたカード番号またはＰＩＮ番号が違います
+		If ImageFound(3,"CardnumberInsertcheck_mistake_msg") then 
+			//検出
+			Log "[カード番号・ＰＩＮ番号]入力チェック：OK"
+		Else
+			//未検出
+			LogError "[カード番号・ＰＩＮ番号]入力チェック：NG"
+		End if
+	End if
+	
+	If no = 7 then
+		//有効期限切れ
+		If ImageFound(3,"CardnumberInsertcheck_expirationdate_msg") then 
+			//検出
+			Log "有効期限切れチェック：OK"
+		Else
+			//未検出
+			LogError "有効期限切れチェック：NG"
+		End if
+	End if
+	
+	If no = 8 then
+		//未アクティベート
+		If ImageFound(3,"CardnumberInsertcheck_deactivate_msg") then 
+			//検出
+			Log "未アクティベートチェック：OK"
+		Else
+			//未検出
+			LogError "未アクティベートチェック：NG"
+		End if
+	End if
+	
+end repeat

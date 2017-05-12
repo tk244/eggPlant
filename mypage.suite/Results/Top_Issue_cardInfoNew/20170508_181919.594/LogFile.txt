@@ -1,0 +1,121 @@
+﻿2017-05-08 18:19:19.596 +0900	START		Running Top_Issue_cardInfoNew.script
+2017-05-08 18:19:19.673 +0900	Log		=================================	1	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:19.675 +0900	Log		カード発行(新規発行)	2	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:19.676 +0900	Log		Top_Issue_cardInfoNew	3	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:19.678 +0900	Log		=================================	4	on_top_issue_cardinfonew	Top_Issue_cardInfoNew.script
+2017-05-08 18:19:19.686 +0900	Log		=================================	1	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.692 +0900	Log		新規会員登録(エラーチェックなし)	2	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.696 +0900	Log		RegistNew_success	3	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.698 +0900	Log		=================================	4	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.699 +0900	Log		--------------------------------------	6	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.701 +0900	Log		■新規登録	7	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.703 +0900	Log		--------------------------------------	8	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:19.705 +0900	Log		■新規登録はこちら	10	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:22.948 +0900	imagefound	Login_error	Unable to Find Image Login_error within 3.00 seconds	11	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:23.046 +0900	click	Login_UserInfoInsert_btn	at (502, 638)	16	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:24.033 +0900	imagefound	UserInfoInsert_word	found at (517, 378)	21	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:24.034 +0900	Log		空メール送信画面遷移チェック：OK	23	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:24.035 +0900	Log		■同意して登録する(空メール)	29	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:24.314 +0900	click	UserInfoInsert_MailExecute	at (512, 370)	30	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:24.315 +0900	Log		■メール送信	33	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:25.104 +0900	click	MailSend	at (35, 223)	34	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:25.105 +0900	Log		■outlook起動	37	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:35.753 +0900	click	outlook	at (290, 751)	38	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:36.478 +0900	imagefound	outlookMain	found at (132, 546)	40	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:36.478 +0900	Log		受信トレイ	42	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:37.057 +0900	click	outlookMain	at (132, 546)	43	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:37.059 +0900	Log		■メールを開く	47	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:38.296 +0900	doubleclick	MailTitle	at (362, 423)	48	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:38.298 +0900	Log		■本文(URL)選択	51	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:39.141 +0900	click	MailUrl	at (238, 296)	52	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:39.143 +0900	Log		【パスワード・生年月日入力】	54	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:40.166 +0900	imagefound	RegistNew_passwordInsert_word	found at (531, 341)	57	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:40.168 +0900	Log		会員登録（パスワード・生年月日入力）画面遷移チェック：OK	59	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:40.169 +0900	Log		■正常登録	66	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:40.171 +0900	Log		■パスワード	75	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:40.273 +0900	click	RegistNew_PasswordInsert_Password	at (375, 273)	76	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:41.004 +0900	typetext		[controlKey]a	77	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:41.722 +0900	typetext		[backspace]	78	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:42.564 +0900	typetext		a123456789	79	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:42.565 +0900	Log		■パスワード再入力	81	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:43.400 +0900	click	RegistNew_PasswordInsert_PasswordRe	at (373, 332)	82	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:44.128 +0900	typetext		[controlKey]a	83	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:44.846 +0900	typetext		[backspace]	84	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:45.692 +0900	typetext		a123456789	85	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:45.693 +0900	Log		■生年月日	87	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:46.872 +0900	click	RegistNew_PasswordInsert_Birthday	at (375, 389)	88	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:47.605 +0900	typetext		[controlKey]a	89	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:48.325 +0900	typetext		[backspace]	90	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:49.134 +0900	typetext		19951231	91	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:49.135 +0900	Log		■次へボタン	93	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:50.314 +0900	click	RegistNew_PasswordInsert_Next_btn	at (509, 485)	94	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:50.316 +0900	Log		【カード情報登録】	97	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:51.368 +0900	imagefound	RegistNew_CardNumberInsert_word	found at (527, 328)	100	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:51.369 +0900	Log		会員登録（カード情報登録）画面遷移チェック：OK	102	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:51.371 +0900	Log		■カード番号を入力してモバイルカードを発行	108	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:51.651 +0900	click	RegistNew_CardNumberInsert_radio2	at (375, 299)	109	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:51.652 +0900	Log		■新規にモバイルカードを発行	111	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:52.927 +0900	click	RegistNew_CardNumberInsert_radio1	at (375, 254)	112	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:52.929 +0900	Log		■あとで登録する	114	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:54.066 +0900	click	RegistNew_CardNumberInsert_radio3	at (377, 342)	115	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:54.067 +0900	Log		■次へボタン	117	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:55.211 +0900	click	RegistNew_CardNumberInsert_Next_btn	at (439, 438)	118	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:55.212 +0900	Log		【追加属性入力】	121	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:55.899 +0900	imagefound	RegistNew_word	found at (503, 408)	124	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:55.900 +0900	Log		会員登録（追加属性入力）画面チェック：OK	126	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:55.901 +0900	Log		■正常登録	132	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:55.903 +0900	Log		■姓	227	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:56.462 +0900	click	RegistNew_InfoInsert_FirstName	at (220, 279)	228	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:57.192 +0900	typetext		[controlKey]a	229	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:57.911 +0900	typetext		[backspace]	230	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:58.645 +0900	typetext		中田	231	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:58.647 +0900	Log		■名	233	on_registnew_success	RegistNew_success.script
+2017-05-08 18:19:59.798 +0900	click	RegistNew_InfoInsert_LastName	at (220, 334)	234	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:00.531 +0900	typetext		[controlKey]a	235	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:01.250 +0900	typetext		[backspace]	236	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:01.982 +0900	typetext		弘孝	237	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:01.983 +0900	Log		■セイ	239	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:03.171 +0900	click	RegistNew_InfoInsert_FirstNameKana	at (227, 396)	240	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:03.904 +0900	typetext		[controlKey]a	241	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:04.623 +0900	typetext		[backspace]	242	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:05.365 +0900	typetext		タナカ	243	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:05.366 +0900	Log		■メイ	245	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:06.529 +0900	click	RegistNew_InfoInsert_LastNameKana	at (228, 458)	246	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:07.262 +0900	typetext		[controlKey]a	247	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:07.982 +0900	typetext		[backspace]	248	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:08.739 +0900	typetext		ヒロタカ	249	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:08.740 +0900	Log		■郵便番号	251	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:09.909 +0900	click	RegistNew_InfoInsert_Postcode	at (220, 509)	252	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:10.635 +0900	typetext		[controlKey]a	253	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:11.356 +0900	typetext		[backspace]	254	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:12.150 +0900	typetext		9991212	255	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:12.151 +0900	Log		■性別(男性)	257	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:13.334 +0900	click	RegistNew_InfoInsert_male	at (534, 272)	258	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:13.335 +0900	Log		■メルマガ受信形式(HTML)	260	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:14.472 +0900	click	RegistNew_InfoInsert_maga_html	at (537, 381)	261	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:14.473 +0900	Log		■都道府県(宮城県)	263	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:15.485 +0900	click	RegistNew_InfoInsert_prefecture	at (541, 325)	264	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:16.657 +0900	click	RegistNew_InfoInsert_prefecture_miyagi	at (543, 410)	265	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:16.658 +0900	Log		■職業(学生)	267	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:17.809 +0900	click	RegistNew_InfoInsert_job	at (539, 435)	268	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:18.974 +0900	click	RegistNew_InfoInsert_job_Student	at (535, 521)	269	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:18.975 +0900	Log		■世帯構成(2世代(親と同居))	271	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:20.118 +0900	click	RegistNew_InfoInsert_family	at (538, 494)	272	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:21.279 +0900	click	RegistNew_InfoInsert_family_Household2	at (570, 601)	273	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:21.280 +0900	Log		■確認ボタン	275	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:22.131 +0900	click	RegistNew_InfoInsert_Check_btn	at (515, 608)	276	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:23.163 +0900	imagefound	RegistNew_InfoInsert_modify_Screen_check	found at (660, 649)	279	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:23.164 +0900	Log		入力値チェック：OK	281	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:23.165 +0900	Log		■登録ボタン	287	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:23.411 +0900	click	RegistNew_InfoInsert_Regist_btn	at (661, 649)	288	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:24.432 +0900	imagefound	RegistNew_End_word	found at (511, 328)	291	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:24.433 +0900	Log		会員登録（完了）画面遷移チェック：OK	293	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:24.435 +0900	Log		■マイページトップへボタン	299	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:24.563 +0900	click	RegistNew_InfoInsertDone_Top_btn	at (352, 458)	300	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:24.564 +0900	Log		【登録完了メール】	303	on_registnew_success	RegistNew_success.script
+2017-05-08 18:20:24.566 +0900	Log		outlook起動	306	on_registnew_success	RegistNew_success.script
+2017-05-08 18:21:27.621 +0900	click	outlook	at (289, 751)	307	on_registnew_success	RegistNew_success.script
+2017-05-08 18:21:28.146 +0900	imagefound	outlookMain	found at (78, 546)	309	on_registnew_success	RegistNew_success.script
+2017-05-08 18:21:28.147 +0900	Log		受信トレイ	311	on_registnew_success	RegistNew_success.script
+2017-05-08 18:22:11.787 +0900	EndTestCase		(Duration:"172.189542", Errors:"1", Exceptions:"0", StartTime:"2017-05-08 18:19:19 +0900", Successes:"0", TestCase:"Top_Issue_cardInfoNew.script", Warnings:"0")
+2017-05-08 18:22:11.787 +0900	ABORTED		Execution Time 0:02:52 Top_Issue_cardInfoNew.script

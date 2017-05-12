@@ -1,0 +1,140 @@
+﻿Log "================================="
+Log "ログイン画面(チェック)"
+Log "Login_check"
+Log "================================="
+
+//ログイン画面チェック
+If ImageFound(10,"Login_word") then 	
+	//検出
+	Log "ログイン画面チェック：OK"
+Else
+	//未検出
+	LogError "ログイン画面チェック：NG"
+End if
+
+
+Log "--------------------------------------"
+Log "■画面遷移チェック"
+Log "--------------------------------------"
+
+Log "■パスワードをお忘れの方"
+Click "Login_SearchPassword_Link"
+
+If ImageFound(10,"ScreenTransition_SearchPassword") then 
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+Log "■新規登録はこちら"
+RegistNew_Screen_check
+
+Log "■ご利用規約"
+Click "Login_Rule_Link"
+
+If ImageFound(10,"ScreenTransition_Rule") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+Log "■プライバシーポリシー"
+Click "Login_Policy_Link"
+
+If ImageFound(10,"ScreenTransition_Policy") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+Log "■お問い合わせ"
+Click "Login_Contact_Link"
+
+If ImageFound(10,"ScreenTransition_Contact") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+Log "■よくある質問"
+Click "Login_Faq_Link"
+
+If ImageFound(10,"ScreenTransition_Faq") then
+	//検出
+	Log "画面遷移チェック：OK"
+Else
+	//未検出
+	LogError "画面遷移チェック：NG"
+End if
+
+Log "戻る"
+Click "Back"
+
+
+Log "--------------------------------------"
+Log "■エラーチェック"
+Log "--------------------------------------"
+
+put ResourcePath("login_error.txt") into Filepath
+repeat with each line of File Filepath
+	put item 1 of it into mailaddress
+	put item 2 of it into pass	
+	
+	If ImageFound(3,"Login_error") then 
+		//検出
+		Log "■メールアドレス"
+		Click "Login_Mailaddress_Err"
+		TypeText mailaddress
+		
+		Log "■パスワード"
+		Click "Login_Password_Err"
+		TypeText pass
+		
+	Else
+		//未検出
+		Log "■メールアドレス"
+		Click "Login_Mailaddress"
+		TypeText mailaddress
+		
+		Log "■パスワード"
+		Click "Login_Password"
+		TypeText pass
+	End if
+	
+	Log "■ログインボタン"
+	Click "Login_btn"
+	
+	If ImageFound(10,"Login_error") then 
+		//検出
+		Log "エラーチェック：OK"
+	Else
+		//未検出
+		LogError "エラーチェック：NG"
+	End if
+	
+end repeat
+
+
+Log "================================="
+Log "【完了】"
+Log "================================="

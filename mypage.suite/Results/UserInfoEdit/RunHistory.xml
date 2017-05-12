@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="UserInfoEdit">
+ <run>
+  <RunDate>2017-05-09 10:34:18.853 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>272.356223</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20170509_103418.853/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+</runHistory>

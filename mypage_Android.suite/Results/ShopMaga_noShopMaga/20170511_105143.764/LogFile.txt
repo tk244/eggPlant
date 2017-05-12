@@ -1,0 +1,21 @@
+﻿2017-05-11 10:51:43.766 +0900	START		Running ShopMaga_noShopMaga.script
+2017-05-11 10:51:43.857 +0900	Log		=================================	1	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:43.859 +0900	Log		My Hotto Mottoからのお知らせ	2	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:43.860 +0900	Log		ShopMaga_noShopMaga	3	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:43.861 +0900	Log		=================================	4	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:45.866 +0900	Log		■メニュー	8	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:47.038 +0900	tap	menu_btn	at (52, 217)	9	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:47.041 +0900	Log		【My Hotto Mottoからのお知らせ】	11	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:47.955 +0900	tap	Menu_noShopMaga_Link	at (341, 798)	12	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:49.237 +0900	imagefound	noShopMaga_1_word	found at (362, 563)	15	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:49.239 +0900	Log		会員共通メール登録画面遷移チェック1：OK	17	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:49.415 +0900	imagefound	ShopMaga_Release_btn	found at (373, 1032)	33	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:49.416 +0900	Log		解除ボタン	35	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:50.597 +0900	tap	ShopMaga_Release_btn	at (373, 1032)	36	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:51.869 +0900	imagefound	ShopMaga_Regist_btn	found at (377, 1002)	39	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:51.869 +0900	Log		登録表示チェック：OK	41	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:51.871 +0900	Log		=================================	70	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:51.872 +0900	Log		【完了】	71	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:51.873 +0900	Log		=================================	72	on_shopmaga_noshopmaga	ShopMaga_noShopMaga.script
+2017-05-11 10:51:52.060 +0900	EndTestCase		(Duration:"8.292936", Errors:"0", Exceptions:"0", StartTime:"2017-05-11 10:51:43 +0900", Successes:"1", TestCase:"ShopMaga_noShopMaga.script", Warnings:"0")
+2017-05-11 10:51:52.113 +0900	SUCCESS		Execution Time 0:00:08 ShopMaga_noShopMaga.script
